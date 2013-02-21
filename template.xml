@@ -1,0 +1,278 @@
+<?xml version='1.0' encoding="utf-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook v5.0//EN"
+                      "http://docbook.org/xml/5.0/dtd/docbook.dtd">
+<book xmlns="http://docbook.org/ns/docbook" version="5.0">
+
+<info>
+<author>
+<orgname>The N8VEM Community</orgname>
+</author>
+<date>February 20, 2013</date>
+<editor>
+<personname><firstname>Vince</firstname><surname>Mulhollon</surname></personname>
+<email>vince@mulhollon.com</email>
+</editor>
+<legalnotice>
+<para>The contents of the manual are licensed as</para>
+<para>Creative Commons Attribution-ShareAlike 3.0 Unported aka CC BY-SA 3.0</para>
+<para><uri>http://creativecommons.org/licenses/by-sa/3.0</uri></para>
+</legalnotice>
+<subtitle>Edited by Vince Mulhollon</subtitle>
+<title>SBCv2</title>
+</info>
+
+<dedication>
+<para>
+This manual is dedicated to the entire N8VEM project community.
+</para>
+</dedication>
+
+<chapter xml:id="introduction">
+
+<info>
+<title>Introduction</title>
+</info>
+
+<para>
+This is a very short introduction to the board.
+What does it do?
+Why would you want it?
+</para>
+
+</chapter>
+
+<chapter xml:id="theoryofoperation">
+
+<info>
+<title>Theory of Operation</title>
+</info>
+
+<para>
+The Theory of Operation cannot hope to fully explain the entire board, but at least some helpful notes will be provided.
+Generally this should aim to exceed a simple list of features, without going into design detail.
+A good analogy is there is a physical walkthru at the start of the construction section, this section is more of a conceptual or theoretical walkthru.
+</para>
+
+</chapter>
+
+<chapter xml:id="billofmaterials">
+
+<info>
+<title>Bill of Materials</title>
+</info>
+
+<para>
+Typical format:
+Project part ID, quantity if not one, model name, commentary if any, suppliers listed by supplier, item number, approx qty 1 cost, supplier comment
+</para>
+
+<warning>
+<para>
+No one in any way connected to the project or this manual formally endorses any of the suppliers listed below! Caveat Emptor!
+</para>
+</warning>
+
+<itemizedlist mark='opencircle'>
+
+<listitem><para>
+U1 unknown component available on ebay
+</para></listitem>
+
+<listitem><para>
+Unobtanium bar, 1 microfurlong in length
+</para></listitem>
+
+</itemizedlist>
+
+</chapter>
+
+<chapter xml:id="construction">
+
+<info>
+<title>Construction</title>
+</info>
+
+<para>
+This chapter begins with a physical walkthru of the board.
+For example, along the right edge of the board, is the ECB bus interface.
+</para>
+
+<para>
+A giant itemized list ready to print out and check off of components in a realistic installation and testing order
+</para>
+
+<orderedlist mark='opencircle'>
+
+<listitem><para>
+Install the first thing
+</para></listitem>
+
+<listitem><para>
+Install the second thing, noting carefully its polarity
+</para></listitem>
+
+</orderedlist>
+
+</chapter>
+
+<chapter xml:id="configuration">
+
+<info>
+<title>Configuration</title>
+</info>
+
+<para>
+Notes regarding configuration of the board.  DIP switches, jumpers.
+</para>
+
+<itemizedlist mark='opencircle'>
+
+<listitem><para>
+JP1 warp drive modulator
+</para></listitem>
+
+<listitem><para>
+JP3 dilithium crystal holder
+</para></listitem>
+
+</itemizedlist>
+
+</chapter>
+
+<chapter xml:id="accessories">
+
+<info>
+<title>Accessories</title>
+</info>
+
+<para>
+Notes regarding accessories.
+Some examples of accessories are homemade cables, floppy drives, chassis.
+</para>
+
+<caution><para>
+Very few (no?) boards in the project accept any power source other than pure, filtered positive 5 volts
+</para></caution>
+
+</chapter>
+
+<chapter xml:id="testing">
+
+<info>
+<title>Testing</title>
+</info>
+
+<para>
+The testing chapter attempts to fully exercise a (recently) completed board to prove operation of all components.
+Troubleshooting advice will be provided.
+</para>
+
+</chapter>
+
+<chapter xml:id="references">
+
+<info>
+<title>References</title>
+</info>
+
+<itemizedlist mark='opencircle'>
+
+<listitem><para>
+Pointer to the github repo for the manual.
+</para></listitem>
+
+<listitem><para>
+Hyperlink to the main N8VEM workspace website
+</para></listitem>
+
+<listitem><para>
+Hyperlink to the N8VEM workspace for this board
+</para></listitem>
+
+<listitem><para>
+Hyperlink to the N8VEM google group
+</para></listitem>
+
+</itemizedlist>
+
+</chapter>
+
+<chapter xml:id="history">
+
+<info>
+<title>History</title>
+</info>
+
+<para>
+A timeline or history of the board
+</para>
+
+</chapter>
+
+<chapter xml:id="lore">
+
+<info>
+<title>Lore</title>
+</info>
+
+<para>
+Qualification for inclusion in the Lore chapter includes some redeeming informational content plus what wikipedia unceremoniously describes as "weasel words" such as "probably", "might", "in theory", "maybe".
+If it was a known, proven, documented fact, it would not belong in Lore, it would be included in other chapters.
+If it contains no actionable information, or an opinion, it would not belong in Lore.
+Another way to describe Lore is its kind of a to do list WRT research and documentation writing.
+</para>
+
+<blockquote><attribution>Everybody</attribution>
+<para>
+Standard "classic" TTL is not recommended!
+</para>
+</blockquote>
+
+<blockquote><attribution>Somebody someone@example.org</attribution>
+<para>
+Here Be Dragons!
+</para>
+</blockquote>
+
+</chapter>
+
+<colophon>
+<para>
+These manuals were developed on Debian Linux using the following packages:
+</para>
+
+<itemizedlist mark='opencircle'>
+
+<listitem><para>
+docbook5-xml
+</para></listitem>
+
+<listitem><para>
+docbook-xsl-ns
+</para></listitem>
+
+<listitem><para>
+xsltproc
+</para></listitem>
+
+<listitem><para>
+fop
+</para></listitem>
+
+<listitem><para>
+xmlto
+</para></listitem>
+
+<listitem><para>
+libxml2-utils
+</para></listitem>
+
+<listitem><para>
+xmlstarlet
+</para></listitem>
+
+</itemizedlist>
+
+</colophon>
+
+</book>
