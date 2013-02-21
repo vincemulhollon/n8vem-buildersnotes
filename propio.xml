@@ -61,11 +61,6 @@ A good analogy is there is a physical walkthru at the start of the construction 
 <title>Bill of Materials</title>
 </info>
 
-<para>
-Typical format:
-Project part ID, quantity if not one, model name, commentary if any, suppliers listed by supplier, item number, approx qty 1 cost, supplier comment
-</para>
-
 <warning>
 <para>
 No one in any way connected to the project or this manual formally endorses any of the suppliers listed below! Caveat Emptor!
@@ -74,13 +69,146 @@ No one in any way connected to the project or this manual formally endorses any 
 
 <itemizedlist mark='opencircle'>
 
-<listitem><para>
-U1 unknown component available on ebay
-</para></listitem>
+<listitem>
+<para>C0 22 uF electrolytic capacitor</para>
+</listitem> 
 
-<listitem><para>
-Unobtanium bar, 1 microfurlong in length
-</para></listitem>
+<listitem>
+<para>C1,C2,C4,C13 qty 4 10 uF electrolytic capacitor</para>
+</listitem>
+
+<listitem>
+<para>C3,C5,C6,C7,C8,C9,C10,C12,C14,C15 qty  0.1 uF capacitor</para>
+</listitem>
+
+<listitem>
+<para>C11 0.01 uF capacitor</para>
+</listitem>
+
+<listitem>
+<para>JP1,JP2, JP3, JP4 qty 4 2x1 pin array</para>
+</listitem>
+
+<listitem>
+<para>K1,K2,K3,K4,K5 qty 5 3x1 pin array</para>
+</listitem>
+
+<listitem>
+<para>P3,P5 5x2 pin array for serial port prop interface and address selection</para>
+</listitem>
+
+<listitem>
+<para>P12 4x1 pin array for Prop Plug</para>
+</listitem>
+
+<listitem>
+<para>P13 7x1 pin array for optional microsd adapter card</para>
+</listitem>
+
+<listitem>
+<para>P14 13X2 pin array for standard N8VEM parallel interface</para>
+</listitem>
+    
+<listitem>
+<para>Q1,Q3 qty 2 2N3904 bipolar transistor</para>
+</listitem>
+
+<listitem>
+<para>Q2 2N3906 bipolar transistor</para>
+</listitem>
+
+<listitem>
+<para>R16,R17 qty 2 100 resistor</para>
+</listitem>
+
+<listitem>
+<para>R19,R21,R23,R24,R25 qty 5 240 resistor</para>
+</listitem>
+
+<listitem>
+<para>R18,R20,R22 qty 3 470 resistor</para>
+</listitem>
+
+<listitem>
+<para>R1,R2,R3,R4,R5,R6,R7,R8,R11,R12,R13,R14,R15,R32,R34,R35,R38 qty 17 1K resistor</para>
+</listitem>
+
+<listitem>
+<para>R29,R40,R41,R42,R43 qty 5 4700 resistor</para>
+</listitem>
+
+<listitem>
+<para>R26,R27,R28,R30,R31,R36,R37,R44 qty 8 10K resistor</para>
+</listitem>
+
+<listitem>
+<para>RR1 10K bussed resistor network</para>
+</listitem>
+
+<listitem>
+<para>U0 C96ABC C96ABCMC</para>
+</listitem>
+
+<listitem>
+<para>U2 74LS32 14dip300</para>
+</listitem>
+
+<listitem>
+<para>U3,U8 qty 2 P8X32A-D40 Propeller microcontroller 40dip600</para>
+</listitem>
+
+<listitem>
+<para>U4 PS/2_KEYBOARD mini_din-M_DIN6</para>
+<para>Digikey part number A99370-ND $4.37 on 2013-02-02 per VLM</para>
+</listitem>
+
+<listitem>
+<para>U5,U13 qty 2 24C512  8dip300</para>
+</listitem>
+
+<listitem>
+<para>U6 LM3940 Low dropout 3.3 volt TO-220 voltage regulator</para>
+</listitem>
+
+<listitem>
+<para>U7 74LS06N 14dip300</para>
+</listitem>
+
+<listitem>
+<para>U9 74LS682 20dip300</para>
+</listitem>
+
+<listitem>
+<para>U10,U12 qty 2 74LS241 20dip300</para>
+</listitem>
+
+<listitem>
+<para>U11 74LS245N 20dip300</para>
+<para>Digikey part number 296-1655-5-ND $0.92 on 2013-02-02 per VLM This is LS family</para>
+</listitem>
+
+<listitem>
+<para>U17 MicroSD connector</para>
+<para>Digikey part number 101-00660-68-6-1-ND $1.97 on 2013-02-02 per VLM Although this will work, I guarantee this is almost certainly not the connector you want, because it does not fold up so you need to use SMD techniques to solder it.</para>
+</listitem>
+
+<listitem>
+<para>X1 VGAF HD15_B-HD15F PCB mount VGA connector</para>
+<para>Digikey part number A35116-ND $1.98 on 2013-02-02 per VLM</para>
+</listitem>
+
+<listitem>
+<para>X2,X3 qty 2 CRYSTAL HC-18UV</para>
+</listitem>
+
+<listitem>
+<para>14dip300 qty at least one IC socket</para>
+<para>Socket pin type selection is a hotly contested personal choice.</para>
+<para>Gold plate is less mechanically durable than tin, more corrosion resistant than the IC pins, and more expensive</para>
+<para>Machined pins grip the pins more tightly, which is either considered a blessing or a curse, and cost more than folded sockets</para>
+<para>The board aesthetically looks better if you use identical type sockets on the board, unless you're intentionally trying to highlight an area of the board.</para>
+<para>Digikey part number AE10012-ND $0.79 on 2013-02-02 per VLM This is machined pin/tin</para>
+</listitem>
 
 </itemizedlist>
 

@@ -179,7 +179,8 @@ eparate power cable for the SBCv2</para>
 </listitem>
 
 <listitem>
-<para>U6	74LS139	16dip300</para>
+<para>U6 74LS139 16dip300</para>
+<para>Digikey part number 296-1640-5-ND $0.86 on 2013-02-02 per VLM This is LS family</para>
 </listitem>
 
 <listitem>
@@ -249,6 +250,7 @@ eparate power cable for the SBCv2</para>
 <para>Machined pins grip the pins more tightly, which is either considered a blessing or a curse, and cost more than folded sockets</para>
 <para>The board aesthetically looks better if you use identical type sockets on the board, unless you're intentionally trying to highlight an area of the board.</para>
 <para>In theory, you could use orange plastic sockets for the ECB interface, blue sockets for the memory decode logic...</para>
+<para>Digikey part number AE10012-ND $0.79 on 2013-02-02 per VLM This is machined pin/tin</para>
 </listitem>
 
 <listitem>
