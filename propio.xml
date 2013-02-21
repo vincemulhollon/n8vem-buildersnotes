@@ -177,21 +177,25 @@ Troubleshooting advice will be provided.
 
 <itemizedlist mark='opencircle'>
 
-<listitem><para>
-Pointer to the github repo for the manual.
-</para></listitem>
+<listitem>
+<para>GitHub repo for this manual</para>
+<para><uri>https://github.com/vincemulhollon/n8vem-manual</uri></para>
+</listitem>
 
-<listitem><para>
-Hyperlink to the main N8VEM workspace website
-</para></listitem>
+<listitem>
+<para>Google Group</para>
+<para><uri>https://groups.google.com/group/n8vem</uri></para>
+</listitem>
 
-<listitem><para>
-Hyperlink to the N8VEM workspace for this board
-</para></listitem>
+<listitem>
+<para>Main project workspace</para>
+<para><uri>http://n8vem-sbc.pbworks.com/FrontPage</uri></para>
+</listitem>
 
-<listitem><para>
-Hyperlink to the N8VEM google group
-</para></listitem>
+<listitem>
+<para>Prop IO project workspace</para>
+<para><uri>http://n8vem-sbc.pbworks.com/folder.php?folder=ECB%20Prop%20IO</uri></para>
+</listitem>
 
 </itemizedlist>
 
