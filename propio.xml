@@ -34,9 +34,9 @@ This manual is dedicated to the entire N8VEM project community.
 </info>
 
 <para>
-This is a very short introduction to the board.
-What does it do?
-Why would you want it?
+The Prop IO provides an interface to two propeller chips.
+One of the prop chips provides a VGA output, PS/2 keyboard input, terminal emulation, and a microSD card for hard drive-like mass storage.
+The other prop is available for experimentation.
 </para>
 
 </chapter>
@@ -101,7 +101,7 @@ For example, along the right edge of the board, is the ECB bus interface.
 A giant itemized list ready to print out and check off of components in a realistic installation and testing order
 </para>
 
-<orderedlist mark='opencircle'>
+<orderedlist>
 
 <listitem><para>
 Install the first thing

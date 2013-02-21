@@ -34,9 +34,8 @@ This manual is dedicated to the entire N8VEM project community.
 </info>
 
 <para>
-This is a very short introduction to the board.
-What does it do?
-Why would you want it?
+The ECB Bus Monitor provides LED readouts of the address, data, control, and status signals on the ECB bus.
+It can also "trap" addresses and instructions.
 </para>
 
 </chapter>
@@ -101,7 +100,7 @@ For example, along the right edge of the board, is the ECB bus interface.
 A giant itemized list ready to print out and check off of components in a realistic installation and testing order
 </para>
 
-<orderedlist mark='opencircle'>
+<orderedlist>
 
 <listitem><para>
 Install the first thing
