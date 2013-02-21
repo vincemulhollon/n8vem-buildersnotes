@@ -34,7 +34,7 @@ This manual is dedicated to the entire N8VEM project community.
 </info>
 
 <para>
-The ECB SBC v2 is a CPM compatible single board computer with large ROM and RAM drives, a parallel interface that could connect to a IDE hard drive-like device via an additional board, and a serial port to act as console.
+The ECB SBC v2 is a CPM compatible single board computer with large ROM drive and a battery backed up RAM drive, a parallel interface that could connect to a IDE hard drive-like device via an additional board, and a serial port to act as console.
 </para>
 
 </chapter>
@@ -72,13 +72,203 @@ No one in any way connected to the project or this manual formally endorses any 
 
 <itemizedlist mark='opencircle'>
 
-<listitem><para>
-U1 unknown component available on ebay
-</para></listitem>
+<listitem>
+<para>C1,C3-C23,C29,C30,C32 qty 25 ceramic disk capacitor 0.1 uF</para>
+</listitem>
 
-<listitem><para>
-Unobtanium bar, 1 microfurlong in length
-</para></listitem>
+<listitem>
+<para>C2 10 uF electrolytic capacitor</para>
+</listitem>
+
+<listitem>
+<para>C24-C28 qty 5 electrolytic capacitor 1.0 uF</para>
+</listitem>
+
+<listitem>
+<para>C31 22 uF electrolytic capacitor</para>
+</listitem>
+
+<listitem>
+<para>D1 LED</para>
+</listitem>
+
+<listitem>
+<para>D2 DIODE</para>
+</listitem>
+
+<listitem>
+<para>BT1,JP1,JP2 qty 3 JUMPER</para>
+</listitem>
+
+<listitem>
+<para>K1-K12 qty 12 CONN_3</para>
+</listitem>
+
+<listitem>
+<para>P1 PARALLEL pin_array_13x2</para>
+</listitem>
+
+<listitem>
+<para>P2 POWER bornier4 aka a "molex 5.25 floppy disk power PCB flush mount socket"</para>
+<para>If you plan to run your board off an existing, working ECB backplane board, you do not need a socket on the SBCv2 or a s
+eparate power cable for the SBCv2</para>
+</listitem>
+
+<listitem>
+<para>P3	SERIAL	PIN_ARRAY_5x2</para>
+</listitem>
+
+<listitem>
+<para>P4	CLK_CPU	8dip300</para>
+</listitem>
+
+<listitem>
+<para>P5	CLK_UART	8dip300</para>
+</listitem>
+
+<listitem>
+<para>P6	RESET	SIL-2 pushbutton</para>
+</listitem>
+
+<listitem>
+<para>R1 10</para>
+</listitem>
+
+<listitem>
+<para>R2,R11 qty 2 10K</para>
+</listitem>
+
+<listitem>
+<para>R9 100</para>
+</listitem>
+
+<listitem>
+<para>R12 4.7K</para>
+</listitem>
+
+<listitem>
+<para>RR1 1K bussed resistor array</para>
+</listitem>
+
+<listitem>
+<para>RR2 4.7K bussed resistor array</para>
+</listitem>
+
+<listitem>
+<para>SW1 SW_PUSH SW_PUSH_SMALL</para>
+</listitem>
+
+<listitem>
+<para>U1	16550	40dip600</para>
+</listitem>
+
+<listitem>
+<para>U2	27C080	32dip600</para>
+</listitem>
+
+<listitem>
+<para>U3	74LS08	14dip300</para>
+</listitem>
+
+<listitem>
+<para>U4	74LS10	14dip300</para>
+</listitem>
+
+<listitem>
+<para>U5	74LS125	14dip300</para>
+</listitem>
+
+<listitem>
+<para>U6	74LS139	16dip300</para>
+</listitem>
+
+<listitem>
+<para>U7	74LS14	14dip300</para>
+</listitem>
+
+<listitem>
+<para>U8,U9,U11 qty 3	74LS245	20dip300</para>
+</listitem>
+
+<listitem>
+<para>U10	74LS243	14dip300</para>
+</listitem>
+
+<listitem>
+<para>U12,U13,U18 qty 3 74LS174	16dip300</para>
+</listitem>
+
+<listitem>
+<para>U14,U15,U16 qty 3 74LS32	14dip300</para>
+</listitem>
+
+<listitem>
+<para>U17	74LS244	20dip300</para>
+</listitem>
+
+<listitem>
+<para>U19	8255	40dip600</para>
+</listitem>
+
+<listitem>
+<para>U20	C96ABC	C96ABCMC</para>
+</listitem>
+
+<listitem>
+<para>U21	DS1302	8dip300</para>
+</listitem>
+
+<listitem>
+<para>U22	MAX232	16dip300</para>
+</listitem>
+
+<listitem>
+<para>U23	SRAM_512KO	32dip600</para>
+</listitem>
+
+<listitem>
+<para>U24	Z80-CPU	40dip600</para>
+</listitem>
+
+<listitem>
+<para>U25	DS1210	8dip300</para>
+</listitem>
+
+<listitem>
+<para>U26	74LS06N	14dip300</para>
+</listitem>
+
+<listitem>
+<para>X1	CRYSTAL	SIL-2	32.768 KHz</para>
+</listitem>
+
+<listitem>
+<para>14dip300 qty at least one IC socket</para>
+<para>Socket pin type selection is a hotly contested personal choice.</para>
+<para>Gold plate is less mechanically durable than tin, more corrosion resistant than the IC pins, and more expensive</para>
+<para>Machined pins grip the pins more tightly, which is either considered a blessing or a curse, and cost more than folded sockets</para>
+<para>The board aesthetically looks better if you use identical type sockets on the board, unless you're intentionally trying to highlight an area of the board.</para>
+<para>In theory, you could use orange plastic sockets for the ECB interface, blue sockets for the memory decode logic...</para>
+</listitem>
+
+<listitem>
+<para>2-pin shorting plugs for configuration jumpers at least 15 or so</para>
+</listitem>
+
+<listitem>
+<para>A female molex PC 5.25 floppy drive power connector (like off the end of a broken PC power supply cable)</para>
+<para>I remove the yellow +12 volt wire from the connector as the SBC v2 does not use 12 volts</para>
+<para>If you plan to run your board off an existing, working ECB backplane board, you do not need a socket on the SBCv2 or a separate power cable for the SBCv2</para>
+</listitem>
+
+<listitem>
+<para>5x2 IDC female crimp on connector, a length of 10 conductor ribbor cable, a rs232 cable with a DB-9 connector</para>
+<para>If this is your first N8VEM ECB project you probably need to build a compatible RS-232 cable to connect to a PC acting as a terminal</para>
+</listitem>
+
+<listitem>
+<para>A 32 pin ZIF socket for the eprom, and several 32 pin machined sockets or some other way to mount the ZIF above the level of conflicting devices on the board</para>
+</listitem>
 
 </itemizedlist>
 
@@ -143,14 +333,13 @@ JP3 dilithium crystal holder
 <title>Accessories</title>
 </info>
 
-<para>
-Notes regarding accessories.
-Some examples of accessories are homemade cables, floppy drives, chassis.
-</para>
-
 <caution><para>
 Very few (no?) boards in the project accept any power source other than pure, filtered positive 5 volts
 </para></caution>
+
+<para>A serial cable.</para>
+
+<para>A ECB backplane can provide power to the SBCv2.</para>
 
 </chapter>
 
@@ -224,15 +413,16 @@ If it contains no actionable information, or an opinion, it would not belong in 
 Another way to describe Lore is its kind of a to do list WRT research and documentation writing.
 </para>
 
-<blockquote><attribution>Everybody</attribution>
+<blockquote><attribution>vince@mulhollon.com</attribution>
 <para>
-Standard "classic" TTL is not recommended!
+What kind of right angle PCB mount 4-pin molex power cable will work on a SBCv2?
+It would be a shame to purchase / install a "backwards" socket.
 </para>
 </blockquote>
 
-<blockquote><attribution>Somebody someone@example.org</attribution>
+<blockquote><attribution>Everybody</attribution>
 <para>
-Here Be Dragons!
+Standard "classic" TTL is not recommended!
 </para>
 </blockquote>
 
