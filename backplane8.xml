@@ -121,6 +121,16 @@ Install the second thing, noting carefully its polarity
 </info>
 
 <para>
+A #4 wood screw does not quite fit in the ECB or PCB holes, but a 1/8th inch drill after assembly will fit it.
+The #4 wood screw head will fit in the molded recess provided on top of the ECB connector for nut.
+Combined with sixteen nylon #4 1/4 inch spacers this makes a fairly attractive mounting option.
+</para>
+
+<para>
+The ECB backplane PCB visually appears to be symmetric, but its actually about a sixteenth of an inch longer at the bottom (held with power connector to the left.  This may be a manufacturing tolerance issue.  Regardless of the reason, its a good idea to lay out your backplane mounting holes with the board facing the correct way rather than assuming if you need to, at final assembly you can flip it.
+</para>
+
+<para>
 Notes regarding configuration of the board.  DIP switches, jumpers.
 </para>
 
