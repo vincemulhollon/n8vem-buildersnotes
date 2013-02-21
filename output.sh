@@ -12,6 +12,11 @@ xsltproc /usr/share/xml/docbook/stylesheet/docbook-xsl-ns/html/docbook.xsl $1.xm
 lynx -dump $1.html > $1.txt 2> errors-txt.txt
 }
 
+process backplane8
+process busmonitor
+process cassette
+process diskiov3
+process propio
 process sbcv2
 
 exit 0
