@@ -343,6 +343,8 @@ Very few (no?) boards in the project accept any power source other than pure, fi
 
 <para>A ECB backplane can provide power to the SBCv2.</para>
 
+<para>Some kind of battery backup for the ramdisk.</para>
+
 </chapter>
 
 <chapter xml:id="testing">
