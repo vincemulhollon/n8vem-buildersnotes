@@ -17,6 +17,7 @@ process busmonitor
 process cassette
 process colorvdu
 process diskiov3
+process prototyper
 process propio
 process sbcv2
 
