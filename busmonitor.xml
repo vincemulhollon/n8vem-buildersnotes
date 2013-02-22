@@ -7,7 +7,7 @@
 <author>
 <orgname>The N8VEM Community</orgname>
 </author>
-<date>February 20, 2013</date>
+<date>February 21, 2013</date>
 <editor>
 <personname><firstname>Vince</firstname><surname>Mulhollon</surname></personname>
 <email>vince@mulhollon.com</email>
@@ -73,13 +73,128 @@ No one in any way connected to the project or this manual formally endorses any 
 
 <itemizedlist mark='opencircle'>
 
-<listitem><para>
-U1 unknown component available on ebay
-</para></listitem>
+<listitem>
+<para>SW1,2,1_2,3_4 qty 4 8 pos DIP Switch Single Pole Single Throw</para>
+<para>Jameco 696968 $1.15</para>
+</listitem>
 
-<listitem><para>
-Unobtanium bar, 1 microfurlong in length
-</para></listitem>
+<listitem>
+<para>Switch SPDT</para>
+<para>Jameco 21936 $1.55</para>
+</listitem>
+
+<listitem>
+<para>BAR1,BAR2,BAR3,BAR4,BAR5 qty 5 ten pos LED bar</para>
+<para>Yellow Jameco 334537  $1.19</para>
+<para>Red Jameco 334529  $1.29</para>
+<para>Green Jameco 334511  $1.19</para>
+</listitem>
+                            
+<listitem>
+<para>C1 220-560 pF capacitor</para>
+<para>Jameco 1947239 $0.009 at 10 minimum order</para>                 
+</listitem>
+        
+<listitem>
+<para>C2,C3,C4,C5,C7,C8 qty 6 22 uF capacitor</para>
+<para>Jameco 1946308 $0.05 at 10 minimum order</para>                  
+</listitem>
+       
+<listitem>
+<para>C6 33 pF capacitor</para>
+<para>Jameco 1947010 $0.06 at 10 minimum order</para>                           
+</listitem>
+
+<listitem>
+<para>C11 thru C30 inclusive qty 19 0.1 uF capacitor</para>
+<para>Jameco 25523 $0.08 at 10 minimum order</para>                           
+</listitem>
+
+<listitem>
+<para>D1 1N270 germanium diode</para>
+<para>Jameco 35941 $0.99</para>
+</listitem>
+
+<listitem>
+<para>R10,R11,R12,R13,R14,R15,R16 qty 7 270 resistor</para>
+<para>Jameco 690726  0.02 at 100 minimum order</para>
+</listitem>
+
+<listitem>
+<para>R2 330 resistor</para>
+<para>Jameco 690742 $0.02 at 100 minimum order</para>  
+</listitem>
+
+<listitem>
+<para>R8 4700 resistor</para>
+<para>Jameco 691024 $0.02 at 100 minimum order</para>   
+</listitem>
+ 
+<listitem>
+<para>R1,3 10K resistor</para>
+<para>Jameco 691104 0.02 at 100 minimum order</para>                           
+</listitem>
+
+<listitem>
+<para>R4,R5,R6,R7,R9 qty 5 27K resistor</para>
+<para>Jameco 691201 $0.02 at 100 minimum order</para>                          
+</listitem>
+
+<listitem>
+<para>RR1,RR2,RR3,RR4,RR8 qty 5 270 x 9 SIP bussed resistor network</para>                                                    
+</listitem>
+
+<listitem>
+<para>RR5 4700 x 9 SIP bussed resistor network</para>                       
+</listitem>
+
+<listitem>
+<para>RR6,RR7 qty 2 1000 x 9 SIP bussed resistor network</para>                                                    
+</listitem>
+
+<listitem>
+<para>RR9 2200 x 9 SIP bussed resistor network</para>                                   
+</listitem>
+
+<listitem>
+<para>U13 74LS00</para>
+<para>Jameco 46252 $0.39</para> 
+</listitem>
+
+<listitem>
+<para>U5 74LS05</para>
+<para>Jameco 46341 $0.45</para>
+</listitem>
+
+<listitem>
+<para>U11 74LS07</para>
+<para>Jameco 46367 $0.75</para>  
+</listitem>
+
+<listitem>
+<para>U6 74LS30</para>
+<para>Jameco 47458 $0.29</para>
+</listitem>
+
+<listitem>
+<para>U7,U8,U9,U10 qty 4 74LS85</para>
+<para>Jameco 48071 $0.79</para>
+</listitem>
+
+<listitem>
+<para>U14,U15,U16 qty 3 74LS123</para>
+<para>Jameco 46480 $0.55</para>
+</listitem>
+
+<listitem>
+<para>U21,U22,U23,U24,U25 qty 5 74LS241</para>
+<para>Jameco 47167 $0.65</para>   
+</listitem>
+
+<listitem>
+<para>U1,U2,U3,U4 qty 4 74LS273</para>
+<para>Jameco 47386 $0.59</para>
+</listitem>
 
 </itemizedlist>
 
