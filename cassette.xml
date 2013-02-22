@@ -72,13 +72,155 @@ No one in any way connected to the project or this manual formally endorses any 
 
 <itemizedlist mark='opencircle'>
 
-<listitem><para>
-U1 unknown component available on ebay
-</para></listitem>
+<listitem>
+<para>JP1,JP2,JP3 qty 3 2x1 pin array</para>
+</listitem>
 
-<listitem><para>
-Unobtanium bar, 1 microfurlong in length
-</para></listitem>
+<listitem>
+<para>K1,K2,K3,K4 qty 4 3x1 pin array</para>
+</listitem>
+
+<listitem>
+<para>P1,P3 qty 2 5x2 pin array</para>
+</listitem>
+
+<listitem>
+<para>P5 2x2 pin array</para>
+</listitem>
+
+<listitem>
+<para>U7 C96ABC C96ABCMC ECB connector</para>
+</listitem>
+
+<listitem>
+<para>SW1,SW2 qty 2 SPDT SWITCH_SPDT_ANGLED_H</para>
+</listitem>
+
+<listitem>
+<para>C2,C19 qty 2 0.01 uF capacitor</para>
+</listitem>
+
+<listitem>
+<para>C3,C4,C5,C6,C7,C16,C17,C18,C26,C27,C28,C29,C33,C34,C35 qty 15 0.1 uF capacitor</para>
+</listitem>
+
+<listitem>
+<para>C11,C12,C13,C15,C24 qty 4 1.0 uF capacitor</para>
+</listitem>
+
+<listitem>
+<para>C1 22 uF capacitor</para>
+</listitem>
+
+<listitem>
+<para>R5,R12 qty 2 100 resistor</para>
+</listitem>
+
+<listitem>
+<para>R2,R15 qty 2 470 resistor</para>
+</listitem>
+
+<listitem>
+<para>R1,R6,R7,R8,R9,R10,R14,R19,R20 1000 resistor</para>
+</listitem>
+
+<listitem>
+<para>R17,R18,R27 qty 3 4700 resistor</para>
+</listitem>
+
+<listitem>
+<para>R4,R11,R13,R25,R26,R28 10K resistor</para>
+</listitem>
+
+<listitem>
+<para>R16,R21,R22 33K resistor</para>
+</listitem>
+
+<listitem>
+<para>R3 100K resistor</para>
+</listitem>
+
+<listitem>
+<para>D1,D4 qty 2 LED</para>
+</listitem>
+
+<listitem>
+<para>D2,D3,D5,D6 qty 4 DIODE</para>
+</listitem>
+
+<listitem>
+<para>Q1,Q2,Q3,Q4 qty 4 2N3904 TO92 transistor</para>
+</listitem>
+
+<listitem>
+<para>Q5 2N3906 TO92 transistor</para>
+</listitem>
+
+<listitem>
+<para>IC1 74LS245N 20dip300</para>
+</listitem>
+
+<listitem>
+<para>IC2 74LS682N 20dip300</para>
+</listitem>
+
+<listitem>
+<para>U1 74LS74 14dip300</para>
+</listitem>
+
+<listitem>
+<para>U2 74LS241 20dip300</para>
+</listitem>
+
+<listitem>
+<para>U3 74LS107 14dip300</para>
+</listitem>
+
+<listitem>
+<para>U4 74LS241 20dip300</para>
+</listitem>
+
+<listitem>
+<para>U5 16550 40dip600</para>
+</listitem>
+
+<listitem>
+<para>U6 MAX232 16dip300</para>
+</listitem>
+
+<listitem>
+<para>U8 74LS123 16dip300</para>
+</listitem>
+
+<listitem>
+<para>U9 LM741 8dip300</para>
+</listitem>
+
+<listitem>
+<para>U10 74LS00 14dip300</para>
+</listitem>
+
+<listitem>
+<para>U11 74LS123 16dip300</para>
+</listitem>
+
+<listitem>
+<para>P2 1.8432 MHz 14dip300</para>
+</listitem>
+
+<listitem>
+<para>14dip300 qty at least one IC socket</para>
+<para>Socket pin type selection is a hotly contested personal choice.</para>
+<para>Gold plate is less mechanically durable than tin, more corrosion resistant than the IC pins, and more expensive</para>
+<para>Machined pins grip the pins more tightly, which is either considered a blessing or a curse, and cost more than folded sockets</para>
+<para>The board aesthetically looks better if you use identical type sockets on the board, unless you're intentionally trying to highlight an area of the board.</para>
+<para>In theory, you could use orange plastic sockets for the ECB interface, blue sockets for the memory decode logic...</para>
+<para>Digikey part number AE10012-ND $0.79 on 2013-02-02 per VLM This is machined pin/tin</para>
+</listitem>
+
+<listitem>
+<para>2-pin shorting plugs for configuration jumpers at least a half dozen or so</para>
+</listitem>
 
 </itemizedlist>
 
