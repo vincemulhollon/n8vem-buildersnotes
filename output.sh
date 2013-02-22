@@ -15,6 +15,7 @@ lynx -dump $1.html > $1.txt 2> errors-txt.txt
 process backplane8
 process busmonitor
 process cassette
+process colorvdu
 process diskiov3
 process propio
 process sbcv2
