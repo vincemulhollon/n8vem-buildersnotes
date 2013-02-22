@@ -73,13 +73,39 @@ No one in any way connected to the project or this manual formally endorses any 
 
 <itemizedlist mark='opencircle'>
 
-<listitem><para>
-U1 unknown component available on ebay
-</para></listitem>
+<listitem>
+<para>C1,C2,C3,C4,C5,C6,C7,C8,C9,C10,C11,C12,C13,C14 qty 14 0.1 uF capacitor</para>
+</listitem>
 
-<listitem><para>
-Unobtanium bar, 1 microfurlong in length
-</para></listitem>
+<listitem>
+<para>D1 LED</para>
+</listitem>
+
+<listitem>
+<para>JP1 2x1 pin array</para>
+</listitem>
+      
+<listitem>
+<para>P2 POWER bornier4 aka a "molex 5.25 floppy disk power PCB flush mount socket"</para>
+</listitem>
+  
+<listitem>
+<para>R1 470 resistor</para>
+<para>Depending on your selection for D1 LED, you may need a different value.  R=(5 volts - LED fwd voltage drop)/(LED forward current in amps note its usually spec'd in mA not A)</para>
+</listitem>
+
+<listitem>
+<para>SW1 POWER SW_SPDT</para>
+</listitem>
+     
+<listitem>
+<para>U0,U1,U2,U3,U4,U5,U6,U7 qty 8 C96ABC C96ABCFD</para>
+<para>Note pins have to be longer to fit this thick backplane board</para>
+</listitem>
+
+<listitem>
+<para>One optional 2-pin shorting plug for configuration jumper JP1</para>
+</listitem>
 
 </itemizedlist>
 
