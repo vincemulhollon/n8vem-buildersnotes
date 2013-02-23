@@ -7,7 +7,7 @@
 <author>
 <orgname>The N8VEM Community</orgname>
 </author>
-<date>February 21, 2013</date>
+<date>February 23, 2013</date>
 <editor>
 <personname><firstname>Vince</firstname><surname>Mulhollon</surname></personname>
 <email>vince@mulhollon.com</email>
@@ -194,6 +194,16 @@ No one in any way connected to the project or this manual formally endorses any 
 <listitem>
 <para>U1,U2,U3,U4 qty 4 74LS273</para>
 <para>Jameco 47386 $0.59</para>
+</listitem>
+
+<listitem>
+<para>14dip300 qty at least one IC socket</para>
+<para>Socket pin type selection is a hotly contested personal choice.</para>
+<para>Gold plate is less mechanically durable than tin, more corrosion resistant than the IC pins, and more expensive</para>
+<para>Machined pins grip the pins more tightly, which is either considered a blessing or a curse, and cost more than folded sockets</para>
+<para>The board aesthetically looks better if you use identical type sockets on the board, unless you're intentionally trying to highlight an area of the board.</para>
+<para>In theory, you could use orange plastic sockets for the ECB interface, blue sockets for the memory decode logic...</para>
+<para>Digikey part number AE10012-ND $0.79 on 2013-02-02 per VLM This is machined pin/tin</para>
 </listitem>
 
 </itemizedlist>
