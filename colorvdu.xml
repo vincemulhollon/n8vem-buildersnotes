@@ -7,7 +7,7 @@
 <author>
 <orgname>The N8VEM Community</orgname>
 </author>
-<date>February 21, 2013</date>
+<date>February 24, 2013</date>
 <editor>
 <personname><firstname>Vince</firstname><surname>Mulhollon</surname></personname>
 <email>vince@mulhollon.com</email>
@@ -61,11 +61,6 @@ A good analogy is there is a physical walkthru at the start of the construction 
 <title>Bill of Materials</title>
 </info>
 
-<para>
-Typical format:
-Project part ID, quantity if not one, model name, commentary if any, suppliers listed by supplier, item number, approx qty 1 cost, supplier comment
-</para>
-
 <warning>
 <para>
 No one in any way connected to the project or this manual formally endorses any of the suppliers listed below! Caveat Emptor!
@@ -74,13 +69,238 @@ No one in any way connected to the project or this manual formally endorses any 
 
 <itemizedlist mark='opencircle'>
 
-<listitem><para>
-U1 unknown component available on ebay
-</para></listitem>
+<listitem>
+<para>C0 10 uF CAP,RADIAL,10uF,25V</para>
+<para>Jameco  94212</para>
+</listitem>
 
-<listitem><para>
-Unobtanium bar, 1 microfurlong in length
-</para></listitem>
+<listitem>
+<para>C4 - C5, C7 - C11, C13, C25 0.1 uF</para>
+<para>Jameco  25523</para>
+</listitem>
+
+<listitem>
+<para>C6, C12, C14 qty 3 0.22 uF</para>
+<para>Jameco  25540</para>
+</listitem>
+
+<listitem>
+<para>C15 10 pF</para>
+<para>Jameco  332312</para>
+</listitem>
+
+<listitem>
+<para>C16-C24 qty 8 2.2 nF</para>
+<para>Jameco  332443</para>
+</listitem>
+
+<listitem>
+<para>JP1 2x1 pin header</para>
+<para>Jameco  108338</para>
+</listitem>
+
+<listitem>
+<para>K1 - K5 qty 5 3x1 pin header</para>
+<para>Jameco  109576</para>
+</listitem>
+
+<listitem>
+<para>K27 PS/2 Mouse Connector aka mini_din-M_DIN6 aka Circular DIN Connectors 6P R/A FULL SHIELD GOLD PLATED GREEN</para>
+<para>Mouser  806-KMDGX-6S-BS3395C</para>
+</listitem>
+
+<listitem>
+<para>K28 PS/2 Keyboard Connector aka mini_din-M_DIN6 aka Circular DIN Connectors 6P R/A FULL SHIELD GOLD PLATED PURPLE</para>
+<para>Mouser  806-KMDGX-6S-BS2715C</para>
+</listitem>
+
+<listitem>
+<para>L1 1 uH - 100 uH</para>
+<para>Mouser  652-RL622-101K-RC</para>
+</listitem>
+
+<listitem>
+<para>P5 4x2 pin header</para>
+<para>Jameco  109517</para>
+</listitem>
+
+<listitem>
+<para>P24 16 MHz oscillator 5V, half can 8dip300</para>
+<para>16.0 MHZ Mouser 520-TCH1600-X</para>
+<para>16.257 MHz Mouser  520-TCH1625-X</para>
+<para>16.257 MHz DigiKey XC248-ND</para>
+</listitem>
+
+<listitem>
+<para>P25 8 MHz oscillator, full can 14dip300</para>
+<para>Mouser  520-TCF800-X</para>
+</listitem>
+
+<listitem>
+<para>P26 CGA Video Header PIN_ARRAY_5x2</para>
+<para>Jameco  67812</para>
+</listitem>
+
+<listitem>
+<para>P27 Keyboard / Mouse Reversible Header PIN_ARRAY_5x2 CConnector Shrouded Header </para>
+<para>Jameco  67812</para>
+</listitem>
+
+<listitem>
+<para>P31 Parallel Port PIN_ARRAY_13x2 SHROUDED HDR</para>
+<para>Jameco  68372</para>
+</listitem>
+
+<listitem>
+<para>P32 5x2 pin header Unshrouded Header</para>
+<para>Jameco  67821</para>
+</listitem>
+
+<listitem>
+<para>R1-R9 qty 9 27 ohm resistor</para>
+<para>Jameco  690486</para>
+</listitem>
+
+<listitem>
+<para>R21-R23 qty 3 390 ohm resistor</para>
+<para>Jameco  690769</para>
+</listitem>
+
+<listitem>
+<para>R31-R34 qty 4 820 ohm resistor</para>
+<para>Jameco  690849</para>
+</listitem>
+
+<listitem>
+<para>RR1-RR2 qty 2 Bussed Resistor Pack, 9-pin, 4.7K</para>
+<para>Mouser  858-L091S472LF</para>
+</listitem>
+
+<listitem>
+<para>U0 DIN C96ABC right angle C96ABCMC Connector DIN 41612</para>
+<para>Jameco  859561</para>
+</listitem>
+
+<listitem>
+<para>U1,U33-U35 qty 4 74LS138 16dip300</para>
+<para>Mouser  595-SN74ALS138AN</para>
+</listitem>
+
+<listitem>
+<para>U2,U21 qty 2 74LS04 4dip300</para>
+<para>Mouser  595-SN74ALS04BN</para>
+</listitem>
+
+<listitem>
+<para>U9 74LS682 20dip300</para>
+<para>Mouser  595-SN74LS682N</para>
+</listitem>
+
+<listitem>
+<para>U12,U14,U27-U29 qty 5 74LS244 20dip300</para>
+<para>Mouser  595-SN74ALS244CN</para>
+</listitem>
+
+<listitem>
+<para>U13 8563 48dip600 Commodore 128 80 column Vic video chip #8563R9. tested</para>
+<para>eBay</para>
+</listitem>
+
+<listitem>
+<para>U15,U16 qty 2 4416 or 4464 18dip300 Dynamic Ram</para>
+<para>Abra TMS4416-121</para>
+<para>eBay TMS4464-12NL TEXAS INST 18-Pin DIP</para>
+</listitem>
+
+<listitem>
+<para>U17 74LS245 20dip300</para>
+<para>Mouser  595-SN74ALS245AN</para>
+</listitem>
+
+<listitem>
+<para>U18,U30 qty 2 74LS06 14dip300</para>
+<para>Mouser  595-SN74LS06N</para>
+</listitem>
+
+<listitem>
+<para>U19 8242 40dip600 PS/2 Keyboard Mouse Controller aka VT82C42N</para>
+<para>UTSourceVT82C42N</para>
+</listitem>
+
+<listitem>
+<para>U20 74LS32 14dip300</para>
+<para>Mouser  595-SN74ALS32N</para>
+</listitem>
+
+<listitem>
+<para>U25,U26 qty 2 74LS374 20dip300</para>
+<para>Mouser  595-SN74ALS374AN</para>
+</listitem>
+
+<listitem>
+<para>U32 74LS08 14dip300</para>
+<para>Mouser  595-SN74ALS08N</para>
+</listitem>
+
+<listitem>
+<para>U90 74LS00 20dip300</para>
+<para>Mouser  595-SN74ALS00AN</para>
+</listitem>
+
+<listitem>
+<para>X1 VGA Connector HD15_B-HD15F Subminiature Connector HD-15 R/A RECPT</para>
+<para>Mouser  571-117345303</para>
+</listitem>
+
+<listitem>
+<para>14dip300 qty at least one IC socket</para>
+<para>Socket pin type selection is a hotly contested personal choice.</para>
+<para>Gold plate is less mechanically durable than tin, more corrosion resistant than the IC pins, and more expensive</para>
+<para>Machined pins grip the pins more tightly, which is either considered a blessing or a curse, and cost more than folded sockets</para>
+<para>The board aesthetically looks better if you use identical type sockets on the board, unless you're intentionally trying to highlight an area of the board.</para>
+<para>In theory, you could use orange plastic sockets for the ECB interface, blue sockets for the memory decode logic...</para>
+<para>Digikey part number AE10012-ND $0.79 on 2013-02-02 per VLM This is machined pin/tin</para>
+<para>Machined Pin Jameco 37197</para>
+</listitem>
+
+<listitem>
+<para>16dip300 qty at least one IC socket</para>
+<para>Machined Pin Jameco 37402</para>
+</listitem>
+
+<listitem>
+<para>18dip300 qty at least one IC socket</para>
+<para>Machined Pin Jameco 65585</para>
+</listitem>
+
+<listitem>
+<para>20dip300 qty at least one IC socket</para>
+<para>Machined Pin Jameco 38623</para>
+</listitem>
+
+<listitem>
+<para>40dip600 qty at least one IC socket</para>
+<para>Machined Pin Jameco 41136</para>
+</listitem>
+
+<listitem>
+<para>48dip600 qty at least one IC socket</para>
+<para>Machined Pin Jameco 42059</para>
+</listitem>
+
+<listitem>
+<para>8dip300 qty at least one oscillator socket</para>
+<para>Machined Pin Jameco 133006</para>
+</listitem>
+
+<listitem>
+<para>14dip300 qty at least one oscillator socket</para>
+<para>Machined Pin Jameco 133006</para>
+</listitem>
+
+<listitem>
+<para>2-pin shorting plugs for configuration jumpers at least 15 or so</para>
+</listitem>
 
 </itemizedlist>
 
@@ -112,6 +332,92 @@ Install the second thing, noting carefully its polarity
 </para></listitem>
 
 </orderedlist>
+
+<blockquote><attribution>John Coffman</attribution>
+<literallayout>
+Construction Notes for the Color VDU 1.0
+
+
+1.  CAUTION:  capacitor C15 on the PC layout looks like 
+any other decoupling cap; it is not!!!  It is 10pf.
+
+2.  The DRAM chips are decoupled on the schematic using
+0.22uf caps, about twice the value for the other de-
+coupling caps.  Instead of C11 and C12, which decouple
+the DRAM chips, the board layout requires that three
+caps decouple the DRAM chips:  C6, C12, C14.  Use the
+higher value caps in these three locations.
+
+3.  The resistor network used to convert the output of
+the 8563 to VGA levels is highly experimental; THE VALUES
+OF THESE RESISTORS MAY CHANGE.  I suggest putting a 14-pin
+socket in the location for R21,R22,R23;R31,R32,R33,R34.
+(See Note 9, below.  These values test okay.)
+
+4.  The schematic from which this board was derived did
+not specify a value for the inductor on the power supply
+of the 16Mhz oscillator.  Choose one with low series
+resistance.  1uh to 100uh would be my guess as to the
+proper inductance.  One wants a high frequency choke to
+isolate the board power supply from oscillator feedback.
+(I hope the 8Mhz oscillator does not show up on the
+video chip output.)
+
+Added 23-Jan-2012:
+
+5.  There is a clearance issue between the 16Mhz oscillato
+and the nearby 74LS06 if a full-can oscillator is used.  Either
+switch to a half-can oscillator or bend the pins on the full-can
+oscillator slightly to avoid shorting pins 14, 13, and 12 of the
+74LS06.  It would be good to insert an insulator between
+the full-can and those pins.
+
+Added 06-Feb-2012
+
+6.  Circuit mods are requited to operate with both the SBC v2
+(Z80) and the SBC-188.  8563 pin 9 is changed from /WR to RD.
+RD is generated through an LS04 from /RD output from the LS244.
+[Pin 9 will have to be disconnected from the board by bending it
+up and connecting directly to it.  The board surgery needed is 
+too extensive.  20-Feb]
+8563 pin 4 is changed from A1 to the output from an added LS00
+gate, the inputs to which are /RD and /WR.  Hence, the 8563 will
+select only during /RD or /WR.  [Pin 4 may be disconnected from
+the board by bending like pin 9, or by cutting the single trace
+on the bottom of the board which connects to it.  20-Feb]
+
+7.  Test programs are posted for the SBC-188 as of this date.
+
+Added 20-Feb-2012
+
+8.  Including Dan's comment:  U33 pins 2 and 3 must be changed
+from Vcc to GND.  It is practically impossible to do the
+surgery on the board, so bend the 2 LS138 pins up and add a
+jumper to GND (pin 7).
+
+9.  The resistor net which converts 8563 output to VGA levels
+uses 820 ohm and 390 ohm resistors.  For input to a true 
+75 ohm VGA connector, these appear to be the correct values.
+(Update to Note 3, above.)
+
+10.  Notes 3 and 6 updated.
+
+Added 14-Dec-2012
+
+11.  The interrupt signal from the keyboard/mouse is a positive
+signal, not an inverted signal (/INT).  Hence 74LS04 inverter
+U21B should be omitted.  Bend pin 4 up to disconnect, and solder
+a jumper from pin 3 to pin 4.
+
+
+--John Coffman
+14-Jan-2012
+23-Jan-2012
+06-Feb-2012
+20-Feb-2012
+14-Dec-2012
+</literallayout>
+</blockquote>
 
 </chapter>
 
