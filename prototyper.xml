@@ -7,7 +7,7 @@
 <author>
 <orgname>The N8VEM Community</orgname>
 </author>
-<date>February 21, 2013</date>
+<date>February 24, 2013</date>
 <editor>
 <personname><firstname>Vince</firstname><surname>Mulhollon</surname></personname>
 <email>vince@mulhollon.com</email>
@@ -61,11 +61,6 @@ A good analogy is there is a physical walkthru at the start of the construction 
 <title>Bill of Materials</title>
 </info>
 
-<para>
-Typical format:
-Project part ID, quantity if not one, model name, commentary if any, suppliers listed by supplier, item number, approx qty 1 cost, supplier comment
-</para>
-
 <warning>
 <para>
 No one in any way connected to the project or this manual formally endorses any of the suppliers listed below! Caveat Emptor!
@@ -74,13 +69,98 @@ No one in any way connected to the project or this manual formally endorses any 
 
 <itemizedlist mark='opencircle'>
 
-<listitem><para>
-U1 unknown component available on ebay
-</para></listitem>
+<listitem>
+<para>U0 DIN C96ABC right angle C96ABCMC Connector DIN 41612</para>
+<para>Jameco  859561</para>
+</listitem>
 
-<listitem><para>
-Unobtanium bar, 1 microfurlong in length
-</para></listitem>
+<listitem>
+<para>P13,P14 qty 2 10x2 pin array</para>
+</listitem>
+
+<listitem>
+<para>P15 12x2 pin array</para>
+</listitem>
+
+<listitem>
+<para>P11 20x2 female pin header</para>
+</listitem>
+
+<listitem>
+<para>P12 17x2 female pin header</para>
+</listitem>
+
+<listitem>
+<para>C1-C3 qty 3 0.1 uF</para>
+<para>Jameco  25523</para>
+</listitem>
+
+<listitem>
+<para>R2 330 ohm resistor</para>
+</listitem>
+
+<listitem>
+<para>R3,R4 1000 ohm resistor</para>
+</listitem>
+
+<listitem>
+<para>R1,R5 4700 ohm resistor</para>
+</listitem>
+
+<listitem>
+<para>RR1,RR2 qty 2 4700 ohm 9 pin 8 resistor bussed resistor array</para>
+</listitem>
+
+<listitem>
+<para>U5 74LS07</para>
+</listitem>
+
+<listitem>
+<para>U7 74LS138</para>
+</listitem>
+
+<listitem>
+<para>U4 74LS244</para>
+</listitem>
+
+<listitem>
+<para>U1 74LS245</para>
+</listitem>
+
+<listitem>
+<para>U8 74LS253</para>
+</listitem>
+
+<listitem>
+<para>U1,U3 qty 2 74LS541</para>
+</listitem>
+
+<listitem>
+<para>U6 74LS688</para>
+</listitem>
+
+<listitem>
+<para>14dip300 qty 1 IC socket</para>
+<para>Socket pin type selection is a hotly contested personal choice.</para>
+<para>Gold plate is less mechanically durable than tin, more corrosion resistant than the IC pins, and more expensive</para>
+<para>Machined pins grip the pins more tightly, which is either considered a blessing or a curse, and cost more than folded sockets</para>
+<para>The board aesthetically looks better if you use identical type sockets on the board, unless you're intentionally trying to highlight an area of the board.</para>
+<para>In theory, you could use orange plastic sockets for the ECB interface, blue sockets for the memory decode logic...</para>
+<para>Digikey part number AE10012-ND $0.79 on 2013-02-02 per VLM This is machined pin/tin</para>
+<para>Machined Pin Jameco 37197</para>
+</listitem>
+
+<listitem>
+<para>16dip300 qty 2 IC socket</para>
+</listitem>
+
+<listitem>
+<para>20dip300 qty 5 IC socket</para>
+</listitem>
+
+<listitem>
+<para>2-pin shorting plugs for configuration jumpers at least a dozen or so</para>
+</listitem>
 
 </itemizedlist>
 
@@ -146,13 +226,8 @@ JP3 dilithium crystal holder
 </info>
 
 <para>
-Notes regarding accessories.
-Some examples of accessories are homemade cables, floppy drives, chassis.
+A solderless breadboard could be mounted on the prototyping area.
 </para>
-
-<caution><para>
-Very few (no?) boards in the project accept any power source other than pure, filtered positive 5 volts
-</para></caution>
 
 </chapter>
 
