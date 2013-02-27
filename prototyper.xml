@@ -80,11 +80,15 @@ No one in any way connected to the project or this manual formally endorses any 
 <listitem>
 <para>P11 20x2 female pin header</para>
 <para>This combines with P12 to form a psuedo-37x2 connector</para>
+<para>Depending on your plans, you may want to install nothing, a pin array header, or a receptacle for wires</para>
+<para>Digikey A26498-ND is a receptacle which end stacks perfectly with the P12 receptacle</para>
 </listitem>
 
 <listitem>
 <para>P12 17x2 female pin header</para>
 <para>This combines with P11 to form a psuedo-37x2 connector</para>
+<para>Depending on your plans, you may want to install nothing, a pin array header, or a receptacle for wires</para>
+<para>Digikey A26496-ND is a receptacle which end stacks perfectly with the P11 receptacle</para>
 </listitem>
 
 <listitem>
@@ -243,6 +247,8 @@ JP3 dilithium crystal holder
 
 <para>
 A solderless breadboard could be mounted on the prototyping area.
+The PCB prototyping area had enough space to hold a 3.5 inch x 3.5 inch breadboard.
+Depending on your chassis and mounting limitations its possible nearly any size breadboard will fit if overhang is allowed.
 </para>
 
 </chapter>
