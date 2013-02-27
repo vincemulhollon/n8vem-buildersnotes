@@ -226,16 +226,21 @@ No one in any way connected to the project or this manual formally endorses any 
 </listitem>
 
 <listitem>
-<para>P2 1.8432 MHz 14dip300</para>
+<para>P2 UART clock 1.8432 MHz full size oscillator 14dip300</para>
 </listitem>
 
 <listitem>
-<para>8dip300 qty at least one IC socket</para>
+<para>14dip300 oscillator socket</para>
+<para>Machined Pin Jameco 133006</para>
+</listitem>
+
+<listitem>
+<para>8dip300 IC socket</para>
 <para>Machined pin / Tin Jameco 51626 $0.49 on 2013-01-16 per VLM</para>
 </listitem>
 
 <listitem>
-<para>14dip300 qty at least one IC socket</para>
+<para>14dip300 qty 3 IC socket</para>
 <para>Socket pin type selection is a hotly contested personal choice.</para>
 <para>Gold plate is less mechanically durable than tin, more corrosion resistant than the IC pins, and more expensive</para>
 <para>Machined pins grip the pins more tightly, which is either considered a blessing or a curse, and cost more than folded sockets</para>
@@ -246,17 +251,17 @@ No one in any way connected to the project or this manual formally endorses any 
 </listitem>
 
 <listitem>
-<para>16dip300 qty at least one IC socket</para>
+<para>16dip300 qty 3 IC socket</para>
 <para>Machined pin / Tin Jameco 37402 $0.59 on 2013-01-16 per VLM</para>
 </listitem>
 
 <listitem>
-<para>20dip300 qty at least one IC socket</para>
+<para>20dip300 qty 4 IC socket</para>
 <para>Machined pin / Tin Jameco 38623 $0.69 on 2013-01-16 per VLM</para>
 </listitem>
 
 <listitem>
-<para>40dip600 qty at least one IC socket</para>
+<para>40dip600 IC socket</para>
 <para>Machined pin / Tin Jameco 41136 $1.69 on 2013-01-16 per VLM</para>
 </listitem>
 

@@ -315,12 +315,11 @@ No one in any way connected to the project or this manual formally endorses any 
 </listitem>
 
 <listitem>
-<para>14dip300 qty 6 IC socket</para>
+<para>14dip300 qty 7 IC socket</para>
 <para>Socket pin type selection is a hotly contested personal choice.</para>
 <para>Gold plate is less mechanically durable than tin, more corrosion resistant than the IC pins, and more expensive</para>
 <para>Machined pins grip the pins more tightly, which is either considered a blessing or a curse, and cost more than folded sockets</para>
 <para>The board aesthetically looks better if you use identical type sockets on the board, unless you're intentionally trying to highlight an area of the board.</para>
-<para>In theory, you could use orange plastic sockets for the ECB interface, blue sockets for the memory decode logic...</para>
 <para>Machined pin / Tin Digikey AE10012-ND $0.79 on 2013-02-02 per VLM</para>
 <para>Machined pin / Tin Jameco 37197 $0.55 on 2013-01-16 per VLM</para>
 <para>Jameco 37162</para>
@@ -329,7 +328,7 @@ No one in any way connected to the project or this manual formally endorses any 
 </listitem>
 
 <listitem>
-<para>16dip300 qty 5 IC socket</para>
+<para>16dip300 qty 2 IC socket</para>
 <para>Machined pin / Tin Jameco 37402 $0.59 on 2013-01-16 per VLM</para>
 <para>Jameco 37373</para>
 <para>Mouser 649-DILB16P-223TLF</para>
@@ -337,14 +336,14 @@ No one in any way connected to the project or this manual formally endorses any 
 </listitem>
 
 <listitem>
-<para>20dip300 qty 2 IC socket</para>
+<para>20dip300 qty 5 IC socket</para>
 <para>Machined pin / Tin Jameco 38623 $0.69 on 2013-01-16 per VLM</para>
 <para>Mouser 649-DILB20P-223TLF</para>
 <para>Mouser 517-4820-3000-CP</para>
 </listitem>
 
 <listitem>
-<para>40dip600 qty 4 IC socket</para>
+<para>40dip600 qty 2 IC socket</para>
 <para>Machined pin / Tin Jameco 41136 $1.69 on 2013-01-16 per VLM</para>
 <para>Mouser 649-DILB40P223TLF</para>
 <para>Mouser 517-4840-6000-CP</para>
