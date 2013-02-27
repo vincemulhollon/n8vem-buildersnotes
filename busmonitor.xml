@@ -60,11 +60,6 @@ A good analogy is there is a physical walkthru at the start of the construction 
 <title>Bill of Materials</title>
 </info>
 
-<para>
-Typical format:
-Project part ID, quantity if not one, model name, commentary if any, suppliers listed by supplier, item number, approx qty 1 cost, supplier comment
-</para>
-
 <warning>
 <para>
 No one in any way connected to the project or this manual formally endorses any of the suppliers listed below! Caveat Emptor!
@@ -75,49 +70,50 @@ No one in any way connected to the project or this manual formally endorses any 
 
 <listitem>
 <para>SW1,2,1_2,3_4 qty 4 8 pos DIP Switch Single Pole Single Throw</para>
-<para>Jameco 696968 $1.15</para>
+<para>Jameco 38842 $0.79 on 2013-01-18 per VLM</para>
 </listitem>
 
 <listitem>
 <para>Switch SPDT</para>
-<para>Jameco 21936 $1.55</para>
+<para>Jameco 21936 $1.75 on 2013-01-18 per VLM</para>
 </listitem>
 
 <listitem>
 <para>BAR1,BAR2,BAR3,BAR4,BAR5 qty 5 ten pos LED bar</para>
-<para>Yellow Jameco 334537  $1.19</para>
-<para>Red Jameco 334529  $1.29</para>
-<para>Green Jameco 334511  $1.19</para>
+<para>Yellow Jameco 334537 $1.19 on 2013-01-18 per VLM</para>
+<para>Red Jameco 334529 $1.39 on 2013-01-18 per VLM</para>
+<para>Green Jameco 334511 $1.19 on 2013-01-18 per VLM</para>
+</listitem>
+
+<listitem>
+<para>C6 33 pF capacitor</para>
+<para>Jameco 1947010 $0.07 on 2013-01-27 per VLM</para>
 </listitem>
                             
 <listitem>
 <para>C1 220-560 pF capacitor</para>
-<para>Jameco 1947239 $0.009 at 10 minimum order</para>                 
+<para>Jameco 1947239 $0.009 on 2013-01-27 per VLM</para>                 
 </listitem>
         
 <listitem>
-<para>C2,C3,C4,C5,C7,C8 qty 6 22 uF capacitor</para>
-<para>Jameco 1946308 $0.05 at 10 minimum order</para>                  
-</listitem>
-       
-<listitem>
-<para>C6 33 pF capacitor</para>
-<para>Jameco 1947010 $0.06 at 10 minimum order</para>                           
+<para>C11 thru C30 inclusive qty 19 0.1 uF capacitor</para>
+<para>Jameco 25523 will not fit the PCB outline exactly, but the leads can be bent to fit $0.08 on 2013-01-16 per VLM</para>
+<para>Mouser 80-C323C104K5R appears to be a perfect fit to the board outline $0.15</para>
 </listitem>
 
 <listitem>
-<para>C11 thru C30 inclusive qty 19 0.1 uF capacitor</para>
-<para>Jameco 25523 $0.08 at 10 minimum order</para>                           
+<para>C2,C3,C4,C5,C7,C8 qty 6 22 uF capacitor</para>
+<para>Jameco 1946316 $0.09 on 2013-01-18 per VLM</para>                    
 </listitem>
 
 <listitem>
 <para>D1 1N270 germanium diode</para>
-<para>Jameco 35941 $0.99</para>
+<para>Jameco 35941 $0.99 on 2013-01-18 per VLM</para>
 </listitem>
 
 <listitem>
 <para>R10,R11,R12,R13,R14,R15,R16 qty 7 270 resistor</para>
-<para>Jameco 690726  0.02 at 100 minimum order</para>
+<para>Jameco 690726 0.04 on 2013-01-18 per VLM</para>
 </listitem>
 
 <listitem>
@@ -188,12 +184,19 @@ No one in any way connected to the project or this manual formally endorses any 
 
 <listitem>
 <para>U21,U22,U23,U24,U25 qty 5 74LS241</para>
-<para>Jameco 47167 $0.65</para>   
+<para>LS family Jameco 47167 $0.75 on 2013-01-27 per VLM</para>
+<para>ALS family Digikey 296-33724-5-ND $1.30 on 2013-02-09 per VLM</para>
 </listitem>
 
 <listitem>
 <para>U1,U2,U3,U4 qty 4 74LS273</para>
+<para>ALS family Digikey 296-1493-5-ND $1.39 on 2013-02-26 per VLM</para>
 <para>Jameco 47386 $0.59</para>
+</listitem>
+
+<listitem>
+<para>8dip300 qty at least one IC socket</para>
+<para>Machined pin / Tin Jameco 51626 $0.49 on 2013-01-16 per VLM</para>
 </listitem>
 
 <listitem>
@@ -203,7 +206,25 @@ No one in any way connected to the project or this manual formally endorses any 
 <para>Machined pins grip the pins more tightly, which is either considered a blessing or a curse, and cost more than folded sockets</para>
 <para>The board aesthetically looks better if you use identical type sockets on the board, unless you're intentionally trying to highlight an area of the board.</para>
 <para>In theory, you could use orange plastic sockets for the ECB interface, blue sockets for the memory decode logic...</para>
-<para>Digikey part number AE10012-ND $0.79 on 2013-02-02 per VLM This is machined pin/tin</para>
+<para>Machined pin / Tin Digikey AE10012-ND $0.79 on 2013-02-02 per VLM</para>
+<para>Machined pin / Tin Jameco 37197 $0.55 on 2013-01-16 per VLM</para>
+</listitem>
+
+<listitem>
+<para>16dip300 qty at least one IC socket</para>
+<para>Machined pin / Tin Jameco 37402 $0.59 on 2013-01-16 per VLM</para>
+</listitem>
+
+<listitem>
+<para>20dip300 qty at least one IC socket</para>
+<para>Machined pin / Tin Jameco 38623 $0.69 on 2013-01-16 per VLM</para>
+</listitem>
+
+<listitem>
+<para>96 pin ECB connector</para>
+<para>Jameco 859561 (A non-stocked item, will delay delivery) $4.35 on 2013-01-16 per VLM</para>
+<para>Mouser 617-09-03-396-6921</para>
+<para>Jameco 859430</para>
 </listitem>
 
 </itemizedlist>

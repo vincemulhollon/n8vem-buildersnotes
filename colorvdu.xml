@@ -75,8 +75,9 @@ No one in any way connected to the project or this manual formally endorses any 
 </listitem>
 
 <listitem>
-<para>C4 - C5, C7 - C11, C13, C25 0.1 uF</para>
-<para>Jameco  25523</para>
+<para>C4,C5,C7-C11,C13,C25 qty 9 0.1 uF capacitor</para>
+<para>Jameco 25523 will not fit the PCB outline exactly, but the leads can be bent to fit $0.08 on 2013-01-16 per VLM</para>
+<para>Mouser 80-C323C104K5R appears to be a perfect fit to the board outline $0.15</para>
 </listitem>
 
 <listitem>
@@ -91,27 +92,32 @@ No one in any way connected to the project or this manual formally endorses any 
 
 <listitem>
 <para>C16-C24 qty 8 2.2 nF</para>
-<para>Jameco  332443</para>
+<para>Jameco 332443</para>
 </listitem>
 
 <listitem>
 <para>JP1 2x1 pin header</para>
-<para>Jameco  108338</para>
+<para>Jameco 108338 $0.29 on 2013-01-16 per VLM</para>
+<para>Mouser 649-78229-102HLF $0.18 on 2013-02-26 per VLM</para>
 </listitem>
 
 <listitem>
 <para>K1 - K5 qty 5 3x1 pin header</para>
-<para>Jameco  109576</para>
+<para>Jameco 109576 $0.29 on 2013-01-16 per VLM</para>
+<para>Mouser 649-69190-103HLF $0.12 on 2013-02-26 per VLM</para>
+<para>Mouser 649-78229-103HLF $0.20 on 2013-02-26 per VLM</para>
 </listitem>
 
 <listitem>
 <para>K27 PS/2 Mouse Connector aka mini_din-M_DIN6 aka Circular DIN Connectors 6P R/A FULL SHIELD GOLD PLATED GREEN</para>
-<para>Mouser  806-KMDGX-6S-BS3395C</para>
+<para>Green color Mouser  806-KMDGX-6S-BS3395C</para>
+<para>Black color Digikey part number A99370-ND $4.37 on 2013-02-02 per VLM</para>
 </listitem>
 
 <listitem>
 <para>K28 PS/2 Keyboard Connector aka mini_din-M_DIN6 aka Circular DIN Connectors 6P R/A FULL SHIELD GOLD PLATED PURPLE</para>
-<para>Mouser  806-KMDGX-6S-BS2715C</para>
+<para>Purple color Mouser  806-KMDGX-6S-BS2715C</para>
+<para>Black color Digikey part number A99370-ND $4.37 on 2013-02-02 per VLM</para>
 </listitem>
 
 <listitem>
@@ -137,23 +143,27 @@ No one in any way connected to the project or this manual formally endorses any 
 </listitem>
 
 <listitem>
-<para>P26 CGA Video Header PIN_ARRAY_5x2</para>
-<para>Jameco  67812</para>
+<para>P26 CGA Video Header 5x2 pin array</para>
+<para>Unshrouded Jameco 67821 $0.39 on 2013-01-27 per VLM</para>
+<para>Shrouded Jameco 67812 $0.59 on 2013-02-26 per VLM</para>
 </listitem>
 
 <listitem>
-<para>P27 Keyboard / Mouse Reversible Header PIN_ARRAY_5x2 CConnector Shrouded Header </para>
-<para>Jameco  67812</para>
+<para>P27 Keyboard / Mouse Reversible Header 5x2 pin array</para>
+<para>Unshrouded Jameco 67821 $0.39 on 2013-01-27 per VLM</para>
+<para>Shrouded Jameco 67812 $0.59 on 2013-02-26 per VLM</para>
 </listitem>
 
 <listitem>
-<para>P31 Parallel Port PIN_ARRAY_13x2 SHROUDED HDR</para>
-<para>Jameco  68372</para>
+<para>P31 Parallel Port 13x2 pin array Shrouded</para>
+<para>Shrouded Jameco 68372 $0.69 on 2013-02-26 per VLM</para>
+<para>Unshrouded Jameco 2120292 $0.49 on 2013-01-27 per VLM</para>
 </listitem>
 
 <listitem>
 <para>P32 5x2 pin header Unshrouded Header</para>
-<para>Jameco  67821</para>
+<para>Unshrouded Jameco 67821 $0.39 on 2013-01-27 per VLM</para>
+<para>Shrouded (although specd as unshrouded) Jameco 67812 $0.59 on 2013-02-26 per VLM</para>
 </listitem>
 
 <listitem>
@@ -178,11 +188,14 @@ No one in any way connected to the project or this manual formally endorses any 
 
 <listitem>
 <para>U0 DIN C96ABC right angle C96ABCMC Connector DIN 41612</para>
-<para>Jameco  859561</para>
+<para>Jameco 859561 (A non-stocked item, will delay delivery) $4.35 on 2013-01-16 per VLM</para>
+<para>Mouser 617-09-03-396-6921</para>
+<para>Jameco 859430</para>
 </listitem>
 
 <listitem>
 <para>U1,U33-U35 qty 4 74LS138 16dip300</para>
+<para>ALS family Digikey 296-1485-5-ND $1.01 on 2013-02-26 per VLM</para>
 <para>Mouser  595-SN74ALS138AN</para>
 </listitem>
 
@@ -193,12 +206,14 @@ No one in any way connected to the project or this manual formally endorses any 
 
 <listitem>
 <para>U9 74LS682 20dip300</para>
+<para>LS family Jameco 309260 $1.75 on 2013-01-27 per VLM</para>
 <para>Mouser  595-SN74LS682N</para>
 </listitem>
 
 <listitem>
 <para>U12,U14,U27-U29 qty 5 74LS244 20dip300</para>
-<para>Mouser  595-SN74ALS244CN</para>
+<para>ALS family Digikey 296-1490-5-ND $1.22 on 2013-02-09 per VLM</para>
+<para>ALS family Mouser 595-SN74ALS244CN</para>
 </listitem>
 
 <listitem>
@@ -214,12 +229,19 @@ No one in any way connected to the project or this manual formally endorses any 
 
 <listitem>
 <para>U17 74LS245 20dip300</para>
-<para>Mouser  595-SN74ALS245AN</para>
+<para>LS family Digikey 296-1655-5-ND $0.92 on 2013-02-02 per VLM</para>
+<para>LS family Jameco 47212 $0.65 on 2013-01-27 per VLM</para>
+<para>ALS family Digikey 296-1492-5-ND $1.22 on 2013-02-09 per VLM</para>
+<para>F family Jameco 287144 $0.39 on 2013-02-26 per VLM (closeout)</para>
+<para>ALS family Mouser  595-SN74ALS245AN</para>
 </listitem>
 
 <listitem>
 <para>U18,U30 qty 2 74LS06 14dip300</para>
-<para>Mouser  595-SN74LS06N</para>
+<para>LS family Jameco 46359 $0.89 on 2013-01-27 per VLM</para>
+<para>LS family Mouser 595-SN74LS06N</para>
+<para>ALS family Digikey 296-1484-5-ND $0.86 on 2013-02-09 per VLM</para>
+<para>LS family Digikey 296-15069-5-ND $0.92 on 2013-02-09 per VLM</para>
 </listitem>
 
 <listitem>
@@ -229,7 +251,11 @@ No one in any way connected to the project or this manual formally endorses any 
 
 <listitem>
 <para>U20 74LS32 14dip300</para>
-<para>Mouser  595-SN74ALS32N</para>
+<para>LS family Digikey 296-1658-5-ND $0.62 on 2013-01-18 per VLM</para>
+<para>LS family Jameco 47466 $0.45 on 2013-01-27 per VLM</para>
+<para>F family Jameco 287048 $0.45 on 2013-02-26 per VLM</para>
+<para>ALS family Mouser 595-SN74ALS32N</para>
+<para>ALS family Digikey 296-1495-5-ND $0.95 on 2013-02-09 per VLM</para>
 </listitem>
 
 <listitem>
@@ -253,19 +279,29 @@ No one in any way connected to the project or this manual formally endorses any 
 </listitem>
 
 <listitem>
+<para>8dip300 qty at least one IC socket</para>
+<para>Machined pin / Tin Jameco 51626 $0.49 on 2013-01-16 per VLM</para>
+</listitem>
+
+<listitem>
+<para>Half size oscillator socket qty 2</para>
+<para>Jameco 676385 $0.59 on 2013-01-27 per VLM</para>
+</listitem>
+
+<listitem>
 <para>14dip300 qty at least one IC socket</para>
 <para>Socket pin type selection is a hotly contested personal choice.</para>
 <para>Gold plate is less mechanically durable than tin, more corrosion resistant than the IC pins, and more expensive</para>
 <para>Machined pins grip the pins more tightly, which is either considered a blessing or a curse, and cost more than folded sockets</para>
 <para>The board aesthetically looks better if you use identical type sockets on the board, unless you're intentionally trying to highlight an area of the board.</para>
 <para>In theory, you could use orange plastic sockets for the ECB interface, blue sockets for the memory decode logic...</para>
-<para>Digikey part number AE10012-ND $0.79 on 2013-02-02 per VLM This is machined pin/tin</para>
-<para>Machined Pin Jameco 37197</para>
+<para>Machined pin / Tin Digikey AE10012-ND $0.79 on 2013-02-02 per VLM</para>
+<para>Machined pin / Tin Jameco 37197 $0.55 on 2013-01-16 per VLM</para>
 </listitem>
 
 <listitem>
 <para>16dip300 qty at least one IC socket</para>
-<para>Machined Pin Jameco 37402</para>
+<para>Machined pin / Tin Jameco 37402 $0.59 on 2013-01-16 per VLM</para>
 </listitem>
 
 <listitem>
@@ -275,12 +311,12 @@ No one in any way connected to the project or this manual formally endorses any 
 
 <listitem>
 <para>20dip300 qty at least one IC socket</para>
-<para>Machined Pin Jameco 38623</para>
+<para>Machined pin / Tin Jameco 38623 $0.69 on 2013-01-16 per VLM</para>
 </listitem>
 
 <listitem>
 <para>40dip600 qty at least one IC socket</para>
-<para>Machined Pin Jameco 41136</para>
+<para>Machined pin / Tin Jameco 41136 $1.69 on 2013-01-16 per VLM</para>
 </listitem>
 
 <listitem>
@@ -300,6 +336,7 @@ No one in any way connected to the project or this manual formally endorses any 
 
 <listitem>
 <para>2-pin shorting plugs for configuration jumpers at least 15 or so</para>
+<para>Jameco 112432 $0.12 on 2013-01-27 per VLM</para>
 </listitem>
 
 </itemizedlist>

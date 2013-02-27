@@ -59,11 +59,6 @@ A good analogy is there is a physical walkthru at the start of the construction 
 <title>Bill of Materials</title>
 </info>
 
-<para>
-Typical format:
-Project part ID, quantity if not one, model name, commentary if any, suppliers listed by supplier, item number, approx qty 1 cost, supplier comment
-</para>
-
 <warning>
 <para>
 No one in any way connected to the project or this manual formally endorses any of the suppliers listed below! Caveat Emptor!
@@ -74,6 +69,8 @@ No one in any way connected to the project or this manual formally endorses any 
 
 <listitem>
 <para>C1,C3-C23,C29,C30,C32 qty 25 ceramic disk capacitor 0.1 uF</para>
+<para>Jameco 25523 will not fit the PCB outline exactly, but the leads can be bent to fit $0.08 on 2013-01-16 per VLM</para>
+<para>Mouser 80-C323C104K5R appears to be a perfect fit to the board outline $0.15</para>
 </listitem>
 
 <listitem>
@@ -82,10 +79,12 @@ No one in any way connected to the project or this manual formally endorses any 
 
 <listitem>
 <para>C24-C28 qty 5 electrolytic capacitor 1.0 uF</para>
+<para>Jameco 330772 $0.12 on 2013-01-27 per VLM</para>
 </listitem>
 
 <listitem>
 <para>C31 22 uF electrolytic capacitor</para>
+<para>Jameco 1946316 $0.09 on 2013-01-18 per VLM</para>
 </listitem>
 
 <listitem>
@@ -97,37 +96,51 @@ No one in any way connected to the project or this manual formally endorses any 
 </listitem>
 
 <listitem>
-<para>BT1,JP1,JP2 qty 3 JUMPER</para>
+<para>BT1,JP1,JP2 qty 3 2x1 pin array</para>
+<para>Jameco 108338 $0.29 on 2013-01-16 per VLM</para>
+<para>Mouser 649-78229-102HLF $0.18 on 2013-02-26 per VLM</para>
 </listitem>
 
 <listitem>
-<para>K1-K12 qty 12 CONN_3</para>
+<para>K1-K12 qty 12 3x1 pin array</para>
+<para>Jameco 109576 $0.29 on 2013-01-16 per VLM</para>
+<para>Mouser 649-69190-103HLF $0.12 on 2013-02-26 per VLM</para>
+<para>Mouser 649-78229-103HLF $0.20 on 2013-02-26 per VLM</para>
 </listitem>
 
 <listitem>
-<para>P1 PARALLEL pin_array_13x2</para>
+<para>P1 Parallel port 13x2 pin array</para>
+<para>Shrouded Jameco 68372 $0.69 on 2013-02-26 per VLM</para>
+<para>Unshrouded Jameco 2120292 $0.49 on 2013-01-27 per VLM</para>
 </listitem>
 
 <listitem>
-<para>P2 POWER bornier4 aka a "molex 5.25 floppy disk power PCB flush mount socket"</para>
-<para>If you plan to run your board off an existing, working ECB backplane board, you do not need a socket on the SBCv2 or a s
-eparate power cable for the SBCv2</para>
+<para>P2 POWER molex 5.25 floppy disk drive power male PCB flush mount socket</para>
+<para>If you plan to run your board off an existing, working ECB backplane board, you do not need a socket on the SBCv2 or a separate power cable for the SBCv2</para>
+<para>Jameco 109146 $0.85 on 2013-01-16 per VLM</para>
 </listitem>
 
 <listitem>
-<para>P3	SERIAL	PIN_ARRAY_5x2</para>
+<para>P3 Serial Port 5x2 pin array</para>
+<para>Unshrouded Jameco 67821 $0.39 on 2013-01-27 per VLM</para>
+<para>Shrouded Jameco 67812 $0.59 on 2013-02-26 per VLM</para>
 </listitem>
 
 <listitem>
-<para>P4	CLK_CPU	8dip300</para>
+<para>P4 CPU clock 8dip300</para>
+<para>4 MHz Digikey XC259-ND $3.68 on 2013-01-18 per VLM</para>
+<para>10 MHz Digikey XC243-ND $2.98 on 2013-02-24 per VLM</para>
 </listitem>
 
 <listitem>
-<para>P5	CLK_UART	8dip300</para>
+<para>P5 UART clock 1.8432 MHz half size oscillator 8dip300</para>
+<para>Digikey XC231-ND $2.98 on 2013-01-18 per VLM</para>
 </listitem>
 
 <listitem>
-<para>P6	RESET	SIL-2 pushbutton</para>
+<para>P6 Reset switch SIL-2 pushbutton</para>
+<para>Digikey SW400-ND $0.35 on 2013-01-18 per VLM</para>
+<para>Jameco 1586074 $0.35 on 2013-01-16 per VLM</para>
 </listitem>
 
 <listitem>
@@ -159,88 +172,133 @@ eparate power cable for the SBCv2</para>
 </listitem>
 
 <listitem>
-<para>U1	16550	40dip600</para>
+<para>U1 16550 40dip600</para>
+<para>Digikey 1016-1759-ND aka ST16C550CP40-F $4.42 on 2013-02-09 per VLM</para>
 </listitem>
 
 <listitem>
-<para>U2	27C080	32dip600</para>
+<para>U2 27C080 32dip600</para>
+<para>Jameco 156275 $8.95 on 2013-01-27 per VLM</para>
 </listitem>
 
 <listitem>
-<para>U3	74LS08	14dip300</para>
+<para>U3 74LS08 14dip300</para>
+<para>ALS family Digikey 296-1484-5-ND $0.86 on 2013-02-09 per VLM</para>
 </listitem>
 
 <listitem>
-<para>U4	74LS10	14dip300</para>
+<para>U4 74LS10 14dip300</para>
+<para>ALS family Digikey 296-5011-5-ND $0.92 on 2013-02-09 per VLM</para>
 </listitem>
 
 <listitem>
-<para>U5	74LS125	14dip300</para>
+<para>U5 74LS125 14dip300</para>
+<para>ALS family Digikey 296-1638-5-ND $0.86 on 2013-02-09 per VLM</para>
 </listitem>
 
 <listitem>
 <para>U6 74LS139 16dip300</para>
-<para>Digikey part number 296-1640-5-ND $0.86 on 2013-02-02 per VLM This is LS family</para>
+<para>LS family Digikey 296-1640-5-ND $0.86 on 2013-02-02 per VLM</para>
+<para>ALS family Digikey 296-1486-5-ND $1.09 on 2013-02-09 per VLM</para>
 </listitem>
 
 <listitem>
-<para>U7	74LS14	14dip300</para>
+<para>U7 74LS14 14dip300</para>
+<para>LS family Digikey 296-1643-5-ND $0.67 on 2013-02-09 per VLM</para>
 </listitem>
 
 <listitem>
-<para>U8,U9,U11 qty 3	74LS245	20dip300</para>
+<para>U8,U9,U11 qty 3 74LS245 20dip300</para>
+<para>LS family Digikey 296-1655-5-ND $0.92 on 2013-02-02 per VLM</para>
+<para>LS family Jameco 47212 $0.65 on 2013-01-27 per VLM</para>
+<para>ALS family Digikey 296-1492-5-ND $1.22 on 2013-02-09 per VLM</para>
+<para>F family Jameco 287144 $0.39 on 2013-02-26 per VLM (closeout)</para>
 </listitem>
 
 <listitem>
-<para>U10	74LS243	14dip300</para>
+<para>U10 74LS243 14dip300</para>
+<para>ALS family Digikey 296-5044-5-ND $11.13 (not a typo) on 2013-02-09 per VLM</para>
 </listitem>
 
 <listitem>
 <para>U12,U13,U18 qty 3 74LS174	16dip300</para>
+<para>ALS family Digikey 296-5030-5-ND $1.01 on 2013-02-09 per VLM</para>
 </listitem>
 
 <listitem>
-<para>U14,U15,U16 qty 3 74LS32	14dip300</para>
+<para>U14,U15,U16 qty 3 74LS32 14dip300</para>
+<para>LS family Jameco 47466 $0.45 on 2013-01-27 per VLM</para>
+<para>LS family Digikey 296-1658-5-ND $0.62 on 2013-01-18 per VLM</para>
+<para>F family Jameco 287048 $0.45 on 2013-02-26 per VLM</para>
+<para>ALS family Mouser 595-SN74ALS32N</para>
+<para>ALS family Digikey 296-1495-5-ND $0.95 on 2013-02-09 per VLM</para>
 </listitem>
 
 <listitem>
-<para>U17	74LS244	20dip300</para>
+<para>U17 74LS244 20dip300</para>
+<para>ALS family Digikey 296-1490-5-ND $1.22 on 2013-02-09 per VLM</para>
 </listitem>
 
 <listitem>
-<para>U19	8255	40dip600</para>
+<para>U19 8255 40dip600</para>
+<para>Digikey CP82C55A-ND aka CP82C55A $7.68 on 2013-02-09 per VLM</para>
+<para>Jameco 52417 is a 82C55A for $4.95 on 2013-01-16 per VLM</para>
 </listitem>
 
 <listitem>
-<para>U20	C96ABC	C96ABCMC</para>
+<para>U20 C96ABC C96ABCMC</para>
+<para>Jameco 859561 (A non-stocked item, will delay delivery) $4.35 on 2013-01-16 per VLM</para>
+<para>Mouser 617-09-03-396-6921</para>
+<para>Jameco 859430</para>
 </listitem>
 
 <listitem>
-<para>U21	DS1302	8dip300</para>
+<para>U21 DS1302 8dip300</para>
+<para>Digikey DS1302+-ND $3.56 on 2013-01-18 per VLM</para>
 </listitem>
 
 <listitem>
-<para>U22	MAX232	16dip300</para>
+<para>U22 MAX232 16dip300</para>
+<para>Digikey MAX232CPE+-ND $3.67 on 2013-02-09 per VLM</para>
 </listitem>
 
 <listitem>
-<para>U23	SRAM_512KO	32dip600</para>
+<para>U23 SRAM_512K 32dip600</para>
+<para>AS6C4008-55PCN Jameco 1927617 $5.95 on 2013-01-18 per VLM</para>
 </listitem>
 
 <listitem>
-<para>U24	Z80-CPU	40dip600</para>
+<para>U24 Z80-CPU 40dip600</para>
+<para>6 MHz Jameco 35705 $3.25 on 2013-01-16 per VLM</para>
+<para>10 MHz Digikey 269-3898-ND aka Z84C0010PEG $4.14 on 2013-02-09 per VLM</para>
+<para>20 MHz Z80 aka Z84C0020PEG are available on ebay</para>
 </listitem>
 
 <listitem>
-<para>U25	DS1210	8dip300</para>
+<para>U25 DS1210 8dip300</para>
+<para>Digikey DS1210+-ND $5.22 on 2013-01-18 per VLM</para>
+<para>Jameco 114198 $3.95 on 2013-01-16 per VLM</para>
 </listitem>
 
 <listitem>
-<para>U26	74LS06N	14dip300</para>
+<para>U26 74LS06 14dip300</para>
+<para>LS family Digikey 296-15069-5-ND $0.92 on 2013-02-09 per VLM</para>
+<para>LS family Jameco 46359 $0.89 on 2013-01-27 per VLM</para>
 </listitem>
 
 <listitem>
-<para>X1	CRYSTAL	SIL-2	32.768 KHz</para>
+<para>X1 CRYSTAL SIL-2 32.768 KHz</para>
+<para>Jameco 325244 $0.49 on 2013-01-16 per VLM</para>
+</listitem>
+
+<listitem>
+<para>8dip300 qty at least one IC socket</para>
+<para>Machined pin / Tin Jameco 51626 $0.49 on 2013-01-16 per VLM</para>
+</listitem>
+
+<listitem>
+<para>Half size oscillator socket qty 2</para>
+<para>Jameco 676385 $0.59 on 2013-01-27 per VLM</para>
 </listitem>
 
 <listitem>
@@ -250,26 +308,38 @@ eparate power cable for the SBCv2</para>
 <para>Machined pins grip the pins more tightly, which is either considered a blessing or a curse, and cost more than folded sockets</para>
 <para>The board aesthetically looks better if you use identical type sockets on the board, unless you're intentionally trying to highlight an area of the board.</para>
 <para>In theory, you could use orange plastic sockets for the ECB interface, blue sockets for the memory decode logic...</para>
-<para>Digikey part number AE10012-ND $0.79 on 2013-02-02 per VLM This is machined pin/tin</para>
+<para>Machined pin / Tin Digikey AE10012-ND $0.79 on 2013-02-02 per VLM</para>
+<para>Machined pin / Tin Jameco 37197 $0.55 on 2013-01-16 per VLM</para>
+</listitem>
+
+<listitem>
+<para>16dip300 qty at least one IC socket</para>
+<para>Machined pin / Tin Jameco 37402 $0.59 on 2013-01-16 per VLM</para>
+</listitem>
+
+<listitem>
+<para>20dip300 qty at least one IC socket</para>
+<para>Machined pin / Tin Jameco 38623 $0.69 on 2013-01-16 per VLM</para>
+</listitem>
+
+<listitem>
+<para>32dip600 qty at least one IC socket</para>
+<para>Machined pin / Tin Jameco 105381 $1.35 on 2013-01-16 per VLM</para>
+</listitem>
+
+<listitem>
+<para>40dip600 qty at least one IC socket</para>
+<para>Machined pin / Tin Jameco 41136 $1.69 on 2013-01-16 per VLM</para>
 </listitem>
 
 <listitem>
 <para>2-pin shorting plugs for configuration jumpers at least 15 or so</para>
-</listitem>
-
-<listitem>
-<para>A female molex PC 5.25 floppy drive power connector (like off the end of a broken PC power supply cable)</para>
-<para>I remove the yellow +12 volt wire from the connector as the SBC v2 does not use 12 volts</para>
-<para>If you plan to run your board off an existing, working ECB backplane board, you do not need a socket on the SBCv2 or a separate power cable for the SBCv2</para>
+<para>Jameco 112432 $0.12 on 2013-01-27 per VLM</para>
 </listitem>
 
 <listitem>
 <para>5x2 IDC female crimp on connector, a length of 10 conductor ribbor cable, a rs232 cable with a DB-9 connector</para>
 <para>If this is your first N8VEM ECB project you probably need to build a compatible RS-232 cable to connect to a PC acting as a terminal</para>
-</listitem>
-
-<listitem>
-<para>A 32 pin ZIF socket for the eprom, and several 32 pin machined sockets or some other way to mount the ZIF above the level of conflicting devices on the board</para>
 </listitem>
 
 </itemizedlist>
@@ -339,9 +409,36 @@ JP3 dilithium crystal holder
 Very few (no?) boards in the project accept any power source other than pure, filtered positive 5 volts
 </para></caution>
 
-<para>A serial cable.</para>
+<para>
+A serial cable.
+VLM bought a 3 foot 9pin serial cable from Jameco part number 189333 for $3.25 on 2013-01-16, chopped the end off to connect to a PC.
+Also purchased a 5x2 female IDC connector from Jameco part number 742215 for $1.09 on 2013-01-27 to connect to the SBCv2.
+In between goes a length of 10 conductor ribbon cable, Jameco part number 639672 for $4.49 on 2013-01-27.
+</para>
 
-<para>A ECB backplane can provide power to the SBCv2.</para>
+<para>
+A ECB backplane can provide power to the SBCv2.
+If you plan to run your board off an existing, working ECB backplane board, you do not need to install a molex power socket on the SBCv2 or attach a separate power cable to the SBCv2, just plug it into a working backplane.
+</para>
+
+<para>
+VLM uses a Jameco 175662 for $22.95 as of 2013-01-18 5 amp 5 volt switching power supply to turn 12 volt house power into 5 volts.
+You also need a female 4 pin molex plug off a burned out PC power supply to connect to the onboard connector.
+Also two #4 wood screws to mount it, some heat shrink tubing to protect the connections, and some crimp on screw terminals will complete the power supply.
+On the input of the 12 volt supply VLM uses powerpole connectors, a fuse might be a good idea too.
+</para>
+
+<para>
+If you use a different source of 5 volt power, VLM suggests modifying the molex connector.
+Obtain a female molex PC 5.25 floppy drive power connector, perhaps cut off the end of a broken PC power supply cable.
+Remove the yellow +12 volt wire from the connector as the SBC v2 does not use 12 volts and this slightly reduces the risk of a wiring accident and also makes it a little lower insertion force..
+</para>
+
+<para>
+A ZIF socket for the eprom can be mounted, but it will make the SBCv2 take up two backplane slots, which may or may not matter.
+The components required are a Jameco 104012 32 pin ZIF $9.95 as of 2013-02-17 and two machined 32 pin sockets used as spacers, Jameco 105381 $1.35 each as of 2013-02-17.
+Stick one machined pin socket onto the zif, then stack another machined pin socket on making a stack of 3 sockets, then stick the whole works into the board, hpefully the board was assembled with machined sockets so that the weight of the ZIF won't pull the stack out of the PCB soldered socket.
+</para>
 
 <para>Some kind of battery backup for the ramdisk.</para>
 

@@ -60,11 +60,6 @@ A good analogy is there is a physical walkthru at the start of the construction 
 <title>Bill of Materials</title>
 </info>
 
-<para>
-Typical format:
-Project part ID, quantity if not one, model name, commentary if any, suppliers listed by supplier, item number, approx qty 1 cost, supplier comment
-</para>
-
 <warning>
 <para>
 No one in any way connected to the project or this manual formally endorses any of the suppliers listed below! Caveat Emptor!
@@ -75,6 +70,8 @@ No one in any way connected to the project or this manual formally endorses any 
 
 <listitem>
 <para>C1,C2,C3,C4,C5,C6,C7,C8,C9,C10,C11,C12,C13,C14 qty 14 0.1 uF capacitor</para>
+<para>Jameco 25523 will not fit the PCB outline exactly, but the leads can be bent to fit $0.08 on 2013-01-16 per VLM</para>
+<para>Mouser 80-C323C104K5R appears to be a perfect fit to the board outline $0.15</para>
 </listitem>
 
 <listitem>
@@ -83,10 +80,13 @@ No one in any way connected to the project or this manual formally endorses any 
 
 <listitem>
 <para>JP1 2x1 pin array</para>
+<para>Jameco 108338 $0.29 on 2013-01-16 per VLM</para>
+<para>Mouser 649-78229-102HLF $0.18 on 2013-02-26 per VLM</para>
 </listitem>
-      
+
 <listitem>
-<para>P2 POWER bornier4 aka a "molex 5.25 floppy disk power PCB flush mount socket"</para>
+<para>P2 POWER molex 5.25 floppy disk drive power male PCB flush mount socket</para>
+<para>Jameco 109146 $0.85 on 2013-01-16 per VLM</para>
 </listitem>
   
 <listitem>
@@ -96,15 +96,20 @@ No one in any way connected to the project or this manual formally endorses any 
 
 <listitem>
 <para>SW1 POWER SW_SPDT</para>
+<para>Jameco 26332 will not fit the PCB outline exactly, but can be made to work.
+Can be "surface mount soldered" with the switch hanging off the side of the board with good results.
+$1.99 on 2013-01-16 per VLM</para>
 </listitem>
      
 <listitem>
 <para>U0,U1,U2,U3,U4,U5,U6,U7 qty 8 C96ABC C96ABCFD</para>
 <para>Note pins have to be longer to fit this thick backplane board</para>
+<para>Jameco 851500 (A non-stocked item, will delay delivery) $4.59 on 2013-01-16 per VLM</para>
 </listitem>
 
 <listitem>
 <para>One optional 2-pin shorting plug for configuration jumper JP1</para>
+<para>Jameco 112432 $0.12 on 2013-01-27 per VLM</para>
 </listitem>
 
 </itemizedlist>
@@ -188,6 +193,13 @@ Some examples of accessories are homemade cables, floppy drives, chassis.
 <caution><para>
 Very few (no?) boards in the project accept any power source other than pure, filtered positive 5 volts
 </para></caution>
+
+<para>
+VLM uses a Jameco 175662 for $22.95 as of 2013-01-18 5 amp 5 volt switching power supply to turn 12 volt house power into 5 volts.
+You also need a female 4 pin molex plug off a burned out PC power supply to connect to the onboard connector.
+Also two #4 wood screws to mount it, some heat shrink tubing to protect the connections, and some crimp on screw terminals will complete the power supply.
+On the input of the 12 volt supply VLM uses powerpole connectors, a fuse might be a good idea too.
+</para>
 
 </chapter>
 

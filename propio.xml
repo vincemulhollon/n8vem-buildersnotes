@@ -70,35 +70,46 @@ No one in any way connected to the project or this manual formally endorses any 
 <itemizedlist mark='opencircle'>
 
 <listitem>
-<para>C0 22 uF electrolytic capacitor</para>
-</listitem> 
+<para>C11 0.01 uF capacitor</para>
+</listitem>
+
+<listitem>
+<para>C3,C5,C6,C7,C8,C9,C10,C12,C14,C15 qty 10 0.1 uF capacitor</para>
+<para>Jameco 25523 will not fit the PCB outline exactly, but the leads can be bent to fit $0.08 on 2013-01-16 per VLM</para>
+<para>Mouser 80-C323C104K5R appears to be a perfect fit to the board outline $0.15</para>
+</listitem>
 
 <listitem>
 <para>C1,C2,C4,C13 qty 4 10 uF electrolytic capacitor</para>
 </listitem>
 
 <listitem>
-<para>C3,C5,C6,C7,C8,C9,C10,C12,C14,C15 qty  0.1 uF capacitor</para>
+<para>C0 22 uF electrolytic capacitor</para>
+<para>Jameco 1946316 $0.09 on 2013-01-18 per VLM</para>
 </listitem>
 
 <listitem>
-<para>C11 0.01 uF capacitor</para>
-</listitem>
-
-<listitem>
-<para>JP1,JP2, JP3, JP4 qty 4 2x1 pin array</para>
+<para>JP1,JP2,JP3,JP4 qty 4 2x1 pin array</para>
+<para>Jameco 108338 $0.29 on 2013-01-16 per VLM</para>
+<para>Mouser 649-78229-102HLF $0.18 on 2013-02-26 per VLM</para>
 </listitem>
 
 <listitem>
 <para>K1,K2,K3,K4,K5 qty 5 3x1 pin array</para>
+<para>Jameco 109576 $0.29 on 2013-01-16 per VLM</para>
+<para>Mouser 649-69190-103HLF $0.12 on 2013-02-26 per VLM</para>
+<para>Mouser 649-78229-103HLF $0.20 on 2013-02-26 per VLM</para>
 </listitem>
 
 <listitem>
 <para>P3,P5 5x2 pin array for serial port prop interface and address selection</para>
+<para>Unshrouded for addr selection Jameco 67821 $0.39 on 2013-01-27 per VLM</para>
+<para>Shrouded for serial port Jameco 67812 $0.59 on 2013-02-26 per VLM</para>
 </listitem>
 
 <listitem>
 <para>P12 4x1 pin array for Prop Plug</para>
+<para>Jameco 117560 $0.35 on 2013-01-27 per VLM</para>
 </listitem>
 
 <listitem>
@@ -111,10 +122,12 @@ No one in any way connected to the project or this manual formally endorses any 
     
 <listitem>
 <para>Q1,Q3 qty 2 2N3904 bipolar transistor</para>
+<para>Jameco 178597 $0.035 on 2013-01-18 per VLM</para>
 </listitem>
 
 <listitem>
 <para>Q2 2N3906 bipolar transistor</para>
+<para>Jameco 178618 $0.035 on 2013-01-18 per VLM</para>
 </listitem>
 
 <listitem>
@@ -131,6 +144,7 @@ No one in any way connected to the project or this manual formally endorses any 
 
 <listitem>
 <para>R1,R2,R3,R4,R5,R6,R7,R8,R11,R12,R13,R14,R15,R32,R34,R35,R38 qty 17 1K resistor</para>
+<para>Jameco 690865 $0.04 on 2013-01-27 per VLM</para>
 </listitem>
 
 <listitem>
@@ -143,18 +157,28 @@ No one in any way connected to the project or this manual formally endorses any 
 
 <listitem>
 <para>RR1 10K bussed resistor network</para>
+<para>Jameco 24643 $0.29 on 2013-01-27 per VLM</para>
 </listitem>
 
 <listitem>
 <para>U0 C96ABC C96ABCMC</para>
+<para>Jameco 859561 (A non-stocked item, will delay delivery) $4.35 on 2013-01-16 per VLM</para>
+<para>Mouser 617-09-03-396-6921</para>
+<para>Jameco 859430</para>
 </listitem>
 
 <listitem>
 <para>U2 74LS32 14dip300</para>
+<para>LS family Digikey 296-1658-5-ND $0.62 on 2013-01-18 per VLM</para>
+<para>LS family Jameco 47466 $0.45 on 2013-01-27 per VLM</para>
+<para>F family Jameco 287048 $0.45 on 2013-02-26 per VLM</para>
+<para>ALS family Mouser 595-SN74ALS32N</para>
+<para>ALS family Digikey 296-1495-5-ND $0.95 on 2013-02-09 per VLM</para>
 </listitem>
 
 <listitem>
 <para>U3,U8 qty 2 P8X32A-D40 Propeller microcontroller 40dip600</para>
+<para>Jameco 2007134 $12.95 on 2013-01-27 per VLM</para>
 </listitem>
 
 <listitem>
@@ -164,27 +188,38 @@ No one in any way connected to the project or this manual formally endorses any 
 
 <listitem>
 <para>U5,U13 qty 2 24C512  8dip300</para>
+<para>Jameco 276832 $1.95 on 2013-01-27 per VLM</para>
 </listitem>
 
 <listitem>
 <para>U6 LM3940 Low dropout 3.3 volt TO-220 voltage regulator</para>
+<para>Jameco 192524 $1.65 on 2013-01-27 per VLM</para>
 </listitem>
 
 <listitem>
-<para>U7 74LS06N 14dip300</para>
+<para>U7 74LS06 14dip300</para>
+<para>LS family Digikey 296-15069-5-ND $0.92 on 2013-02-09 per VLM</para>
+<para>LS family Jameco 46359 $0.89 on 2013-01-27 per VLM</para>
+<para>ALS family Digikey 296-1484-5-ND $0.86 on 2013-02-09 per VLM</para>
 </listitem>
 
 <listitem>
 <para>U9 74LS682 20dip300</para>
+<para>LS family Jameco 309260 $1.75 on 2013-01-27 per VLM</para>
 </listitem>
 
 <listitem>
 <para>U10,U12 qty 2 74LS241 20dip300</para>
+<para>LS family Jameco 47167 $0.75 on 2013-01-27 per VLM</para>
+<para>ALS family Digikey 296-33724-5-ND $1.30 on 2013-02-09 per VLM</para>
 </listitem>
 
 <listitem>
 <para>U11 74LS245N 20dip300</para>
-<para>Digikey part number 296-1655-5-ND $0.92 on 2013-02-02 per VLM This is LS family</para>
+<para>LS family Digikey 296-1655-5-ND $0.92 on 2013-02-02 per VLM</para>
+<para>LS family Jameco 47212 $0.65 on 2013-01-27 per VLM</para>
+<para>ALS family Digikey 296-1492-5-ND $1.22 on 2013-02-09 per VLM</para>
+<para>F family Jameco 287144 $0.39 on 2013-02-26 per VLM (closeout)</para>
 </listitem>
 
 <listitem>
@@ -198,7 +233,13 @@ No one in any way connected to the project or this manual formally endorses any 
 </listitem>
 
 <listitem>
-<para>X2,X3 qty 2 CRYSTAL HC-18UV</para>
+<para>X2,X3 qty 2 5 MHz crystal HC-18UV</para>
+<para>Jameco 324929 $0.59 on 2013-01-27 per VLM</para>
+</listitem>
+
+<listitem>
+<para>8dip300 qty at least one IC socket</para>
+<para>Machined pin / Tin Jameco 51626 $0.49 on 2013-01-16 per VLM</para>
 </listitem>
 
 <listitem>
@@ -207,7 +248,23 @@ No one in any way connected to the project or this manual formally endorses any 
 <para>Gold plate is less mechanically durable than tin, more corrosion resistant than the IC pins, and more expensive</para>
 <para>Machined pins grip the pins more tightly, which is either considered a blessing or a curse, and cost more than folded sockets</para>
 <para>The board aesthetically looks better if you use identical type sockets on the board, unless you're intentionally trying to highlight an area of the board.</para>
-<para>Digikey part number AE10012-ND $0.79 on 2013-02-02 per VLM This is machined pin/tin</para>
+<para>Machined pin / Tin Digikey AE10012-ND $0.79 on 2013-02-02 per VLM</para>
+<para>Machined pin / Tin Jameco 37197 $0.55 on 2013-01-16 per VLM</para>
+</listitem>
+
+<listitem>
+<para>16dip300 qty at least one IC socket</para>
+<para>Machined pin / Tin Jameco 37402 $0.59 on 2013-01-16 per VLM</para>
+</listitem>
+
+<listitem>
+<para>20dip300 qty at least one IC socket</para>
+<para>Machined pin / Tin Jameco 38623 $0.69 on 2013-01-16 per VLM</para>
+</listitem>
+
+<listitem>
+<para>40dip600 qty at least one IC socket</para>
+<para>Machined pin / Tin Jameco 41136 $1.69 on 2013-01-16 per VLM</para>
 </listitem>
 
 </itemizedlist>
