@@ -122,40 +122,40 @@ No one in any way connected to the project or this manual formally endorses any 
 </listitem>
 
 <listitem>
-<para>R5,R12 qty 2 100 resistor</para>
+<para>R5,R12 qty 2 100 ohm resistor</para>
 </listitem>
 
 <listitem>
-<para>R2,R15 qty 2 470 resistor</para>
+<para>R2,R15 qty 2 470 ohm resistor</para>
 </listitem>
 
 <listitem>
-<para>R1,R6,R7,R8,R9,R10,R14,R19,R20 qty 9 1000 ohm resistor</para>
+<para>R1,R6,R7,R8,R9,R10,R14,R19,R20 qty 9 1K ohm resistor</para>
 <para>Jameco 690865 $0.04 on 2013-01-27 per VLM</para>
 </listitem>
 
 <listitem>
-<para>R17,R18,R27 qty 3 4700 resistor</para>
+<para>R17,R18,R27 qty 3 4.7K ohm resistor</para>
 </listitem>
 
 <listitem>
-<para>R4,R11,R13,R25,R26,R28 10K resistor</para>
+<para>R4,R11,R13,R25,R26,R28 10K ohm resistor</para>
 </listitem>
 
 <listitem>
-<para>R16,R21,R22 33K resistor</para>
+<para>R16,R21,R22 33K ohm resistor</para>
 </listitem>
 
 <listitem>
-<para>R3 100K resistor</para>
-</listitem>
-
-<listitem>
-<para>D1,D4 qty 2 LED</para>
+<para>R3 100K ohm resistor</para>
 </listitem>
 
 <listitem>
 <para>D2,D3,D5,D6 qty 4 DIODE</para>
+</listitem>
+
+<listitem>
+<para>D1,D4 qty 2 LED</para>
 </listitem>
 
 <listitem>
@@ -166,6 +166,28 @@ No one in any way connected to the project or this manual formally endorses any 
 <listitem>
 <para>Q5 2N3906 TO92 transistor</para>
 <para>Jameco 178618 $0.035 on 2013-01-18 per VLM</para>
+</listitem>
+
+<listitem>
+<para>U10 74LS00 14dip300</para>
+</listitem>
+
+<listitem>
+<para>U1 74LS74 14dip300</para>
+</listitem>
+
+<listitem>
+<para>U3 74LS107 14dip300</para>
+</listitem>
+
+<listitem>
+<para>U8,U11 qty 2 74LS123 16dip300</para>
+</listitem>
+
+<listitem>
+<para>U2,U4 qty 2 74LS241 20dip300</para>
+<para>LS family Jameco 47167 $0.75 on 2013-01-27 per VLM</para>
+<para>ALS family Digikey 296-33724-5-ND $1.30 on 2013-02-09 per VLM</para>
 </listitem>
 
 <listitem>
@@ -182,21 +204,8 @@ No one in any way connected to the project or this manual formally endorses any 
 </listitem>
 
 <listitem>
-<para>U1 74LS74 14dip300</para>
-</listitem>
-
-<listitem>
-<para>U2 74LS241 20dip300</para>
-<para>LS family Jameco 47167 $0.75 on 2013-01-27 per VLM</para>
-<para>ALS family Digikey 296-33724-5-ND $1.30 on 2013-02-09 per VLM</para>
-</listitem>
-
-<listitem>
-<para>U3 74LS107 14dip300</para>
-</listitem>
-
-<listitem>
-<para>U4 74LS241 20dip300</para>
+<para>U6 MAX232 16dip300</para>
+<para>Digikey MAX232CPE+-ND $3.67 on 2013-02-09 per VLM</para>
 </listitem>
 
 <listitem>
@@ -205,24 +214,7 @@ No one in any way connected to the project or this manual formally endorses any 
 </listitem>
 
 <listitem>
-<para>U6 MAX232 16dip300</para>
-<para>Digikey MAX232CPE+-ND $3.67 on 2013-02-09 per VLM</para>
-</listitem>
-
-<listitem>
-<para>U8 74LS123 16dip300</para>
-</listitem>
-
-<listitem>
 <para>U9 LM741 8dip300</para>
-</listitem>
-
-<listitem>
-<para>U10 74LS00 14dip300</para>
-</listitem>
-
-<listitem>
-<para>U11 74LS123 16dip300</para>
 </listitem>
 
 <listitem>

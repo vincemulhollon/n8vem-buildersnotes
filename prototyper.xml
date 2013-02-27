@@ -70,13 +70,6 @@ No one in any way connected to the project or this manual formally endorses any 
 <itemizedlist mark='opencircle'>
 
 <listitem>
-<para>U0 DIN C96ABC right angle C96ABCMC Connector DIN 41612</para>
-<para>Jameco 859561 (A non-stocked item, will delay delivery) $4.35 on 2013-01-16 per VLM</para>
-<para>Mouser 617-09-03-396-6921</para>
-<para>Jameco 859430</para>
-</listitem>
-
-<listitem>
 <para>P13,P14 qty 2 10x2 pin array</para>
 </listitem>
 
@@ -86,10 +79,19 @@ No one in any way connected to the project or this manual formally endorses any 
 
 <listitem>
 <para>P11 20x2 female pin header</para>
+<para>This combines with P12 to form a psuedo-37x2 connector</para>
 </listitem>
 
 <listitem>
 <para>P12 17x2 female pin header</para>
+<para>This combines with P11 to form a psuedo-37x2 connector</para>
+</listitem>
+
+<listitem>
+<para>U0 DIN C96ABC right angle C96ABCMC Connector DIN 41612</para>
+<para>Jameco 859561 (A non-stocked item, will delay delivery) $4.35 on 2013-01-16 per VLM</para>
+<para>Mouser 617-09-03-396-6921</para>
+<para>Jameco 859430</para>
 </listitem>
 
 <listitem>

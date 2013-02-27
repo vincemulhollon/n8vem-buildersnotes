@@ -69,8 +69,10 @@ No one in any way connected to the project or this manual formally endorses any 
 <itemizedlist mark='opencircle'>
 
 <listitem>
-<para>SW1,2,1_2,3_4 qty 4 8 pos DIP Switch Single Pole Single Throw</para>
-<para>Jameco 38842 $0.79 on 2013-01-18 per VLM</para>
+<para>96 pin ECB connector</para>
+<para>Jameco 859561 (A non-stocked item, will delay delivery) $4.35 on 2013-01-16 per VLM</para>
+<para>Mouser 617-09-03-396-6921</para>
+<para>Jameco 859430</para>
 </listitem>
 
 <listitem>
@@ -79,10 +81,8 @@ No one in any way connected to the project or this manual formally endorses any 
 </listitem>
 
 <listitem>
-<para>BAR1,BAR2,BAR3,BAR4,BAR5 qty 5 ten pos LED bar</para>
-<para>Yellow Jameco 334537 $1.19 on 2013-01-18 per VLM</para>
-<para>Red Jameco 334529 $1.39 on 2013-01-18 per VLM</para>
-<para>Green Jameco 334511 $1.19 on 2013-01-18 per VLM</para>
+<para>SW1,2,1_2,3_4 qty 4 8 pos DIP Switch Single Pole Single Throw</para>
+<para>Jameco 38842 $0.79 on 2013-01-18 per VLM</para>
 </listitem>
 
 <listitem>
@@ -96,7 +96,7 @@ No one in any way connected to the project or this manual formally endorses any 
 </listitem>
         
 <listitem>
-<para>C11 thru C30 inclusive qty 19 0.1 uF capacitor</para>
+<para>C11,C12,C13,C14,C15,C16,C17,C18,C19,C20,C21,C22,C23,C24,C25,C26,C27,C28,C29,C30 inclusive qty 19 0.1 uF capacitor</para>
 <para>Jameco 25523 will not fit the PCB outline exactly, but the leads can be bent to fit $0.08 on 2013-01-16 per VLM</para>
 <para>Mouser 80-C323C104K5R appears to be a perfect fit to the board outline $0.15</para>
 </listitem>
@@ -107,42 +107,37 @@ No one in any way connected to the project or this manual formally endorses any 
 </listitem>
 
 <listitem>
-<para>D1 1N270 germanium diode</para>
-<para>Jameco 35941 $0.99 on 2013-01-18 per VLM</para>
-</listitem>
-
-<listitem>
-<para>R10,R11,R12,R13,R14,R15,R16 qty 7 270 resistor</para>
+<para>R10,R11,R12,R13,R14,R15,R16 qty 7 270 ohm resistor</para>
 <para>Jameco 690726 0.04 on 2013-01-18 per VLM</para>
 </listitem>
 
 <listitem>
-<para>R2 330 resistor</para>
+<para>R2 330 ohm resistor</para>
 <para>Jameco 690742 $0.02 at 100 minimum order</para>  
 </listitem>
 
 <listitem>
-<para>R8 4700 resistor</para>
+<para>R8 4.7K ohm resistor</para>
 <para>Jameco 691024 $0.02 at 100 minimum order</para>   
 </listitem>
  
 <listitem>
-<para>R1,3 10K resistor</para>
+<para>R1,R3 10K ohm resistor</para>
 <para>Jameco 691104 0.02 at 100 minimum order</para>                           
 </listitem>
 
 <listitem>
-<para>R4,R5,R6,R7,R9 qty 5 27K resistor</para>
+<para>R4,R5,R6,R7,R9 qty 5 27K ohm resistor</para>
 <para>Jameco 691201 $0.02 at 100 minimum order</para>                          
 </listitem>
 
 <listitem>
-<para>RR1,RR2,RR3,RR4,RR8 qty 5 270 x 8 resistors in a 9 pin SIP bussed resistor network</para>
+<para>RR1,RR2,RR3,RR4,RR8 qty 5 270 ohm x 8 resistors in a 9 pin SIP bussed resistor network</para>
 <para>Digikey 4310R-1-271LF-ND $0.65 on 2013-01-18 per VLM Note this is a 9/10 network and it fits on the board if pin 10 is snipped off</para>
 </listitem>
 
 <listitem>
-<para>RR5 4.7K x 8 resistors in a 9 pin SIP bussed resistor network</para>
+<para>RR5 4.7K ohm x 8 resistors in a 9 pin SIP bussed resistor network</para>
 <para>Digikey 4610X-1-472LF-ND $0.29 on 2013-01-18 per VLM Note this is a 9/10 network and it fits on the board if pin 10 is snipped off</para>
 </listitem>
 
@@ -152,9 +147,21 @@ No one in any way connected to the project or this manual formally endorses any 
 </listitem>
 
 <listitem>
-<para>RR9 2.2K x 8 resistors in a 9 pin SIP bussed resistor network</para>
+<para>RR9 2.2K ohm x 8 resistors in a 9 pin SIP bussed resistor network</para>
 <para>Note that only the first 6 resistors are used, and there is space on the PCB to the "right" so any network from 6/7 up to 9/10 will work</para>
 <para>Digikey 4610X-1-222LF-ND $0.26 on 2013-01-18 per VLM Note this is a 9/10 network and it fits on the board if pin 10 is snipped off</para>
+</listitem>
+
+<listitem>
+<para>D1 1N270 germanium diode</para>
+<para>Jameco 35941 $0.99 on 2013-01-18 per VLM</para>
+</listitem>
+
+<listitem>
+<para>BAR1,BAR2,BAR3,BAR4,BAR5 qty 5 ten pos LED bar</para>
+<para>Yellow Jameco 334537 $1.19 on 2013-01-18 per VLM</para>
+<para>Red Jameco 334529 $1.39 on 2013-01-18 per VLM</para>
+<para>Green Jameco 334511 $1.19 on 2013-01-18 per VLM</para>
 </listitem>
 
 <listitem>
@@ -200,11 +207,6 @@ No one in any way connected to the project or this manual formally endorses any 
 </listitem>
 
 <listitem>
-<para>8dip300 qty at least one IC socket</para>
-<para>Machined pin / Tin Jameco 51626 $0.49 on 2013-01-16 per VLM</para>
-</listitem>
-
-<listitem>
 <para>14dip300 qty at least one IC socket</para>
 <para>Socket pin type selection is a hotly contested personal choice.</para>
 <para>Gold plate is less mechanically durable than tin, more corrosion resistant than the IC pins, and more expensive</para>
@@ -223,13 +225,6 @@ No one in any way connected to the project or this manual formally endorses any 
 <listitem>
 <para>20dip300 qty at least one IC socket</para>
 <para>Machined pin / Tin Jameco 38623 $0.69 on 2013-01-16 per VLM</para>
-</listitem>
-
-<listitem>
-<para>96 pin ECB connector</para>
-<para>Jameco 859561 (A non-stocked item, will delay delivery) $4.35 on 2013-01-16 per VLM</para>
-<para>Mouser 617-09-03-396-6921</para>
-<para>Jameco 859430</para>
 </listitem>
 
 </itemizedlist>

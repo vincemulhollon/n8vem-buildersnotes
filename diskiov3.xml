@@ -70,18 +70,10 @@ No one in any way connected to the project or this manual formally endorses any 
 <itemizedlist mark='opencircle'>
 
 <listitem>
-<para>C1-C16 qty 16 ceramic disk capacitor 0.1 uF 5.08mm lead spacing</para>
-<para>Jameco 25523 will not fit the PCB outline exactly, but the leads can be bent to fit $0.08 on 2013-01-16 per VLM</para>
-<para>Mouser 80-C323C104K5R appears to be a perfect fit to the board outline $0.15</para>
-</listitem>
-
-<listitem>
-<para>C17,C18 qty 2 22 uF 50 V electrolytic</para>
-<para>Jameco 1946316 $0.09 on 2013-01-18 per VLM</para>
-</listitem>
-
-<listitem>
-<para>D1 5 mm LED indicator</para>
+<para>JP8,P5 qty 2 2x1 pin array</para>
+<para>Digikey 3M9447-ND $0.16 on 2013-01-18 per VLM</para>
+<para>Jameco 108338 $0.29 on 2013-01-16 per VLM</para>
+<para>Mouser 649-78229-102HLF $0.18 on 2013-02-26 per VLM</para>
 </listitem>
 
 <listitem>
@@ -89,6 +81,14 @@ No one in any way connected to the project or this manual formally endorses any 
 <para>Jameco 109576 $0.29 on 2013-01-16 per VLM</para>
 <para>Mouser 649-69190-103HLF $0.12 on 2013-02-26 per VLM</para>
 <para>Mouser 649-78229-103HLF $0.20 on 2013-02-26 per VLM</para>
+</listitem>
+
+<listitem>
+<para>JP4 2x2 pin array</para>
+</listitem>
+
+<listitem>
+<para>JP7 5x1 pin array</para>
 </listitem>
 
 <listitem>
@@ -102,28 +102,6 @@ No one in any way connected to the project or this manual formally endorses any 
 <para>Unshrouded Jameco 2120292 $0.49 on 2013-01-27 per VLM</para>
 <para>Mouser 649-68602-126HLF</para>
 <para>Mouser 649-77313-824-26LF</para>
-</listitem>
-
-<listitem>
-<para>JP4 2x2 pin array</para>
-</listitem>
-
-<listitem>
-<para>JP7 5x1 pin array</para>	 
-</listitem>
-
-<listitem>
-<para>JP8,P5 qty 2 2x1 pin array</para>
-<para>Digikey 3M9447-ND $0.16 on 2013-01-18 per VLM</para>
-<para>Jameco 108338 $0.29 on 2013-01-16 per VLM</para>
-<para>Mouser 649-78229-102HLF $0.18 on 2013-02-26 per VLM</para>
-</listitem>
-
-<listitem>
-<para>P1 ECB connector DIN 41612 right angle</para>
-<para>Mouser 617-09-03-396-6921</para>
-<para>Jameco 859430</para>
-<para>Jameco 859561 (A non-stocked item, will delay delivery) $4.35 on 2013-01-16 per VLM</para>
 </listitem>
 
 <listitem>
@@ -144,9 +122,29 @@ No one in any way connected to the project or this manual formally endorses any 
 </listitem>
 
 <listitem>
-<para>R1-R4 qty 4 10 kOhm, 1/4 W</para>
-<para>Jameco 691104</para>
-<para>Mouser 291-10K-RC</para>
+<para>P1 ECB connector DIN 41612 right angle</para>
+<para>Mouser 617-09-03-396-6921</para>
+<para>Jameco 859430</para>
+<para>Jameco 859561 (A non-stocked item, will delay delivery) $4.35 on 2013-01-16 per VLM</para>
+</listitem>
+
+<listitem>
+<para>C1-C16 qty 16 ceramic disk capacitor 0.1 uF 5.08mm lead spacing</para>
+<para>Jameco 25523 will not fit the PCB outline exactly, but the leads can be bent to fit $0.08 on 2013-01-16 per VLM</para>
+<para>Mouser 80-C323C104K5R appears to be a perfect fit to the board outline $0.15</para>
+</listitem>
+
+<listitem>
+<para>C17,C18 qty 2 22 uF 50 V electrolytic</para>
+<para>Jameco 1946316 $0.09 on 2013-01-18 per VLM</para>
+</listitem>
+
+<listitem>
+<para>D1 5 mm LED indicator</para>
+</listitem>
+
+<listitem>
+<para>R7 0 Ohm, a wire jumper</para>
 </listitem>
 
 <listitem>
@@ -156,7 +154,9 @@ No one in any way connected to the project or this manual formally endorses any 
 </listitem>
 
 <listitem>
-<para>R7 0 Ohm, a wire jumper</para>
+<para>R1,R2,R3,R4 qty 4 10 kOhm, 1/4 W</para>
+<para>Jameco 691104</para>
+<para>Mouser 291-10K-RC</para>
 </listitem>
 
 <listitem>
@@ -170,23 +170,96 @@ No one in any way connected to the project or this manual formally endorses any 
 </listitem>
 
 <listitem>
-<para>U1 FDC9266 FDC</para>
-<para>Order from Sergey</para>
-<para>Utsource</para>
-<para>eBay</para>
+<para>U14,U15 qty 2 74LS06</para>
+<para>LS family Jameco 46359 $0.89 on 2013-01-27 per VLM</para>
+<para>LS family Mouser 595-SN74LS06N</para>
+<para>ALS family Digikey 296-1484-5-ND $0.86 on 2013-02-09 per VLM</para>
+<para>LS family Digikey 296-15069-5-ND $0.92 on 2013-02-09 per VLM</para>
+<para>Unicorn Electronics</para>
 </listitem>
 
 <listitem>
-<para>U2 8255 PPI</para>
-<para>5 MHz CP82C55A-5 (note, too slow for floppy drive to work)</para>
-<para>8 MHz Digikey CP82C55A-ND aka CP82C55A $7.68 on 2013-02-09 per VLM</para>
-<para>10 MHz TMP82C55AP-10 ebay / utsource</para>
-<para>10 MHz NEC D71055C-10</para>
-<para>Jameco 52417 is a 82C55A for $4.95 on 2013-01-16 per VLM</para>
-<para>Unicorn Electronics (order 82C55)</para>
-<para>Utsource</para>
-<para>eBay</para>
-<para>Ask Sergey</para>
+<para>U12,U13 qty 2 74LS14</para>
+<para>LS family Digikey 296-1643-5-ND $0.67 on 2013-02-09 per VLM</para>
+<para>LS family Mouser 595-SN74LS14N</para>
+<para>AHCT family Mouser 595-SN74AHCT14N</para>
+<para>Unicorn Electronics</para>
+<para>Jameco 46640</para>
+<para>Jameco 295460</para>
+<para>Jameco 44935</para>
+</listitem>
+
+<listitem>
+<para>U11 74LS32</para>
+<para>LS family Digikey 296-1658-5-ND $0.62 on 2013-01-18 per VLM</para>
+<para>LS family Jameco 47466 $0.45 on 2013-01-27 per VLM</para>
+<para>F family Jameco 287048 $0.45 on 2013-02-26 per VLM</para>
+<para>ALS family Mouser 595-SN74ALS32N</para>
+<para>ALS family Digikey 296-1495-5-ND $0.95 on 2013-02-09 per VLM</para>
+<para>Mouser 512-DM74ALS32N</para>
+<para>Mouser 595-SN74LS32N</para>
+<para>Mouser 595-SN74AHCT32N</para>
+<para>Unicorn Electronics</para>
+</listitem>
+
+<listitem>
+<para>U10 74LS125</para>
+<para>ALS family Digikey 296-1638-5-ND $0.86 on 2013-02-09 per VLM</para>
+<para>LS family Mouser 595-SN74LS125AN</para>
+<para>AHCT family Mouser 595-SN74AHCT125N</para>
+<para>Unicorn Electronics</para>
+<para>Jameco 46501</para>
+</listitem>
+
+<listitem>
+<para>U9 74LS138</para>
+<para>ALS family Digikey 296-1485-5-ND $1.01 on 2013-02-26 per VLM</para>
+<para>Mouser 595-SN74ALS138AN</para>
+<para>Mouser 512-DM74ALS138N</para>
+<para>Mouser 595-SN74LS138N</para>
+<para>Mouser 595-SN74AHCT138N</para>
+<para>Unicorn Electronics</para>
+<para>Jameco 46607</para>
+<para>Jameco 46608</para>
+<para>Jameco 301233</para>
+<para>Jameco 44927</para>
+</listitem>
+
+<listitem>
+<para>U8 74LS139</para>
+<para>LS family Digikey 296-1640-5-ND $0.86 on 2013-02-02 per VLM</para>
+<para>ALS family Digikey 296-1486-5-ND $1.09 on 2013-02-09 per VLM</para>
+<para>ALS family Mouser 595-SN74ALS139N</para>
+<para>LS family Mouser 595-SN74LS139AN</para>
+<para>ACT family Mouser 595-CD74ACT139E</para>
+<para>ACT family Mouser 512-74ACT139PC</para>
+<para>AHCT family Mouser 595-SN74AHCT139N</para>
+<para>Unicorn Electronics</para>
+<para>Jameco 46623</para>
+<para>Jameco 301268</para>
+<para>Jameco 63773</para>
+<para>Jameco 239011</para>
+</listitem>
+
+<listitem>
+<para>U7 74LS240</para>
+<para>ALS family Digikey 296-5041-5-ND $1.30 on 2013-02-26 per VLM</para>
+<para>Mouser 595-SN74ALS240AN</para>
+<para>Mouser 595-SN74LS240N</para>
+<para>Mouser 595-SN74AHCT240N</para>
+<para>Unicorn Electronics</para>
+<para>Jameco 47141</para>
+<para>Jameco 308291</para>
+<para>Jameco 45014</para>
+</listitem>
+
+<listitem>
+<para>U5,U6 qty 2 74LS241</para>
+<para>LS family Jameco 47167 $0.75 on 2013-01-27 per VLM</para>
+<para>Mouser 595-SN74LS241N</para>
+<para>Mouser 595-CD74HCT241EE4</para>
+<para>Mouser 595-CD74HCT241</para>
+<para>ALS family Digikey 296-33724-5-ND $1.30 on 2013-02-09 per VLM</para>
 </listitem>
 
 <listitem>
@@ -214,96 +287,23 @@ No one in any way connected to the project or this manual formally endorses any 
 </listitem>
 
 <listitem>
-<para>U5,U6 qty 2 74LS241</para>
-<para>LS family Jameco 47167 $0.75 on 2013-01-27 per VLM</para>
-<para>Mouser 595-SN74LS241N</para>
-<para>Mouser 595-CD74HCT241EE4</para>
-<para>Mouser 595-CD74HCT241</para>
-<para>ALS family Digikey 296-33724-5-ND $1.30 on 2013-02-09 per VLM</para>
+<para>U1 FDC9266 FDC</para>
+<para>Order from Sergey</para>
+<para>Utsource</para>
+<para>eBay</para>
 </listitem>
 
 <listitem>
-<para>U7 74LS240</para>
-<para>ALS family Digikey 296-5041-5-ND $1.30 on 2013-02-26 per VLM</para>
-<para>Mouser 595-SN74ALS240AN</para>
-<para>Mouser 595-SN74LS240N</para>
-<para>Mouser 595-SN74AHCT240N</para>
-<para>Unicorn Electronics</para>
-<para>Jameco 47141</para>
-<para>Jameco 308291</para>
-<para>Jameco 45014</para>
-</listitem>
-
-<listitem>
-<para>U8 74LS139</para>
-<para>LS family Digikey 296-1640-5-ND $0.86 on 2013-02-02 per VLM</para>
-<para>ALS family Digikey 296-1486-5-ND $1.09 on 2013-02-09 per VLM</para>
-<para>ALS family Mouser 595-SN74ALS139N</para>
-<para>LS family Mouser 595-SN74LS139AN</para>
-<para>ACT family Mouser 595-CD74ACT139E</para>
-<para>ACT family Mouser 512-74ACT139PC</para>
-<para>AHCT family Mouser 595-SN74AHCT139N</para>
-<para>Unicorn Electronics</para>
-<para>Jameco 46623</para>
-<para>Jameco 301268</para>
-<para>Jameco 63773</para>
-<para>Jameco 239011</para>
-</listitem>
-
-<listitem>
-<para>U9 74LS138</para>
-<para>ALS family Digikey 296-1485-5-ND $1.01 on 2013-02-26 per VLM</para>
-<para>Mouser 595-SN74ALS138AN</para>
-<para>Mouser 512-DM74ALS138N</para>
-<para>Mouser 595-SN74LS138N</para>
-<para>Mouser 595-SN74AHCT138N</para>
-<para>Unicorn Electronics</para>
-<para>Jameco 46607</para>
-<para>Jameco 46608</para>
-<para>Jameco 301233</para>
-<para>Jameco 44927</para>
-</listitem>
-
-<listitem>
-<para>U10 74LS125</para>
-<para>ALS family Digikey 296-1638-5-ND $0.86 on 2013-02-09 per VLM</para>
-<para>LS family Mouser 595-SN74LS125AN</para>
-<para>AHCT family Mouser 595-SN74AHCT125N</para>
-<para>Unicorn Electronics</para>
-<para>Jameco 46501</para>
-</listitem>
-
-<listitem>
-<para>U11 74LS32</para>
-<para>LS family Digikey 296-1658-5-ND $0.62 on 2013-01-18 per VLM</para>
-<para>LS family Jameco 47466 $0.45 on 2013-01-27 per VLM</para>
-<para>F family Jameco 287048 $0.45 on 2013-02-26 per VLM</para>
-<para>ALS family Mouser 595-SN74ALS32N</para>
-<para>ALS family Digikey 296-1495-5-ND $0.95 on 2013-02-09 per VLM</para>
-<para>Mouser 512-DM74ALS32N</para>
-<para>Mouser 595-SN74LS32N</para>
-<para>Mouser 595-SN74AHCT32N</para>
-<para>Unicorn Electronics</para>
-</listitem>
-
-<listitem>
-<para>U12,U13 qty 2 74LS14</para>
-<para>LS family Digikey 296-1643-5-ND $0.67 on 2013-02-09 per VLM</para>
-<para>LS family Mouser 595-SN74LS14N</para>
-<para>AHCT family Mouser 595-SN74AHCT14N</para>
-<para>Unicorn Electronics</para>
-<para>Jameco 46640</para>
-<para>Jameco 295460</para>
-<para>Jameco 44935</para>
-</listitem>
-
-<listitem>
-<para>U14,U15 qty 2 74LS06</para>
-<para>LS family Jameco 46359 $0.89 on 2013-01-27 per VLM</para>
-<para>LS family Mouser 595-SN74LS06N</para>
-<para>ALS family Digikey 296-1484-5-ND $0.86 on 2013-02-09 per VLM</para>
-<para>LS family Digikey 296-15069-5-ND $0.92 on 2013-02-09 per VLM</para>
-<para>Unicorn Electronics</para>
+<para>U2 8255 PPI</para>
+<para>5 MHz CP82C55A-5 (note, too slow for floppy drive to work)</para>
+<para>8 MHz Digikey CP82C55A-ND aka CP82C55A $7.68 on 2013-02-09 per VLM</para>
+<para>10 MHz TMP82C55AP-10 ebay / utsource</para>
+<para>10 MHz NEC D71055C-10</para>
+<para>Jameco 52417 is a 82C55A for $4.95 on 2013-01-16 per VLM</para>
+<para>Unicorn Electronics (order 82C55)</para>
+<para>Utsource</para>
+<para>eBay</para>
+<para>Ask Sergey</para>
 </listitem>
 
 <listitem>

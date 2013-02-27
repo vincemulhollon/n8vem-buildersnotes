@@ -70,33 +70,6 @@ No one in any way connected to the project or this manual formally endorses any 
 <itemizedlist mark='opencircle'>
 
 <listitem>
-<para>C0 10 uF capacitor, radial leads, 25V</para>
-<para>Digikey part number P13478-ND $0.30 on 2013-01-18 per VLM</para>
-<para>Jameco 94212</para>
-</listitem>
-
-<listitem>
-<para>C4,C5,C7-C11,C13,C25 qty 9 0.1 uF capacitor</para>
-<para>Jameco 25523 will not fit the PCB outline exactly, but the leads can be bent to fit $0.08 on 2013-01-16 per VLM</para>
-<para>Mouser 80-C323C104K5R appears to be a perfect fit to the board outline $0.15</para>
-</listitem>
-
-<listitem>
-<para>C6, C12, C14 qty 3 0.22 uF</para>
-<para>Jameco  25540</para>
-</listitem>
-
-<listitem>
-<para>C15 10 pF</para>
-<para>Jameco  332312</para>
-</listitem>
-
-<listitem>
-<para>C16-C24 qty 8 2.2 nF</para>
-<para>Jameco 332443</para>
-</listitem>
-
-<listitem>
 <para>JP1 2x1 pin header</para>
 <para>Digikey 3M9447-ND $0.16 on 2013-01-18 per VLM</para>
 <para>Jameco 108338 $0.29 on 2013-01-16 per VLM</para>
@@ -104,44 +77,15 @@ No one in any way connected to the project or this manual formally endorses any 
 </listitem>
 
 <listitem>
-<para>K1 - K5 qty 5 3x1 pin header</para>
+<para>K1,K2,K3,K4,K5 qty 5 3x1 pin header</para>
 <para>Jameco 109576 $0.29 on 2013-01-16 per VLM</para>
 <para>Mouser 649-69190-103HLF $0.12 on 2013-02-26 per VLM</para>
 <para>Mouser 649-78229-103HLF $0.20 on 2013-02-26 per VLM</para>
 </listitem>
 
 <listitem>
-<para>K27 PS/2 Mouse Connector aka mini_din-M_DIN6 aka Circular DIN Connectors 6P R/A FULL SHIELD GOLD PLATED GREEN</para>
-<para>Green color Mouser  806-KMDGX-6S-BS3395C</para>
-<para>Black color Digikey part number A99370-ND $4.37 on 2013-02-02 per VLM</para>
-</listitem>
-
-<listitem>
-<para>K28 PS/2 Keyboard Connector aka mini_din-M_DIN6 aka Circular DIN Connectors 6P R/A FULL SHIELD GOLD PLATED PURPLE</para>
-<para>Purple color Mouser  806-KMDGX-6S-BS2715C</para>
-<para>Black color Digikey part number A99370-ND $4.37 on 2013-02-02 per VLM</para>
-</listitem>
-
-<listitem>
-<para>L1 1 uH - 100 uH</para>
-<para>Mouser  652-RL622-101K-RC</para>
-</listitem>
-
-<listitem>
 <para>P5 4x2 pin header</para>
 <para>Jameco  109517</para>
-</listitem>
-
-<listitem>
-<para>P24 16 MHz oscillator 5V, half can 8dip300</para>
-<para>16.0 MHZ Mouser 520-TCH1600-X</para>
-<para>16.257 MHz Mouser  520-TCH1625-X</para>
-<para>16.257 MHz DigiKey XC248-ND</para>
-</listitem>
-
-<listitem>
-<para>P25 8 MHz oscillator, full can 14dip300</para>
-<para>Mouser  520-TCF800-X</para>
 </listitem>
 
 <listitem>
@@ -170,24 +114,20 @@ No one in any way connected to the project or this manual formally endorses any 
 </listitem>
 
 <listitem>
-<para>R1-R9 qty 9 27 ohm resistor</para>
-<para>Jameco  690486</para>
+<para>K27 PS/2 Mouse Connector aka mini_din-M_DIN6 aka Circular DIN Connectors 6P R/A FULL SHIELD GOLD PLATED GREEN</para>
+<para>Green color Mouser  806-KMDGX-6S-BS3395C</para>
+<para>Black color Digikey part number A99370-ND $4.37 on 2013-02-02 per VLM</para>
 </listitem>
 
 <listitem>
-<para>R21-R23 qty 3 390 ohm resistor</para>
-<para>Jameco  690769</para>
+<para>K28 PS/2 Keyboard Connector aka mini_din-M_DIN6 aka Circular DIN Connectors 6P R/A FULL SHIELD GOLD PLATED PURPLE</para>
+<para>Purple color Mouser  806-KMDGX-6S-BS2715C</para>
+<para>Black color Digikey part number A99370-ND $4.37 on 2013-02-02 per VLM</para>
 </listitem>
 
 <listitem>
-<para>R31-R34 qty 4 820 ohm resistor</para>
-<para>Jameco  690849</para>
-</listitem>
-
-<listitem>
-<para>RR1-RR2 qty 2 4.7K x 8 resistors in a 9 pin SIP bussed resistor network</para>
-<para>Digikey 4610X-1-472LF-ND $0.29 on 2013-01-18 per VLM note this is 9resistors/10pins but Might work anyway</para>
-<para>Mouser  858-L091S472LF</para>
+<para>X1 VGA Connector HD15_B-HD15F Subminiature Connector HD-15 R/A RECPT</para>
+<para>Mouser  571-117345303</para>
 </listitem>
 
 <listitem>
@@ -198,46 +138,66 @@ No one in any way connected to the project or this manual formally endorses any 
 </listitem>
 
 <listitem>
-<para>U1,U33-U35 qty 4 74LS138 16dip300</para>
-<para>ALS family Digikey 296-1485-5-ND $1.01 on 2013-02-26 per VLM</para>
-<para>Mouser  595-SN74ALS138AN</para>
+<para>C15 10 pF</para>
+<para>Jameco  332312</para>
+</listitem>
+
+<listitem>
+<para>C4,C5,C7,C8,C9,C10,C11,C13,C25 qty 9 0.1 uF capacitor</para>
+<para>Jameco 25523 will not fit the PCB outline exactly, but the leads can be bent to fit $0.08 on 2013-01-16 per VLM</para>
+<para>Mouser 80-C323C104K5R appears to be a perfect fit to the board outline $0.15</para>
+</listitem>
+
+<listitem>
+<para>C6,C12,C14 qty 3 0.22 uF</para>
+<para>Jameco  25540</para>
+</listitem>
+
+<listitem>
+<para>C0 10 uF capacitor, radial leads, 25V</para>
+<para>Digikey part number P13478-ND $0.30 on 2013-01-18 per VLM</para>
+<para>Jameco 94212</para>
+</listitem>
+
+<listitem>
+<para>C16,C17,C18,C19,C20,C21,C22,C23,C24 qty 8 2.2 nF</para>
+<para>Jameco 332443</para>
+</listitem>
+
+<listitem>
+<para>L1 1 uH to 100 uH</para>
+<para>Mouser 652-RL622-101K-RC</para>
+</listitem>
+
+<listitem>
+<para>R1,R2,R3,R4,R5,R6,R7,R8,R9 qty 9 27 ohm resistor</para>
+<para>Jameco 690486</para>
+</listitem>
+
+<listitem>
+<para>R21,R22,R23 qty 3 390 ohm resistor</para>
+<para>Jameco 690769</para>
+</listitem>
+
+<listitem>
+<para>R31,R32,R33,R34 qty 4 820 ohm resistor</para>
+<para>Jameco 690849</para>
+</listitem>
+
+<listitem>
+<para>RR1,RR2 qty 2 4.7K x 8 resistors in a 9 pin SIP bussed resistor network</para>
+<para>Digikey 4610X-1-472LF-ND $0.29 on 2013-01-18 per VLM note this is 9resistors/10pins but Might work anyway</para>
+<para>Mouser 858-L091S472LF</para>
+</listitem>
+
+<listitem>
+<para>U90 74LS00 20dip300</para>
+<para>Mouser  595-SN74ALS00AN</para>
 </listitem>
 
 <listitem>
 <para>U2,U21 qty 2 74LS04 4dip300</para>
 <para>Mouser  595-SN74ALS04BN</para>
-</listitem>
-
-<listitem>
-<para>U9 74LS682 20dip300</para>
-<para>LS family Jameco 309260 $1.75 on 2013-01-27 per VLM</para>
-<para>Mouser  595-SN74LS682N</para>
-</listitem>
-
-<listitem>
-<para>U12,U14,U27-U29 qty 5 74LS244 20dip300</para>
-<para>ALS family Digikey 296-1490-5-ND $1.22 on 2013-02-09 per VLM</para>
-<para>ALS family Mouser 595-SN74ALS244CN</para>
-</listitem>
-
-<listitem>
-<para>U13 8563 48dip600 Commodore 128 80 column Vic video chip #8563R9. tested</para>
-<para>eBay</para>
-</listitem>
-
-<listitem>
-<para>U15,U16 qty 2 4416 or 4464 18dip300 Dynamic Ram</para>
-<para>Abra TMS4416-121</para>
-<para>eBay TMS4464-12NL TEXAS INST 18-Pin DIP</para>
-</listitem>
-
-<listitem>
-<para>U17 74LS245 20dip300</para>
-<para>LS family Digikey 296-1655-5-ND $0.92 on 2013-02-02 per VLM</para>
-<para>LS family Jameco 47212 $0.65 on 2013-01-27 per VLM</para>
-<para>ALS family Digikey 296-1492-5-ND $1.22 on 2013-02-09 per VLM</para>
-<para>F family Jameco 287144 $0.39 on 2013-02-26 per VLM (closeout)</para>
-<para>ALS family Mouser  595-SN74ALS245AN</para>
 </listitem>
 
 <listitem>
@@ -249,8 +209,8 @@ No one in any way connected to the project or this manual formally endorses any 
 </listitem>
 
 <listitem>
-<para>U19 8242 40dip600 PS/2 Keyboard Mouse Controller aka VT82C42N</para>
-<para>UTSourceVT82C42N</para>
+<para>U32 74LS08 14dip300</para>
+<para>Mouser  595-SN74ALS08N</para>
 </listitem>
 
 <listitem>
@@ -263,33 +223,63 @@ No one in any way connected to the project or this manual formally endorses any 
 </listitem>
 
 <listitem>
+<para>U1,U33,U34,U35 qty 4 74LS138 16dip300</para>
+<para>ALS family Digikey 296-1485-5-ND $1.01 on 2013-02-26 per VLM</para>
+<para>Mouser  595-SN74ALS138AN</para>
+</listitem>
+
+<listitem>
+<para>U12,U14,U27,U28,U29 qty 5 74LS244 20dip300</para>
+<para>ALS family Digikey 296-1490-5-ND $1.22 on 2013-02-09 per VLM</para>
+<para>ALS family Mouser 595-SN74ALS244CN</para>
+</listitem>
+
+<listitem>
+<para>U17 74LS245 20dip300</para>
+<para>LS family Digikey 296-1655-5-ND $0.92 on 2013-02-02 per VLM</para>
+<para>LS family Jameco 47212 $0.65 on 2013-01-27 per VLM</para>
+<para>ALS family Digikey 296-1492-5-ND $1.22 on 2013-02-09 per VLM</para>
+<para>F family Jameco 287144 $0.39 on 2013-02-26 per VLM (closeout)</para>
+<para>ALS family Mouser  595-SN74ALS245AN</para>
+</listitem>
+
+<listitem>
 <para>U25,U26 qty 2 74LS374 20dip300</para>
 <para>Mouser  595-SN74ALS374AN</para>
 </listitem>
 
 <listitem>
-<para>U32 74LS08 14dip300</para>
-<para>Mouser  595-SN74ALS08N</para>
+<para>U9 74LS682 20dip300</para>
+<para>LS family Jameco 309260 $1.75 on 2013-01-27 per VLM</para>
+<para>Mouser  595-SN74LS682N</para>
 </listitem>
 
 <listitem>
-<para>U90 74LS00 20dip300</para>
-<para>Mouser  595-SN74ALS00AN</para>
+<para>U15,U16 qty 2 4416 or 4464 18dip300 Dynamic Ram</para>
+<para>Abra TMS4416-121</para>
+<para>eBay TMS4464-12NL TEXAS INST 18-Pin DIP</para>
 </listitem>
 
 <listitem>
-<para>X1 VGA Connector HD15_B-HD15F Subminiature Connector HD-15 R/A RECPT</para>
-<para>Mouser  571-117345303</para>
+<para>U19 8242 40dip600 PS/2 Keyboard Mouse Controller aka VT82C42N</para>
+<para>UTSourceVT82C42N</para>
 </listitem>
 
 <listitem>
-<para>8dip300 qty at least one IC socket</para>
-<para>Machined pin / Tin Jameco 51626 $0.49 on 2013-01-16 per VLM</para>
+<para>U13 8563 48dip600 Commodore 128 80 column Vic video chip #8563R9. tested</para>
+<para>eBay</para>
 </listitem>
 
 <listitem>
-<para>Half size oscillator socket qty 2</para>
-<para>Jameco 676385 $0.59 on 2013-01-27 per VLM</para>
+<para>P24 16 MHz oscillator 5V, half can 8dip300</para>
+<para>16.0 MHZ Mouser 520-TCH1600-X</para>
+<para>16.257 MHz Mouser  520-TCH1625-X</para>
+<para>16.257 MHz DigiKey XC248-ND</para>
+</listitem>
+
+<listitem>
+<para>P25 8 MHz oscillator, full can 14dip300</para>
+<para>Mouser  520-TCF800-X</para>
 </listitem>
 
 <listitem>
@@ -494,14 +484,14 @@ JP3 dilithium crystal holder
 <title>Accessories</title>
 </info>
 
-<para>
-Notes regarding accessories.
-Some examples of accessories are homemade cables, floppy drives, chassis.
-</para>
-
 <caution><para>
 Very few (no?) boards in the project accept any power source other than pure, filtered positive 5 volts
 </para></caution>
+
+<para>
+2-pin shorting plugs for configuration jumpers.
+Jameco 112432 $0.12 on 2013-01-27 per VLM.
+</para>
 
 </chapter>
 

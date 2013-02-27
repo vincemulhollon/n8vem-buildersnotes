@@ -69,16 +69,6 @@ No one in any way connected to the project or this manual formally endorses any 
 <itemizedlist mark='opencircle'>
 
 <listitem>
-<para>C1,C2,C3,C4,C5,C6,C7,C8,C9,C10,C11,C12,C13,C14 qty 14 0.1 uF capacitor</para>
-<para>Jameco 25523 will not fit the PCB outline exactly, but the leads can be bent to fit $0.08 on 2013-01-16 per VLM</para>
-<para>Mouser 80-C323C104K5R appears to be a perfect fit to the board outline $0.15</para>
-</listitem>
-
-<listitem>
-<para>D1 LED</para>
-</listitem>
-
-<listitem>
 <para>JP1 2x1 pin array</para>
 <para>Digikey 3M9447-ND $0.16 on 2013-01-18 per VLM</para>
 <para>Jameco 108338 $0.29 on 2013-01-16 per VLM</para>
@@ -89,10 +79,11 @@ No one in any way connected to the project or this manual formally endorses any 
 <para>P2 POWER molex 5.25 floppy disk drive power male PCB flush mount socket</para>
 <para>Jameco 109146 $0.85 on 2013-01-16 per VLM</para>
 </listitem>
-  
+
 <listitem>
-<para>R1 470 resistor</para>
-<para>Depending on your selection for D1 LED, you may need a different value.  R=(5 volts - LED fwd voltage drop)/(LED forward current in amps note its usually spec'd in mA not A)</para>
+<para>U0,U1,U2,U3,U4,U5,U6,U7 qty 8 C96ABC C96ABCFD</para>
+<para>Note pins have to be longer to fit this thick backplane board</para>
+<para>Jameco 851500 (A non-stocked item, will delay delivery) $4.59 on 2013-01-16 per VLM</para>
 </listitem>
 
 <listitem>
@@ -101,16 +92,20 @@ No one in any way connected to the project or this manual formally endorses any 
 Can be "surface mount soldered" with the switch hanging off the side of the board with good results.
 $1.99 on 2013-01-16 per VLM</para>
 </listitem>
-     
+
 <listitem>
-<para>U0,U1,U2,U3,U4,U5,U6,U7 qty 8 C96ABC C96ABCFD</para>
-<para>Note pins have to be longer to fit this thick backplane board</para>
-<para>Jameco 851500 (A non-stocked item, will delay delivery) $4.59 on 2013-01-16 per VLM</para>
+<para>C1,C2,C3,C4,C5,C6,C7,C8,C9,C10,C11,C12,C13,C14 qty 14 0.1 uF capacitor</para>
+<para>Jameco 25523 will not fit the PCB outline exactly, but the leads can be bent to fit $0.08 on 2013-01-16 per VLM</para>
+<para>Mouser 80-C323C104K5R appears to be a perfect fit to the board outline $0.15</para>
 </listitem>
 
 <listitem>
-<para>One optional 2-pin shorting plug for configuration jumper JP1</para>
-<para>Jameco 112432 $0.12 on 2013-01-27 per VLM</para>
+<para>R1 470 ohm resistor</para>
+<para>Depending on your selection for D1 LED, you may need a different value.  R=(5 volts - LED fwd voltage drop)/(LED forward current in amps note its usually spec'd in mA not A)</para>
+</listitem>
+
+<listitem>
+<para>D1 LED</para>
 </listitem>
 
 </itemizedlist>
@@ -186,11 +181,6 @@ JP3 dilithium crystal holder
 <title>Accessories</title>
 </info>
 
-<para>
-Notes regarding accessories.
-Some examples of accessories are homemade cables, floppy drives, chassis.
-</para>
-
 <caution><para>
 Very few (no?) boards in the project accept any power source other than pure, filtered positive 5 volts
 </para></caution>
@@ -200,6 +190,11 @@ VLM uses a Jameco 175662 for $22.95 as of 2013-01-18 5 amp 5 volt switching powe
 You also need a female 4 pin molex plug off a burned out PC power supply to connect to the onboard connector.
 Also two #4 wood screws to mount it, some heat shrink tubing to protect the connections, and some crimp on screw terminals will complete the power supply.
 On the input of the 12 volt supply VLM uses powerpole connectors, a fuse might be a good idea too.
+</para>
+
+<para>
+Configuration jumper JP1 might (or might not) need a 2-pin shorting plug.
+Jameco 112432 $0.12 on 2013-01-27 per VLM.
 </para>
 
 </chapter>

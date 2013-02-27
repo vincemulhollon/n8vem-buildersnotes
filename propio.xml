@@ -70,26 +70,6 @@ No one in any way connected to the project or this manual formally endorses any 
 <itemizedlist mark='opencircle'>
 
 <listitem>
-<para>C11 0.01 uF capacitor</para>
-</listitem>
-
-<listitem>
-<para>C3,C5,C6,C7,C8,C9,C10,C12,C14,C15 qty 10 0.1 uF capacitor</para>
-<para>Jameco 25523 will not fit the PCB outline exactly, but the leads can be bent to fit $0.08 on 2013-01-16 per VLM</para>
-<para>Mouser 80-C323C104K5R appears to be a perfect fit to the board outline $0.15</para>
-</listitem>
-
-<listitem>
-<para>C1,C2,C4,C13 qty 4 10 uF electrolytic capacitor</para>
-<para>Digikey part number P13478-ND $0.30 on 2013-01-18 per VLM</para>
-</listitem>
-
-<listitem>
-<para>C0 22 uF electrolytic capacitor</para>
-<para>Jameco 1946316 $0.09 on 2013-01-18 per VLM</para>
-</listitem>
-
-<listitem>
 <para>JP1,JP2,JP3,JP4 qty 4 2x1 pin array</para>
 <para>Digikey 3M9447-ND $0.16 on 2013-01-18 per VLM</para>
 <para>Jameco 108338 $0.29 on 2013-01-16 per VLM</para>
@@ -121,7 +101,79 @@ No one in any way connected to the project or this manual formally endorses any 
 <listitem>
 <para>P14 13X2 pin array for standard N8VEM parallel interface</para>
 </listitem>
-    
+
+<listitem>
+<para>U4 PS/2_KEYBOARD mini_din-M_DIN6</para>
+<para>Digikey part number A99370-ND $4.37 on 2013-02-02 per VLM</para>
+</listitem>
+
+<listitem>
+<para>U17 MicroSD connector</para>
+<para>Digikey part number 101-00660-68-6-1-ND $1.97 on 2013-02-02 per VLM Although this will work, I guarantee this is almost certainly not the connector you want, because it does not fold up so you need to use SMD techniques to solder it.</para>
+</listitem>
+
+<listitem>
+<para>X1 VGAF HD15_B-HD15F PCB mount VGA connector</para>
+<para>Digikey part number A35116-ND $1.98 on 2013-02-02 per VLM</para>
+</listitem>
+
+<listitem>
+<para>U0 C96ABC C96ABCMC</para>
+<para>Jameco 859561 (A non-stocked item, will delay delivery) $4.35 on 2013-01-16 per VLM</para>
+<para>Mouser 617-09-03-396-6921</para>
+<para>Jameco 859430</para>
+</listitem>
+
+<listitem>
+<para>C11 0.01 uF capacitor</para>
+</listitem>
+
+<listitem>
+<para>C3,C5,C6,C7,C8,C9,C10,C12,C14,C15 qty 10 0.1 uF capacitor</para>
+<para>Jameco 25523 will not fit the PCB outline exactly, but the leads can be bent to fit $0.08 on 2013-01-16 per VLM</para>
+<para>Mouser 80-C323C104K5R appears to be a perfect fit to the board outline $0.15</para>
+</listitem>
+
+<listitem>
+<para>C1,C2,C4,C13 qty 4 10 uF electrolytic capacitor</para>
+<para>Digikey part number P13478-ND $0.30 on 2013-01-18 per VLM</para>
+</listitem>
+
+<listitem>
+<para>C0 22 uF electrolytic capacitor</para>
+<para>Jameco 1946316 $0.09 on 2013-01-18 per VLM</para>
+</listitem>
+
+<listitem>
+<para>R16,R17 qty 2 100 ohm resistor</para>
+</listitem>
+
+<listitem>
+<para>R19,R21,R23,R24,R25 qty 5 240 ohm resistor</para>
+</listitem>
+
+<listitem>
+<para>R18,R20,R22 qty 3 470 ohm resistor</para>
+</listitem>
+
+<listitem>
+<para>R1,R2,R3,R4,R5,R6,R7,R8,R11,R12,R13,R14,R15,R32,R34,R35,R38 qty 17 1K ohm resistor</para>
+<para>Jameco 690865 $0.04 on 2013-01-27 per VLM</para>
+</listitem>
+
+<listitem>
+<para>R29,R40,R41,R42,R43 qty 5 4.7K ohm resistor</para>
+</listitem>
+
+<listitem>
+<para>R26,R27,R28,R30,R31,R36,R37,R44 qty 8 10K ohm resistor</para>
+</listitem>
+
+<listitem>
+<para>RR1 10K bussed resistor network</para>
+<para>Jameco 24643 $0.29 on 2013-01-27 per VLM</para>
+</listitem>
+
 <listitem>
 <para>Q1,Q3 qty 2 2N3904 bipolar transistor</para>
 <para>Jameco 178597 $0.035 on 2013-01-18 per VLM</para>
@@ -133,40 +185,10 @@ No one in any way connected to the project or this manual formally endorses any 
 </listitem>
 
 <listitem>
-<para>R16,R17 qty 2 100 resistor</para>
-</listitem>
-
-<listitem>
-<para>R19,R21,R23,R24,R25 qty 5 240 resistor</para>
-</listitem>
-
-<listitem>
-<para>R18,R20,R22 qty 3 470 resistor</para>
-</listitem>
-
-<listitem>
-<para>R1,R2,R3,R4,R5,R6,R7,R8,R11,R12,R13,R14,R15,R32,R34,R35,R38 qty 17 1K resistor</para>
-<para>Jameco 690865 $0.04 on 2013-01-27 per VLM</para>
-</listitem>
-
-<listitem>
-<para>R29,R40,R41,R42,R43 qty 5 4700 resistor</para>
-</listitem>
-
-<listitem>
-<para>R26,R27,R28,R30,R31,R36,R37,R44 qty 8 10K resistor</para>
-</listitem>
-
-<listitem>
-<para>RR1 10K bussed resistor network</para>
-<para>Jameco 24643 $0.29 on 2013-01-27 per VLM</para>
-</listitem>
-
-<listitem>
-<para>U0 C96ABC C96ABCMC</para>
-<para>Jameco 859561 (A non-stocked item, will delay delivery) $4.35 on 2013-01-16 per VLM</para>
-<para>Mouser 617-09-03-396-6921</para>
-<para>Jameco 859430</para>
+<para>U7 74LS06 14dip300</para>
+<para>LS family Digikey 296-15069-5-ND $0.92 on 2013-02-09 per VLM</para>
+<para>LS family Jameco 46359 $0.89 on 2013-01-27 per VLM</para>
+<para>ALS family Digikey 296-1484-5-ND $0.86 on 2013-02-09 per VLM</para>
 </listitem>
 
 <listitem>
@@ -179,13 +201,27 @@ No one in any way connected to the project or this manual formally endorses any 
 </listitem>
 
 <listitem>
-<para>U3,U8 qty 2 P8X32A-D40 Propeller microcontroller 40dip600</para>
-<para>Jameco 2007134 $12.95 on 2013-01-27 per VLM</para>
+<para>U10,U12 qty 2 74LS241 20dip300</para>
+<para>LS family Jameco 47167 $0.75 on 2013-01-27 per VLM</para>
+<para>ALS family Digikey 296-33724-5-ND $1.30 on 2013-02-09 per VLM</para>
 </listitem>
 
 <listitem>
-<para>U4 PS/2_KEYBOARD mini_din-M_DIN6</para>
-<para>Digikey part number A99370-ND $4.37 on 2013-02-02 per VLM</para>
+<para>U11 74LS245 20dip300</para>
+<para>LS family Digikey 296-1655-5-ND $0.92 on 2013-02-02 per VLM</para>
+<para>LS family Jameco 47212 $0.65 on 2013-01-27 per VLM</para>
+<para>ALS family Digikey 296-1492-5-ND $1.22 on 2013-02-09 per VLM</para>
+<para>F family Jameco 287144 $0.39 on 2013-02-26 per VLM (closeout)</para>
+</listitem>
+
+<listitem>
+<para>U9 74LS682 20dip300</para>
+<para>LS family Jameco 309260 $1.75 on 2013-01-27 per VLM</para>
+</listitem>
+
+<listitem>
+<para>U3,U8 qty 2 P8X32A-D40 Propeller microcontroller 40dip600</para>
+<para>Jameco 2007134 $12.95 on 2013-01-27 per VLM</para>
 </listitem>
 
 <listitem>
@@ -196,42 +232,6 @@ No one in any way connected to the project or this manual formally endorses any 
 <listitem>
 <para>U6 LM3940 Low dropout 3.3 volt TO-220 voltage regulator</para>
 <para>Jameco 192524 $1.65 on 2013-01-27 per VLM</para>
-</listitem>
-
-<listitem>
-<para>U7 74LS06 14dip300</para>
-<para>LS family Digikey 296-15069-5-ND $0.92 on 2013-02-09 per VLM</para>
-<para>LS family Jameco 46359 $0.89 on 2013-01-27 per VLM</para>
-<para>ALS family Digikey 296-1484-5-ND $0.86 on 2013-02-09 per VLM</para>
-</listitem>
-
-<listitem>
-<para>U9 74LS682 20dip300</para>
-<para>LS family Jameco 309260 $1.75 on 2013-01-27 per VLM</para>
-</listitem>
-
-<listitem>
-<para>U10,U12 qty 2 74LS241 20dip300</para>
-<para>LS family Jameco 47167 $0.75 on 2013-01-27 per VLM</para>
-<para>ALS family Digikey 296-33724-5-ND $1.30 on 2013-02-09 per VLM</para>
-</listitem>
-
-<listitem>
-<para>U11 74LS245N 20dip300</para>
-<para>LS family Digikey 296-1655-5-ND $0.92 on 2013-02-02 per VLM</para>
-<para>LS family Jameco 47212 $0.65 on 2013-01-27 per VLM</para>
-<para>ALS family Digikey 296-1492-5-ND $1.22 on 2013-02-09 per VLM</para>
-<para>F family Jameco 287144 $0.39 on 2013-02-26 per VLM (closeout)</para>
-</listitem>
-
-<listitem>
-<para>U17 MicroSD connector</para>
-<para>Digikey part number 101-00660-68-6-1-ND $1.97 on 2013-02-02 per VLM Although this will work, I guarantee this is almost certainly not the connector you want, because it does not fold up so you need to use SMD techniques to solder it.</para>
-</listitem>
-
-<listitem>
-<para>X1 VGAF HD15_B-HD15F PCB mount VGA connector</para>
-<para>Digikey part number A35116-ND $1.98 on 2013-02-02 per VLM</para>
 </listitem>
 
 <listitem>
