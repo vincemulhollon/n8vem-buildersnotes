@@ -112,7 +112,8 @@ No one in any way connected to the project or this manual formally endorses any 
 </listitem>
 
 <listitem>
-<para>RR1,RR2 qty 2 4700 ohm 9 pin 8 resistor bussed resistor array</para>
+<para>RR1,RR2 qty 2 4.7K ohm x 8 resistors in a 9 pin SIP bussed resistor network</para>
+<para>Digikey 4610X-1-472LF-ND $0.29 on 2013-01-18 per VLM note this is a 9resistor/10pin network but Might work</para>
 </listitem>
 
 <listitem>

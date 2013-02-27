@@ -137,19 +137,24 @@ No one in any way connected to the project or this manual formally endorses any 
 </listitem>
 
 <listitem>
-<para>RR1,RR2,RR3,RR4,RR8 qty 5 270 x 9 SIP bussed resistor network</para>                                                    
+<para>RR1,RR2,RR3,RR4,RR8 qty 5 270 x 8 resistors in a 9 pin SIP bussed resistor network</para>
+<para>Digikey 4310R-1-271LF-ND $0.65 on 2013-01-18 per VLM Note this is a 9/10 network and it fits on the board if pin 10 is snipped off</para>
 </listitem>
 
 <listitem>
-<para>RR5 4700 x 9 SIP bussed resistor network</para>                       
+<para>RR5 4.7K x 8 resistors in a 9 pin SIP bussed resistor network</para>
+<para>Digikey 4610X-1-472LF-ND $0.29 on 2013-01-18 per VLM Note this is a 9/10 network and it fits on the board if pin 10 is snipped off</para>
 </listitem>
 
 <listitem>
-<para>RR6,RR7 qty 2 1000 x 9 SIP bussed resistor network</para>                                                    
+<para>RR6,RR7 qty 2 1K ohm x 8 resistors in a 9 pin SIP bussed resistor network</para>
+<para>Digikey 4610X-1-102LF-ND $0.26 on 2013-01-18 per VLM Note this is a 9/10 network and it fits on the board if pin 10 is snipped off</para>
 </listitem>
 
 <listitem>
-<para>RR9 2200 x 9 SIP bussed resistor network</para>                                   
+<para>RR9 2.2K x 8 resistors in a 9 pin SIP bussed resistor network</para>
+<para>Note that only the first 6 resistors are used, and there is space on the PCB to the "right" so any network from 6/7 up to 9/10 will work</para>
+<para>Digikey 4610X-1-222LF-ND $0.26 on 2013-01-18 per VLM Note this is a 9/10 network and it fits on the board if pin 10 is snipped off</para>
 </listitem>
 
 <listitem>

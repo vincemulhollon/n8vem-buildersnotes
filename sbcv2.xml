@@ -75,6 +75,7 @@ No one in any way connected to the project or this manual formally endorses any 
 
 <listitem>
 <para>C2 10 uF electrolytic capacitor</para>
+<para>Digikey part number P13478-ND $0.30 on 2013-01-18 per VLM</para>
 </listitem>
 
 <listitem>
@@ -97,6 +98,7 @@ No one in any way connected to the project or this manual formally endorses any 
 
 <listitem>
 <para>BT1,JP1,JP2 qty 3 2x1 pin array</para>
+<para>Digikey 3M9447-ND $0.16 on 2013-01-18 per VLM</para>
 <para>Jameco 108338 $0.29 on 2013-01-16 per VLM</para>
 <para>Mouser 649-78229-102HLF $0.18 on 2013-02-26 per VLM</para>
 </listitem>
@@ -111,6 +113,7 @@ No one in any way connected to the project or this manual formally endorses any 
 <listitem>
 <para>P1 Parallel port 13x2 pin array</para>
 <para>Shrouded Jameco 68372 $0.69 on 2013-02-26 per VLM</para>
+<para>Unshrouded Digikey 609-3240-ND $0.94 on 2013-01-18 per VLM</para>
 <para>Unshrouded Jameco 2120292 $0.49 on 2013-01-27 per VLM</para>
 </listitem>
 
@@ -160,11 +163,13 @@ No one in any way connected to the project or this manual formally endorses any 
 </listitem>
 
 <listitem>
-<para>RR1 1K bussed resistor array</para>
+<para>RR1 1K x 5 resistors in a 6 pin SIP bussed resistor network</para>
+<para>Digikey 4306R-1-102LF-ND $0.47 on 2013-01-18 per VLM</para>
 </listitem>
 
 <listitem>
-<para>RR2 4.7K bussed resistor array</para>
+<para>RR2 4.7K x 5 resistors in a 6 pin SIP bussed resistor network</para>
+<para>Digikey 4306R-1-472LF-ND $0.47 on 2013-01-18 per VLM</para>
 </listitem>
 
 <listitem>

@@ -98,6 +98,7 @@ No one in any way connected to the project or this manual formally endorses any 
 <listitem>
 <para>JP3 13x2 pin array</para>
 <para>Shrouded Jameco 68372 $0.69 on 2013-02-26 per VLM</para>
+<para>Unshrouded Digikey 609-3240-ND $0.94 on 2013-01-18 per VLM</para>
 <para>Unshrouded Jameco 2120292 $0.49 on 2013-01-27 per VLM</para>
 <para>Mouser 649-68602-126HLF</para>
 <para>Mouser 649-77313-824-26LF</para>
@@ -113,6 +114,7 @@ No one in any way connected to the project or this manual formally endorses any 
 
 <listitem>
 <para>JP8,P5 qty 2 2x1 pin array</para>
+<para>Digikey 3M9447-ND $0.16 on 2013-01-18 per VLM</para>
 <para>Jameco 108338 $0.29 on 2013-01-16 per VLM</para>
 <para>Mouser 649-78229-102HLF $0.18 on 2013-02-26 per VLM</para>
 </listitem>
@@ -158,11 +160,13 @@ No one in any way connected to the project or this manual formally endorses any 
 </listitem>
 
 <listitem>
-<para>RR1 bussed resistor array 1 kOhm, 9 pin aka 8 resistors</para>
-<para>Use 150 Ohm or 330 Ohm resistor array for older drives that have 150 Ohm or 300 Ohm terminators.</para>
-<para>Only 6 first resistors are used, so 7 pin or (more common) 8 pin arrays can be used instead.</para>
+<para>RR1 1K x 8 resistors in a 9 pin SIP bussed resistor network</para>
+<para>Use 150 Ohm or 330 Ohm resistor network for older drives that have 150 Ohm or 300 Ohm terminators.</para>
+<para>Only 6 first resistors are used, so 7 pin or (more common) 8 pin networks can be used instead.</para>
 <para>Make sure to align pin 1 properly.</para>
-<para>Also it is possible to use 10 pin arrays, with 10th pin cut just by the package body.</para>
+<para>Also it is possible to use 10 pin networks, with 10th pin cut just by the package body.</para>
+<para>It might be a good idea to put this resistor network in a socket.</para>
+<para>Digikey 4610X-1-102LF-ND $0.26 on 2013-01-18 per VLM note this is a 9resistor/10pin network Might work anyway</para>
 </listitem>
 
 <listitem>
@@ -174,10 +178,10 @@ No one in any way connected to the project or this manual formally endorses any 
 
 <listitem>
 <para>U2 8255 PPI</para>
-<para>5 MHz CP82C55A-5 (note, too slow for floppy drive to work)
+<para>5 MHz CP82C55A-5 (note, too slow for floppy drive to work)</para>
 <para>8 MHz Digikey CP82C55A-ND aka CP82C55A $7.68 on 2013-02-09 per VLM</para>
-<para>10 MHz TMP82C55AP-10 ebay / utsource
-<para>10 MHz NEC D71055C-10
+<para>10 MHz TMP82C55AP-10 ebay / utsource</para>
+<para>10 MHz NEC D71055C-10</para>
 <para>Jameco 52417 is a 82C55A for $4.95 on 2013-01-16 per VLM</para>
 <para>Unicorn Electronics (order 82C55)</para>
 <para>Utsource</para>
@@ -496,7 +500,7 @@ If it contains no actionable information, or an opinion, it would not belong in 
 Another way to describe Lore is its kind of a to do list WRT research and documentation writing.
 </para>
 
-<para>Supposedly the universal RR1 resistor array value is 300 ohms</para>
+<para>Supposedly the universal RR1 resistor network value is 300 ohms</para>
 
 <blockquote><attribution>Everybody</attribution>
 <para>
