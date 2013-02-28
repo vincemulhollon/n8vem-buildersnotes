@@ -202,10 +202,11 @@ No one in any way connected to the project or this manual formally endorses any 
 
 <listitem>
 <para>U18,U30 qty 2 74LS06 14dip300</para>
-<para>LS family Jameco 46359 $0.89 on 2013-01-27 per VLM</para>
-<para>LS family Mouser 595-SN74LS06N</para>
-<para>ALS family Digikey 296-1484-5-ND $0.86 on 2013-02-09 per VLM</para>
 <para>LS family Digikey 296-15069-5-ND $0.92 on 2013-02-09 per VLM</para>
+<para>LS family Jameco 46359 $0.89 on 2013-01-27 per VLM</para>
+<para>LS family Mouser 595-SN74LS06N $0.71 on 2013-02-27 per VLM</para>
+<para>LS family Unicorn Electronics $0.69 on 2013-02-27 per VLM</para>
+<para>ALS family Digikey 296-1484-5-ND $0.86 on 2013-02-09 per VLM</para>
 </listitem>
 
 <listitem>
@@ -217,15 +218,28 @@ No one in any way connected to the project or this manual formally endorses any 
 <para>U20 74LS32 14dip300</para>
 <para>LS family Digikey 296-1658-5-ND $0.62 on 2013-01-18 per VLM</para>
 <para>LS family Jameco 47466 $0.45 on 2013-01-27 per VLM</para>
+<para>LS family Mouser 595-SN74LS32N $0.42 on 2013-02-28 per VLM</para>
+<para>LS family Unicorn $0.32 on 2013-02-28 per VLM</para>
+<para>F family Digikey 296-3583-5-ND $0.66 on 2013-02-28 per VLM</para>
 <para>F family Jameco 287048 $0.45 on 2013-02-26 per VLM</para>
-<para>ALS family Mouser 595-SN74ALS32N</para>
+<para>F family Mouser 595-SN74F32N $0.38 on 2013-02-28 per VLM</para>
+<para>ALS family Mouser 595-SN74ALS32N $0.64 on 2013-02-28 per VLM</para>
 <para>ALS family Digikey 296-1495-5-ND $0.95 on 2013-02-09 per VLM</para>
+<para>ALS family Unicorn $0.19 on 2013-02-28 per VLM</para>
+<para>AHCT family Mouser 595-SN74AHCT32N $0.34 on 2013-02-28 per VLM</para>
 </listitem>
 
 <listitem>
 <para>U1,U33,U34,U35 qty 4 74LS138 16dip300</para>
+<para>LS family Jameco 46607 (generic brand) $0.58 on 2013-02-28 per VLM</para>
+<para>LS family Jameco 301233 (name brand) $0.69 on 2013-02-28 per VLM</para>
+<para>LS family Mouser 595-SN74LS138N $0.58 on 2013-02-28 per VLM</para>
+<para>LS family Unicorn $0.33 on 2013-02-28 per VLM</para>
 <para>ALS family Digikey 296-1485-5-ND $1.01 on 2013-02-26 per VLM</para>
-<para>Mouser  595-SN74ALS138AN</para>
+<para>ALS family Mouser 595-SN74ALS138AN $0.78 on 2013-02-28 per VLM</para>
+<para>ALS family Unicorn $0.29 on 2013-02-28 per VLM</para>
+<para>HCT family Jameco 44927 $0.35 on 2013-02-28 per VLM</para>
+<para>AHCT family Mouser 595-SN74AHCT138N $0.24 on 2013-02-28 per VLM</para>
 </listitem>
 
 <listitem>
@@ -238,9 +252,13 @@ No one in any way connected to the project or this manual formally endorses any 
 <para>U17 74LS245 20dip300</para>
 <para>LS family Digikey 296-1655-5-ND $0.92 on 2013-02-02 per VLM</para>
 <para>LS family Jameco 47212 $0.65 on 2013-01-27 per VLM</para>
-<para>ALS family Digikey 296-1492-5-ND $1.22 on 2013-02-09 per VLM</para>
+<para>LS family Unicorn $0.39 on 2013-02-28 per VLM</para>
 <para>F family Jameco 287144 $0.39 on 2013-02-26 per VLM (closeout)</para>
-<para>ALS family Mouser  595-SN74ALS245AN</para>
+<para>ALS family Digikey 296-1492-5-ND $1.22 on 2013-02-09 per VLM</para>
+<para>ALS family Mouser 595-SN74ALS245A-1N $0.94 on 2013-02-28 per VLM</para>
+<para>ALS family Mouser 595-SN74ALS245AN $0.94 on 2013-02-28 per VLM</para>
+<para>ALS family Unicorn $0.29 on 2013-02-28 per VLM</para>
+<para>AHCT family Mouser 595-SN74AHCT245N $0.31 on 2013-02-28 per VLM</para>
 </listitem>
 
 <listitem>

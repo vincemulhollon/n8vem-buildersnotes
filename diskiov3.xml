@@ -85,14 +85,17 @@ No one in any way connected to the project or this manual formally endorses any 
 
 <listitem>
 <para>JP4 2x2 pin array</para>
+<para>Mouser 649-67996-402HLF $0.10 on 2013-02-28 per VLM</para>
 </listitem>
 
 <listitem>
 <para>JP7 5x1 pin array</para>
+<para>Mouser 649-69190-405HLF $0.18 on 2013-02-28 per VLM</para>
 </listitem>
 
 <listitem>
 <para>JP2 8x2 pin array</para>
+<para>Mouser 649-67996-408HLF $0.30 on 2013-02-28 per VLM</para>
 </listitem>
 
 <listitem>
@@ -100,25 +103,25 @@ No one in any way connected to the project or this manual formally endorses any 
 <para>Shrouded Jameco 68372 $0.69 on 2013-02-26 per VLM</para>
 <para>Unshrouded Digikey 609-3240-ND $0.94 on 2013-01-18 per VLM</para>
 <para>Unshrouded Jameco 2120292 $0.49 on 2013-01-27 per VLM</para>
-<para>Mouser 649-68602-126HLF</para>
+<para>Mouser 649-68602-126HLF $0.90 on 2013-02-28 per VLM</para>
 <para>Mouser 649-77313-824-26LF</para>
 </listitem>
 
 <listitem>
 <para>P2 20x2 pin header shrouded</para>
-<para>Mouser 737-BHR-40-VUA</para>
+<para>Mouser 737-BHR-40-VUA $0.56 on 2013-02-28 per VLM</para>
 </listitem>
 
 <listitem>
 <para>P3 17x2 pin header shrouded</para>
 <para>Jameco 68583</para>
 <para>Jameco 753547</para>
-<para>Mouser 737-BHR-34-VUA</para>
+<para>Mouser 737-BHR-34-VUA $0.79 on 2013-02-28 per VLM</para>
 </listitem>
 
 <listitem>
 <para>P4 25x2 pin header shrouded</para>
-<para>Mouser 737-BHR-50-VUA</para>
+<para>Mouser 737-BHR-50-VUA $0.74 on 2013-02-28 per VLM</para>
 </listitem>
 
 <listitem>
@@ -137,6 +140,7 @@ No one in any way connected to the project or this manual formally endorses any 
 <listitem>
 <para>C17,C18 qty 2 22 uF 50 V electrolytic</para>
 <para>Jameco 1946316 $0.09 on 2013-01-18 per VLM</para>
+<para>Mouser 80-ESH226M050AC3AA $0.15 on 2013-02-28 per VLM</para>
 </listitem>
 
 <listitem>
@@ -167,123 +171,130 @@ No one in any way connected to the project or this manual formally endorses any 
 <para>Also it is possible to use 10 pin networks, with 10th pin cut just by the package body.</para>
 <para>It might be a good idea to put this resistor network in a socket.</para>
 <para>Digikey 4610X-1-102LF-ND $0.26 on 2013-01-18 per VLM note this is a 9resistor/10pin network Might work anyway</para>
+<para>330 ohms Mouser 858-L091S331LF $0.14 on 2013-02-28 per VLM</para>
 </listitem>
 
 <listitem>
 <para>U14,U15 qty 2 74LS06</para>
-<para>LS family Jameco 46359 $0.89 on 2013-01-27 per VLM</para>
-<para>LS family Mouser 595-SN74LS06N</para>
-<para>ALS family Digikey 296-1484-5-ND $0.86 on 2013-02-09 per VLM</para>
 <para>LS family Digikey 296-15069-5-ND $0.92 on 2013-02-09 per VLM</para>
-<para>Unicorn Electronics</para>
+<para>LS family Jameco 46359 $0.89 on 2013-01-27 per VLM</para>
+<para>LS family Mouser 595-SN74LS06N $0.71 on 2013-02-27 per VLM</para>
+<para>LS family Unicorn Electronics $0.69 on 2013-02-27 per VLM</para>
+<para>ALS family Digikey 296-1484-5-ND $0.86 on 2013-02-09 per VLM</para>
 </listitem>
 
 <listitem>
 <para>U12,U13 qty 2 74LS14</para>
 <para>LS family Digikey 296-1643-5-ND $0.67 on 2013-02-09 per VLM</para>
-<para>LS family Mouser 595-SN74LS14N</para>
-<para>AHCT family Mouser 595-SN74AHCT14N</para>
-<para>Unicorn Electronics</para>
-<para>Jameco 46640</para>
-<para>Jameco 295460</para>
-<para>Jameco 44935</para>
+<para>LS family Jameco 46640 (generic) $0.45 on 2013-02-28 per VLM</para>
+<para>LS family Jameco 295460 (name brand) $0.49 on 2013-02-28 per VLM</para>
+<para>LS family Mouser 595-SN74LS14N $0.45 on 2013-02-28 per VLM</para>
+<para>LS family Unicorn Electronics $0.33 on 2013-02-28 per VLM</para>
+<para>HCT family Jameco 44935 $0.29 on 2013-02-28 per VLM</para>
+<para>AHCT family Mouser 595-SN74AHCT14N $0.17 on 2013-02-28 per VLM</para>
+<para>F family Digikey 568-7891-5-ND $0.57 on 2013-02-28 per VLM</para>
+<para>F family Jameco 287021 $0.29 on 2013-02-28 per VLM</para>
 </listitem>
 
 <listitem>
 <para>U11 74LS32</para>
 <para>LS family Digikey 296-1658-5-ND $0.62 on 2013-01-18 per VLM</para>
 <para>LS family Jameco 47466 $0.45 on 2013-01-27 per VLM</para>
+<para>LS family Mouser 595-SN74LS32N $0.42 on 2013-02-28 per VLM</para>
+<para>LS family Unicorn $0.32 on 2013-02-28 per VLM</para>
+<para>F family Digikey 296-3583-5-ND $0.66 on 2013-02-28 per VLM</para>
 <para>F family Jameco 287048 $0.45 on 2013-02-26 per VLM</para>
-<para>ALS family Mouser 595-SN74ALS32N</para>
+<para>F family Mouser 595-SN74F32N $0.38 on 2013-02-28 per VLM</para>
+<para>ALS family Mouser 595-SN74ALS32N $0.64 on 2013-02-28 per VLM</para>
 <para>ALS family Digikey 296-1495-5-ND $0.95 on 2013-02-09 per VLM</para>
-<para>Mouser 512-DM74ALS32N</para>
-<para>Mouser 595-SN74LS32N</para>
-<para>Mouser 595-SN74AHCT32N</para>
-<para>Unicorn Electronics</para>
+<para>ALS family Unicorn $0.19 on 2013-02-28 per VLM</para>
+<para>AHCT family Mouser 595-SN74AHCT32N $0.34 on 2013-02-28 per VLM</para>
 </listitem>
 
 <listitem>
 <para>U10 74LS125</para>
+<para>LS family Digikey 296-1638-5-ND $0.86 on 2013-02-28 per VLM</para>
+<para>LS family Jameco 46501 $0.65 on 2013-02-28 per VLM</para>
+<para>LS family Mouser 595-SN74LS125AN $0.58 on 2013-02-28 per VLM</para>
+<para>LS family Unicorn $0.45 on 2013-02-28 per VLM</para>
 <para>ALS family Digikey 296-1638-5-ND $0.86 on 2013-02-09 per VLM</para>
-<para>LS family Mouser 595-SN74LS125AN</para>
-<para>AHCT family Mouser 595-SN74AHCT125N</para>
-<para>Unicorn Electronics</para>
-<para>Jameco 46501</para>
+<para>AHCT family Mouser 595-SN74AHCT125N $0.24 on 2013-02-28 per VLM</para>
 </listitem>
 
 <listitem>
 <para>U9 74LS138</para>
+<para>LS family Jameco 46607 (generic brand) $0.58 on 2013-02-28 per VLM</para>
+<para>LS family Jameco 301233 (name brand) $0.69 on 2013-02-28 per VLM</para>
+<para>LS family Mouser 595-SN74LS138N $0.58 on 2013-02-28 per VLM</para>
+<para>LS family Unicorn $0.33 on 2013-02-28 per VLM</para>
 <para>ALS family Digikey 296-1485-5-ND $1.01 on 2013-02-26 per VLM</para>
-<para>Mouser 595-SN74ALS138AN</para>
-<para>Mouser 512-DM74ALS138N</para>
-<para>Mouser 595-SN74LS138N</para>
-<para>Mouser 595-SN74AHCT138N</para>
-<para>Unicorn Electronics</para>
-<para>Jameco 46607</para>
-<para>Jameco 46608</para>
-<para>Jameco 301233</para>
-<para>Jameco 44927</para>
+<para>ALS family Mouser 595-SN74ALS138AN $0.78 on 2013-02-28 per VLM</para>
+<para>ALS family Unicorn $0.29 on 2013-02-28 per VLM</para>
+<para>HCT family Jameco 44927 $0.35 on 2013-02-28 per VLM</para>
+<para>AHCT family Mouser 595-SN74AHCT138N $0.24 on 2013-02-28 per VLM</para>
 </listitem>
 
 <listitem>
 <para>U8 74LS139</para>
 <para>LS family Digikey 296-1640-5-ND $0.86 on 2013-02-02 per VLM</para>
+<para>LS family Jameco 46623 (generic) $0.59 on 2013-02-28 per VLM</para>
+<para>LS family Jameco 301268 (name brand) $0.65 on 2013-02-28 per VLM</para>
+<para>LS family Mouser 595-SN74LS139AN $0.58 on 2013-02-28 per VLM</para>
+<para>LS family Unicorn $0.33 on 2013-02-28 per VLM</para>
 <para>ALS family Digikey 296-1486-5-ND $1.09 on 2013-02-09 per VLM</para>
-<para>ALS family Mouser 595-SN74ALS139N</para>
-<para>LS family Mouser 595-SN74LS139AN</para>
-<para>ACT family Mouser 595-CD74ACT139E</para>
-<para>ACT family Mouser 512-74ACT139PC</para>
-<para>AHCT family Mouser 595-SN74AHCT139N</para>
-<para>Unicorn Electronics</para>
-<para>Jameco 46623</para>
-<para>Jameco 301268</para>
-<para>Jameco 63773</para>
-<para>Jameco 239011</para>
+<para>ALS family Mouser 595-SN74ALS139N $0.96 on 2013-02-28 per VLM</para>
+<para>ALS family Unicorn $0.29 on 2013-02-28 per VLM</para>
+<para>ACT family Mouser 595-CD74ACT139E $0.45 on 2013-02-28 per VLM</para>
+<para>AHCT family Mouser 595-SN74AHCT139NE4 $0.37 on 2013-02-28 per VLM</para>
 </listitem>
 
 <listitem>
 <para>U7 74LS240</para>
+<para>LS family Jameco 47141 (generic) $0.69 on 2013-02-28 per VLM</para>
+<para>LS family Jameco 308291 (name brand) $0.79 on 2013-02-28 per VLM</para>
+<para>LS family Mouser 595-SN74LS240N $0.68 on 2013-02-28 per VLM</para>
+<para>LS family Unicorn $0.39 on 2013-02-28 per VLM</para>
 <para>ALS family Digikey 296-5041-5-ND $1.30 on 2013-02-26 per VLM</para>
-<para>Mouser 595-SN74ALS240AN</para>
-<para>Mouser 595-SN74LS240N</para>
-<para>Mouser 595-SN74AHCT240N</para>
-<para>Unicorn Electronics</para>
-<para>Jameco 47141</para>
-<para>Jameco 308291</para>
-<para>Jameco 45014</para>
+<para>ALS family Mouser 595-SN74ALS240AN $1.01 on 2013-02-28 per VLM</para>
+<para>ALS family Unicorn $0.29 on 2013-02-28 per VLM</para>
+<para>AHCT family Mouser 595-SN74AHCT240N $0.31 on 2013-02-28 per VLM</para>
 </listitem>
 
 <listitem>
 <para>U5,U6 qty 2 74LS241</para>
 <para>LS family Jameco 47167 $0.75 on 2013-01-27 per VLM</para>
-<para>Mouser 595-SN74LS241N</para>
-<para>Mouser 595-CD74HCT241EE4</para>
-<para>Mouser 595-CD74HCT241</para>
+<para>LS family Mouser 595-SN74LS241N $0.68 on 2013-02-28 per VLM</para>
+<para>LS family Unicorn $0.49 on 2013-02-28 per VLM</para>
 <para>ALS family Digikey 296-33724-5-ND $1.30 on 2013-02-09 per VLM</para>
-</listitem>
-
-<listitem>
-<para>U3 74LS273</para>
-<para>ALS family Digikey 296-1493-5-ND $1.39 on 2013-02-26 per VLM</para>
-<para>Mouser 595-SN74ALS273N</para>
-<para>Mouser 512-DM74ALS273N</para>
-<para>Mouser 595-SN74LS273N</para>
-<para>Mouser 595-SN74AHCT273N</para>
-<para>Unicorn Electronics</para>
-<para>Jameco 47386</para>
-<para>Jameco 308398</para>
-<para>Jameco 45049</para>
+<para>ALS family Mouser 595-SN74ALS241CN $1.15 on 2013-02-28 per VLM</para>
+<para>ALS family Unicorn $0.49 on 2013-02-28 per VLM</para>
+<para>HCT family Mouser 595-CD74HCT241EE4 $0.61 on 2013-02-28 per VLM</para>
 </listitem>
 
 <listitem>
 <para>U4 74LS245</para>
 <para>LS family Digikey 296-1655-5-ND $0.92 on 2013-02-02 per VLM</para>
 <para>LS family Jameco 47212 $0.65 on 2013-01-27 per VLM</para>
+<para>LS family Unicorn $0.39 on 2013-02-28 per VLM</para>
 <para>F family Jameco 287144 $0.39 on 2013-02-26 per VLM (closeout)</para>
 <para>ALS family Digikey 296-1492-5-ND $1.22 on 2013-02-09 per VLM</para>
-<para>ALS family Mouser 595-SN74ALS245A-1N</para>
-<para>ALS family Mouser 595-SN74ALS245AN</para>
-<para>AHCT family Mouser 595-SN74AHCT245N</para>
+<para>ALS family Mouser 595-SN74ALS245A-1N $0.94 on 2013-02-28 per VLM</para>
+<para>ALS family Mouser 595-SN74ALS245AN $0.94 on 2013-02-28 per VLM</para>
+<para>ALS family Unicorn $0.29 on 2013-02-28 per VLM</para>
+<para>AHCT family Mouser 595-SN74AHCT245N $0.31 on 2013-02-28 per VLM</para>
+</listitem>
+
+<listitem>
+<para>U3 74LS273</para>
+<para>LS family Jameco 47386 (generic brand) $0.69 on 2013-02-28 per VLM</para>
+<para>LS family Jameco 308398 (name brand) $0.79 on 2013-02-28 per VLM</para>
+<para>LS family Mouser 595-SN74LS273N $0.68 on 2013-02-28 per VLM</para>
+<para>LS family Unicorn $0.45 on 2013-02-28 per VLM</para>
+<para>ALS family Digikey 296-1493-5-ND $1.39 on 2013-02-26 per VLM</para>
+<para>ALS family Mouser 595-SN74ALS273N $1.07 on 2013-02-28 per VLM</para>
+<para>ALS family Unicorn $0.45 on 2013-02-28 per VLM</para>
+<para>HCT family Jameco 45049 $0.49 on 2013-02-28 per VLM</para>
+<para>AHCT family Mouser 595-SN74AHCT273N $0.47 on 2013-02-28 per VLM</para>
 </listitem>
 
 <listitem>
@@ -295,8 +306,9 @@ No one in any way connected to the project or this manual formally endorses any 
 
 <listitem>
 <para>U2 8255 PPI</para>
-<para>5 MHz CP82C55A-5 (note, too slow for floppy drive to work)</para>
-<para>8 MHz Digikey CP82C55A-ND aka CP82C55A $7.68 on 2013-02-09 per VLM</para>
+<para>5 MHz CP82C55A-5 (note, required less than 5 MHz CPU clock would be too slow for floppy drive to work)</para>
+<para>8 MHz Digikey CP82C55A-ND CP82C55A $7.68 on 2013-02-09 per VLM</para>
+<para>8 MHz Mouser 968-CP82C55A CP82C55A $7.67 on 2013-02-28 per VLM</para>
 <para>10 MHz TMP82C55AP-10 ebay / utsource</para>
 <para>10 MHz NEC D71055C-10</para>
 <para>Jameco 52417 is a 82C55A for $4.95 on 2013-01-16 per VLM</para>
@@ -309,7 +321,7 @@ No one in any way connected to the project or this manual formally endorses any 
 <listitem>
 <para>U16 8 MHz oscillator, full can</para>
 <para>Digikey X112-ND $2.63 on 2013-02-26 per VLM</para>
-<para>Mouser 815-ACO-8-EK</para>
+<para>Mouser 815-ACO-8-EK $1.60 on 2013-02-28 per VLM</para>
 <para>Mouser 520-TCF800-X</para>
 <para>Jameco 27991</para>
 </listitem>
