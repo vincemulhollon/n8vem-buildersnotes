@@ -284,7 +284,12 @@ No one in any way connected to the project or this manual formally endorses any 
 
 <listitem>
 <para>U17 74LS244 20dip300</para>
+<para>LS family Digikey 296-1653-5-ND $0.92 on 2013-03-01 per VLM</para>
+<para>LS family Jameco 47183 (generic) $0.65 on 2013-03-01 per VLM</para>
+<para>LS family Jameco 308312 (name brand) $0.69 on 2013-03-01 per VLM</para>
+<para>LS family Mouser 595-SN74LS244N $0.71 on 2013-03-01 per VLM</para>
 <para>ALS family Digikey 296-1490-5-ND $1.22 on 2013-02-09 per VLM</para>
+<para>ALS family Mouser 595-SN74ALS244CN $0.94 on 2013-02-09 per VLM</para>
 </listitem>
 
 <listitem>

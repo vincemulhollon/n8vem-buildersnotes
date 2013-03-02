@@ -71,10 +71,12 @@ No one in any way connected to the project or this manual formally endorses any 
 
 <listitem>
 <para>P13,P14 qty 2 10x2 pin array</para>
+<para>Digikey 609-3365-ND $0.83 on 2013-03-02 per VLM</para>
 </listitem>
 
 <listitem>
 <para>P15 12x2 pin array</para>
+<para>Digikey 609-3366-ND $1.00 on 2013-03-02 per VLM</para>
 </listitem>
 
 <listitem>
@@ -119,11 +121,15 @@ No one in any way connected to the project or this manual formally endorses any 
 
 <listitem>
 <para>RR1,RR2 qty 2 4.7K ohm x 8 resistors in a 9 pin SIP bussed resistor network</para>
-<para>Digikey 4610X-1-472LF-ND $0.29 on 2013-01-18 per VLM note this is a 9resistor/10pin network but Might work</para>
+<para>Digikey 4609X-101-472LF-ND $0.39 on 2013-03-01 per VLM</para>
 </listitem>
 
 <listitem>
 <para>U5 74LS07</para>
+<para>LS family Digikey 296-14878-5-ND $1.01 on 2013-03-01 per VLM</para>
+<para>LS family Jameco 46367 $0.75 on 2013-03-01 per VLM</para>
+<para>LS family Mouser 595-SN74LS07N $0.78 on 2013-03-01 per VLM</para>
+<para>F family Mouser 771-N74F07N $1.67 on 2013-03-01 per VLM</para>
 </listitem>
 
 <listitem>
@@ -141,7 +147,12 @@ No one in any way connected to the project or this manual formally endorses any 
 
 <listitem>
 <para>U4 74LS244</para>
+<para>LS family Digikey 296-1653-5-ND $0.92 on 2013-03-01 per VLM</para>
+<para>LS family Jameco 47183 (generic) $0.65 on 2013-03-01 per VLM</para>
+<para>LS family Jameco 308312 (name brand) $0.69 on 2013-03-01 per VLM</para>
+<para>LS family Mouser 595-SN74LS244N $0.71 on 2013-03-01 per VLM</para>
 <para>ALS family Digikey 296-1490-5-ND $1.22 on 2013-02-09 per VLM</para>
+<para>ALS family Mouser 595-SN74ALS244CN $0.94 on 2013-02-09 per VLM</para>
 </listitem>
 
 <listitem>
@@ -159,10 +170,20 @@ No one in any way connected to the project or this manual formally endorses any 
 
 <listitem>
 <para>U8 74LS253</para>
+<para>LS family Digikey 296-33981-5-ND $1.26 on 2013-03-01 per VLM</para>
+<para>LS family Mouser 595-SN74LS253N $1.11 on 2013-03-01 per VLM</para>
+<para>ALS family Digikey 296-33731-5-ND $1.71 on 2013-03-01 per VLM</para>
+<para>ALS family Mouser 595-SN74ALS253N $1.38 on 2013-03-01 per VLM</para>
 </listitem>
 
 <listitem>
 <para>U1,U3 qty 2 74LS541</para>
+<para>LS family Digikey 296-1666-5-ND $1.26 on 2013-03-01 per VLM</para>
+<para>LS family Jameco 47870 (generic) $0.95 on 2013-03-01 per VLM</para>
+<para>LS family Jameco 308523 (name brand) $0.99 on 2013-03-01 per VLM</para>
+<para>LS family Mouser 595-SN74LS541N $0.97 on 2013-03-01 per VLM</para>
+<para>ALS family Digikey 296-1500-5-ND $1.71 on 2013-03-01 per VLM</para>
+<para>ALS family Mouser 595-SN74ALS541N $1.49 on 2013-03-01 per VLM</para>
 </listitem>
 
 <listitem>
@@ -194,11 +215,6 @@ No one in any way connected to the project or this manual formally endorses any 
 <listitem>
 <para>20dip300 qty 5 IC socket</para>
 <para>Machined pin / Tin Jameco 38623 $0.69 on 2013-01-16 per VLM</para>
-</listitem>
-
-<listitem>
-<para>2-pin shorting plugs for configuration jumpers at least a dozen or so</para>
-<para>Jameco 112432 $0.12 on 2013-01-27 per VLM</para>
 </listitem>
 
 </itemizedlist>
@@ -268,6 +284,11 @@ JP3 dilithium crystal holder
 A solderless breadboard could be mounted on the prototyping area.
 The PCB prototyping area had enough space to hold a 3.5 inch x 3.5 inch breadboard.
 Depending on your chassis and mounting limitations its possible nearly any size breadboard will fit if overhang is allowed.
+</para>
+
+<para>
+A couple 2-pin shorting plugs are used for configuration jumpers.
+Jameco 112432 $0.12 on 2013-01-27 per VLM.
 </para>
 
 </chapter>
