@@ -194,6 +194,7 @@ No one in any way connected to the project or this manual formally endorses any 
 <listitem>
 <para>U1 16550 40dip600</para>
 <para>Digikey 1016-1759-ND aka ST16C550CP40-F $4.42 on 2013-02-09 per VLM</para>
+<para>Mouser 701-ST16C550CP40-F $3.89 on 2013-03-09 per VLM</para>
 </listitem>
 
 <listitem>
@@ -332,6 +333,7 @@ No one in any way connected to the project or this manual formally endorses any 
 <listitem>
 <para>U22 MAX232 16dip300</para>
 <para>Digikey MAX232CPE+-ND $3.67 on 2013-02-09 per VLM</para>
+<para>Mouser 700-MAX232CPE $3.65 on 2013-03-09 per VLM</para>
 </listitem>
 
 <listitem>

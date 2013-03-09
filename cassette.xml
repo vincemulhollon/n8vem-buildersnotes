@@ -7,7 +7,7 @@
 <author>
 <orgname>The N8VEM Community</orgname>
 </author>
-<date>February 20, 2013</date>
+<date>March 09, 2013</date>
 <editor>
 <personname><firstname>Vince</firstname><surname>Mulhollon</surname></personname>
 <email>vince@mulhollon.com</email>
@@ -170,18 +170,37 @@ No one in any way connected to the project or this manual formally endorses any 
 
 <listitem>
 <para>U10 74LS00 14dip300</para>
+<para>LS family Digikey 296-1626-5-ND $0.67 on 2013-03-09 per VLM</para>
+<para>LS family Jameco 46252 (generic) $0.45 on 2013-03-09 per VLM</para>
+<para>LS family Jameco 283725 (name brand) $0.49 on 2013-03-09 per VLM</para>
+<para>LS family Mouser 595-SN74LS00N $0.67 on 2013-03-09 per VLM</para>
+<para>ALS family Digikey 296-1478-5-ND $0.95 on 2013-03-09 per VLM</para>
+<para>ALS family Mouser 595-SN74ALS00AN $0.95 on 2013-03-09 per VLM</para>
 </listitem>
 
 <listitem>
 <para>U1 74LS74 14dip300</para>
+<para>LS family Digikey 296-1668-5-ND $0.62 on 2013-03-09 per VLM</para>
+<para>LS family Jameco 48004 (generic) $0.45 on 2013-03-09 per VLM</para>
+<para>LS family Jameco 295726 (name brand) $0.49 on 2013-03-09 per VLM</para>
+<para>LS family Mouser 595-SN74LS74AN $0.62 on 2013-03-09 per VLM</para>
+<para>ALS family Digikey 296-1506-5-ND $0.92 on 2013-03-09 per VLM</para>
+<para>ALS family Mouser 595-SN74ALS74AN $0.94 on 2013-03-09 per VLM</para>
 </listitem>
 
 <listitem>
 <para>U3 74LS107 14dip300</para>
+<para>LS family Digikey 296-33952-5-ND $2.02 on 2013-03-09 per VLM</para>
+<para>LS family Jameco 46412 $1.09 on 2013-03-09 per VLM</para>
+<para>LS family Mouser 595-SN74LS107AN $1.87 on 2013-03-09 per VLM</para>
 </listitem>
 
 <listitem>
 <para>U8,U11 qty 2 74LS123 16dip300</para>
+<para>LS family Digikey 296-1636-5-ND $0.86 on 2013-03-09 per VLM</para>
+<para>LS family Jameco 46480 (generic) $0.65 on 2013-03-09 per VLM</para>
+<para>LS family Jameco 300880 (name brand) $0.69 on 2013-03-09 per VLM</para>
+<para>LS family Mouser 595-SN74LS123N $0.86 on 2013-03-09 per VLM</para>
 </listitem>
 
 <listitem>
@@ -211,25 +230,36 @@ No one in any way connected to the project or this manual formally endorses any 
 
 <listitem>
 <para>IC2 74LS682N 20dip300</para>
-<para>LS family Jameco 309260 $1.75 on 2013-01-27 per VLM</para>
+<para>LS family Digikey 296-14898-5-ND $2.48 on 2013-03-09 per VLM</para>
+<para>LS family Jameco 309260 $1.75 on 2013-03-09 per VLM</para>
+<para>LS family Mouser 595-SN74LS682N $2.50 on 2013-03-09 per VLM</para>
 </listitem>
 
 <listitem>
 <para>U6 MAX232 16dip300</para>
 <para>Digikey MAX232CPE+-ND $3.67 on 2013-02-09 per VLM</para>
+<para>Mouser 700-MAX232CPE $3.65 on 2013-03-09 per VLM</para>
 </listitem>
 
 <listitem>
 <para>U5 16550 40dip600</para>
 <para>Digikey 1016-1759-ND aka ST16C550CP40-F $4.42 on 2013-02-09 per VLM</para>
+<para>Mouser 701-ST16C550CP40-F $3.89 on 2013-03-09 per VLM</para>
 </listitem>
 
 <listitem>
 <para>U9 LM741 8dip300</para>
+<para>Digikey LM741CNNS/NOPB-ND $0.70 on 2013-03-09 per VLM</para>
+<para>Jameco 24540 (generic) $0.29 on 2013-03-09 per VLM</para>
+<para>Jameco 840763 (name brand) $0.79 on 2013-03-09 per VLM</para>
+<para>Mouser 926-LM741CN/NOPB $0.70 on 2013-03-09 per VLM</para>
 </listitem>
 
 <listitem>
 <para>P2 UART clock 1.8432 MHz full size oscillator 14dip300</para>
+<para>Digikey CTX776-ND $2.49 on 2013-03-09 per VLM</para>
+<para>Jameco 27879 $1.95 on 2013-03-09 per VLM</para>
+<para>Mouser 520-TCF184-X $1.87 on 2013-03-09 per VLM</para>
 </listitem>
 
 <listitem>
@@ -271,11 +301,6 @@ No one in any way connected to the project or this manual formally endorses any 
 <para>40dip600 IC socket</para>
 <para>Machined pin / Tin Digikey ED3740-ND $2.41 on 2013-02-24 per VLM</para>
 <para>Machined pin / Tin Jameco 41136 $1.69 on 2013-01-16 per VLM</para>
-</listitem>
-
-<listitem>
-<para>2-pin shorting plugs for configuration jumpers at least a half dozen or so</para>
-<para>Jameco 112432 $0.12 on 2013-01-27 per VLM</para>
 </listitem>
 
 </itemizedlist>
@@ -342,13 +367,9 @@ JP3 dilithium crystal holder
 </info>
 
 <para>
-Notes regarding accessories.
-Some examples of accessories are homemade cables, floppy drives, chassis.
+You'll need some 2-pin shorting plugs for configuration jumpers, at least 15 or so.
+Jameco 112432 $0.12 on 2013-01-27 per VLM.
 </para>
-
-<caution><para>
-Very few (no?) boards in the project accept any power source other than pure, filtered positive 5 volts
-</para></caution>
 
 </chapter>
 

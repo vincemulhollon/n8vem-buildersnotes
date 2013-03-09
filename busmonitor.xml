@@ -166,7 +166,12 @@ No one in any way connected to the project or this manual formally endorses any 
 
 <listitem>
 <para>U13 74LS00</para>
-<para>Jameco 46252 $0.39</para> 
+<para>LS family Digikey 296-1626-5-ND $0.67 on 2013-03-09 per VLM</para>
+<para>LS family Jameco 46252 (generic) $0.45 on 2013-03-09 per VLM</para>
+<para>LS family Jameco 283725 (name brand) $0.49 on 2013-03-09 per VLM</para>
+<para>LS family Mouser 595-SN74LS00N $0.67 on 2013-03-09 per VLM</para>
+<para>ALS family Digikey 296-1478-5-ND $0.95 on 2013-03-09 per VLM</para>
+<para>ALS family Mouser 595-SN74ALS00AN $0.95 on 2013-03-09 per VLM</para>
 </listitem>
 
 <listitem>
@@ -194,7 +199,10 @@ No one in any way connected to the project or this manual formally endorses any 
 
 <listitem>
 <para>U14,U15,U16 qty 3 74LS123</para>
-<para>Jameco 46480 $0.55</para>
+<para>LS family Digikey 296-1636-5-ND $0.86 on 2013-03-09 per VLM</para>
+<para>LS family Jameco 46480 (generic) $0.65 on 2013-03-09 per VLM</para>
+<para>LS family Jameco 300880 (name brand) $0.69 on 2013-03-09 per VLM</para>
+<para>LS family Mouser 595-SN74LS123N $0.86 on 2013-03-09 per VLM</para>
 </listitem>
 
 <listitem>
