@@ -103,6 +103,10 @@ No one in any way connected to the project or this manual formally endorses any 
 </listitem>
 
 <listitem>
+<para>C20,C21,C22 qty 3 0.001 uF capacitor</para>
+</listitem>
+
+<listitem>
 <para>C2,C19 qty 2 0.01 uF capacitor</para>
 </listitem>
 
@@ -139,11 +143,11 @@ No one in any way connected to the project or this manual formally endorses any 
 </listitem>
 
 <listitem>
-<para>R4,R11,R13,R25,R26,R28 10K ohm resistor</para>
+<para>R4,R11,R13,R25,R26,R28 qty 6 10K ohm resistor</para>
 </listitem>
 
 <listitem>
-<para>R16,R21,R22 33K ohm resistor</para>
+<para>R16,R21,R22 qty 3 33K ohm resistor</para>
 </listitem>
 
 <listitem>
