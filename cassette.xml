@@ -5,25 +5,22 @@
 
 <info>
 <author>
-<orgname>The N8VEM Community</orgname>
-</author>
-<date>March 09, 2013</date>
-<editor>
 <personname><firstname>Vince</firstname><surname>Mulhollon</surname></personname>
-<email>vince@mulhollon.com</email>
-</editor>
+<email>vince@mulhollon.com</email> 
+</author>
+<date>March 15, 2013</date>
 <legalnotice>
-<para>The contents of the manual are licensed as</para>
+<para>The contents of the builders notes are licensed as</para>
 <para>Creative Commons Attribution-ShareAlike 3.0 Unported aka CC BY-SA 3.0</para>
 <para><uri>http://creativecommons.org/licenses/by-sa/3.0</uri></para>
 </legalnotice>
-<subtitle>Edited by Vince Mulhollon</subtitle>
 <title>Cassette Interface</title>
+<subtitle>Builders Notes</subtitle>
 </info>
 
 <dedication>
 <para>
-This manual is dedicated to the entire N8VEM project community.
+Builders notes are dedicated to the entire N8VEM project community.
 </para>
 </dedication>
 
@@ -61,7 +58,7 @@ A good analogy is there is a physical walkthru at the start of the construction 
 
 <warning>
 <para>
-No one in any way connected to the project or this manual formally endorses any of the suppliers listed below! Caveat Emptor!
+No one in any way connected to the project or the builders notes formally endorses any of the suppliers listed below! Caveat Emptor!
 </para>
 </warning>
 
@@ -398,8 +395,8 @@ Troubleshooting advice will be provided.
 <itemizedlist mark='opencircle'>
 
 <listitem>
-<para>GitHub repo for this manual</para>
-<para><uri>https://github.com/vincemulhollon/n8vem-manual</uri></para>
+<para>GitHub repo for the builders notes</para>
+<para><uri>https://github.com/vincemulhollon/n8vem-buildersnotes</uri></para>
 </listitem>
 
 <listitem>
@@ -462,7 +459,7 @@ Here Be Dragons!
 
 <colophon>
 <para>
-These manuals were developed on Debian Linux using the following packages:
+These notes were developed on Debian Linux using the following packages:
 </para>
 
 <itemizedlist mark='opencircle'>

@@ -1,5 +1,5 @@
 #!/bin/bash
-# clean.sh
+# /n8vem-buildersnotes/clean.sh
 
 rm -f *.fo
 rm -f *.html

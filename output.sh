@@ -1,5 +1,5 @@
 #!/bin/bash
-# output.sh
+# /n8vem-buildersnotes/output.sh
 
 rm -f errors*.txt
 
