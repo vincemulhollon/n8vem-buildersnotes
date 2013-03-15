@@ -80,7 +80,7 @@ This BoM is up to date WRT the rev. 1.01 wiki/workspace BoM
 </listitem>
 
 <listitem>
-<para>P5 Address select 7x2 pin array</para>
+<para>P5 IO Port select 7x2 pin array</para>
 </listitem>
 
 <listitem>
@@ -264,19 +264,34 @@ Install the second thing, noting carefully its polarity
 <title>Configuration</title>
 </info>
 
-<para>
-Notes regarding configuration of the board.  DIP switches, jumpers.
-</para>
-
 <itemizedlist mark='opencircle'>
 
-<listitem><para>
-JP1 warp drive modulator
-</para></listitem>
+<listitem>
+<para>
+At installation time, depending on which of dozens of different pinout SD card connectors are purchased and installed, both configuration jumper areas "P3" and "P4" should have jumper wires soldered into place as per the instructions in the "dual SDcard configuration.doc" microsoft word file as found on the wiki.  There really is no standard for SDCard connectors, so some mfgrs swap leads around, requiring this jumper area as a workaround.  There is little point in soldering in headers and using shorting plugs unless you have some easy way to swap different model SDCard connectors onto the PCB, so just use jumper wires.
+</para>
+</listitem>
 
-<listitem><para>
-JP3 dilithium crystal holder
-</para></listitem>
+<listitem>
+<para>
+P6 Interrupt Selection
+</para>
+</listitem>
+
+<listitem>
+<para>
+K2 Kontron or N8VEM interface pinout
+</para>
+</listitem>
+
+<listitem>
+<para>
+P5 IO Port Selection
+</para>
+<para>
+Jumper on = zero, Jump off = one.
+</para>
+</listitem>
 
 </itemizedlist>
 
