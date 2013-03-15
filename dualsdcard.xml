@@ -62,11 +62,168 @@ No one in any way connected to the project or the builders notes formally endors
 </para>
 </warning>
 
+<para>
+This BoM is up to date WRT the rev. 1.01 wiki/workspace BoM
+</para>
+
 <itemizedlist mark='opencircle'>
 
-<listitem><para>
-First item
-</para></listitem>
+<listitem>
+<para>K2 3x1 pin array</para>
+<para>Jameco 109576 $0.29 on 2013-01-16 per VLM</para>
+<para>Mouser 649-69190-103HLF $0.12 on 2013-02-26 per VLM</para>
+<para>Mouser 649-78229-103HLF $0.20 on 2013-02-26 per VLM</para>
+</listitem>
+
+<listitem>
+<para>P6 Interrupt select 3x2 pin array</para>
+</listitem>
+
+<listitem>
+<para>P5 Address select 7x2 pin array</para>
+</listitem>
+
+<listitem>
+<para>P1,P2 qty 2 SD Card connector</para>
+<para>Digikey</para>
+<para>Mouser</para>
+</listitem>
+
+<listitem>
+<para>K1 C96ABC C96ABCMC</para>
+<para>Jameco 859561 (A non-stocked item, will delay delivery) $4.35 on 2013-01-16 per VLM</para>
+<para>Mouser 617-09-03-396-6921</para>
+<para>Jameco 859430</para>
+</listitem>
+
+<listitem>
+<para>C40 33 nF aka 0.033 uF up to 0.1 uF Capacitor</para>
+</listitem>
+
+<listitem>
+<para>C2,C3,C4,C5,C6,C7,C8,C9,C10,C11,C12,C13,C14,C15,C16,C17,C18,C19,C20,C21,C22 qty 20 ceramic disk capacitor 0.1 uF</para>
+<para>Jameco 25523 will not fit the PCB outline exactly, but the leads can be bent to fit $0.08 on 2013-01-16 per VLM</para>
+<para>Mouser 80-C323C104K5R appears to be a perfect fit to the board outline $0.15</para>
+</listitem>
+
+<listitem>
+<para>C39 4.7uF to 10uF Electrolytic Capacitor</para>
+</listitem>
+
+<listitem>
+<para>C1 47uF to 100uF Electrolytic Capacitor</para>
+</listitem>
+
+<listitem>
+<para>R1,R2 qty 2 330 ohm 1/8 watt resistor</para>
+</listitem>
+
+<listitem>
+<para>RR1 1K by 6 bussed resistors in a 7 pin SIP package, up to a 10 pin SIP will fit</para>
+</listitem>
+
+<listitem>
+<para>RR2 10K by 3 bussed resistors in a 4 pin SIP package, up to a 10 pin SIP will fit</para>
+</listitem>
+
+<listitem>
+<para>RR3 22K or higher is better, by 8 bussed resistors in a 9 pin SIP package, up to a 10 pin SIP will fit</para>
+</listitem>
+
+<listitem>
+<para>D1,D2 qty 2 LED 5mm or 3mm will fit</para>
+</listitem>
+
+<listitem>
+<para>D3 diode 1N4148 or equiv BAT43, 1N914, 1N5820</para>
+<para>Jameco 177973</para>
+</listitem>
+
+<listitem>
+<para>U1 LP2950-3.3 TO92 3.3v regulator 100ma</para>
+<para>Jameco 1323397</para>
+</listitem>
+
+<listitem>
+<para>U2 74LS00</para>
+<para>LS family Digikey 296-1626-5-ND $0.67 on 2013-03-09 per VLM</para>
+<para>LS family Jameco 46252 (generic) $0.45 on 2013-03-09 per VLM</para>
+<para>LS family Jameco 283725 (name brand) $0.49 on 2013-03-09 per VLM</para>
+<para>LS family Mouser 595-SN74LS00N $0.67 on 2013-03-09 per VLM</para>
+<para>ALS family Digikey 296-1478-5-ND $0.95 on 2013-03-09 per VLM</para>
+<para>ALS family Mouser 595-SN74ALS00AN $0.95 on 2013-03-09 per VLM</para>
+</listitem>
+
+<listitem>
+<para>U4,U5,U6 qty 3 74LS38 2-input NAND, OC output, NO CMOS ALLOWED</para>
+</listitem>
+
+<listitem>
+<para>U3 74LS86 2-input XOR</para>
+</listitem>
+
+<listitem>
+<para>U16 74LS138</para>
+<para>LS family Jameco 46607 (generic brand) $0.58 on 2013-02-28 per VLM</para>
+<para>LS family Jameco 301233 (name brand) $0.69 on 2013-02-28 per VLM</para>
+<para>LS family Mouser 595-SN74LS138N $0.58 on 2013-02-28 per VLM</para>
+<para>LS family Unicorn $0.33 on 2013-02-28 per VLM</para>
+<para>ALS family Digikey 296-1485-5-ND $1.01 on 2013-02-26 per VLM</para>
+<para>ALS family Mouser 595-SN74ALS138AN $0.78 on 2013-02-28 per VLM</para>
+<para>ALS family Unicorn $0.29 on 2013-02-28 per VLM</para>
+<para>HCT family Jameco 44927 $0.35 on 2013-02-28 per VLM</para>
+<para>AHCT family Mouser 595-SN74AHCT138N $0.24 on 2013-02-28 per VLM</para>
+</listitem>
+
+<listitem>
+<para>U9,U12 qty 2 74LS157 quad 2-to-1 mux, U9 must be ALS or LS</para>
+</listitem>
+
+<listitem>
+<para>U7,U11 qty 2 74LS175 quad D-FF</para>
+</listitem>
+
+<listitem>
+<para>U14 74LS240</para>
+<para>LS family Jameco 47141 (generic) $0.69 on 2013-02-28 per VLM</para>
+<para>LS family Jameco 308291 (name brand) $0.79 on 2013-02-28 per VLM</para>
+<para>LS family Mouser 595-SN74LS240N $0.68 on 2013-02-28 per VLM</para>
+<para>LS family Unicorn $0.39 on 2013-02-28 per VLM</para>
+<para>ALS family Digikey 296-5041-5-ND $1.30 on 2013-02-26 per VLM</para>
+<para>ALS family Mouser 595-SN74ALS240AN $1.01 on 2013-02-28 per VLM</para>
+<para>ALS family Unicorn $0.29 on 2013-02-28 per VLM</para>
+<para>AHCT family Mouser 595-SN74AHCT240N $0.31 on 2013-02-28 per VLM</para>
+</listitem>
+
+<listitem>
+<para>U8,U10,U13 qty 3 74LS244 20dip300</para>
+<para>LS family Digikey 296-1653-5-ND $0.92 on 2013-03-01 per VLM</para>
+<para>LS family Jameco 47183 (generic) $0.65 on 2013-03-01 per VLM</para>
+<para>LS family Jameco 308312 (name brand) $0.69 on 2013-03-01 per VLM</para>
+<para>LS family Mouser 595-SN74LS244N $0.71 on 2013-03-01 per VLM</para>
+<para>ALS family Digikey 296-1490-5-ND $1.22 on 2013-02-09 per VLM</para>
+<para>ALS family Mouser 595-SN74ALS244CN $0.94 on 2013-02-09 per VLM</para>
+</listitem>
+
+<listitem>
+<para>U15 74LS682N 20dip300</para>
+<para>LS family Digikey 296-14898-5-ND $2.48 on 2013-03-09 per VLM</para>
+<para>LS family Jameco 309260 $1.75 on 2013-03-09 per VLM</para>
+<para>LS family Mouser 595-SN74LS682N $2.50 on 2013-03-09 per VLM</para>
+</listitem>
+
+<listitem>
+<para>14dip300 qty who-knows IC socket</para>
+<para>Socket pin type selection is a hotly contested personal choice.</para>
+<para>Gold plate is less mechanically durable than tin, more corrosion resistant than the IC pins, and more expensive</para>
+<para>Machined pins grip the pins more tightly, which is either considered a blessing or a curse, and cost more than folded sockets</para>
+<para>The board aesthetically looks better if you use identical type sockets on the board, unless you're intentionally trying to highlight an area of the board.</para>
+<para>Machined pin / Tin Digikey AE10012-ND $0.79 on 2013-02-02 per VLM</para>
+<para>Machined pin / Tin Jameco 37197 $0.55 on 2013-01-16 per VLM</para>
+<para>Jameco 37162</para>
+<para>Mouser 649-DILB14P-223TLF</para>
+<para>Mouser 517-4814-3000-CP</para>
+</listitem>
 
 </itemizedlist>
 
