@@ -141,11 +141,13 @@ This BoM is up to date WRT the rev. 1.01 wiki/workspace BoM
 
 <listitem>
 <para>U1 LP2950-3.3 TO92 3.3v regulator 100ma</para>
-<para>Jameco 1323397</para>
+<para>Digikey 296-26120-ND $0.57 on 2013-03-16 per VLM</para>
+<para>Jameco 1323397 $0.89 on 2013-03-16 per VLM</para>
+<para>Mouser 595-LP2950-33LPRE3 $0.48 on 2013-03-16 per VLM</para>
 </listitem>
 
 <listitem>
-<para>U2 74LS00</para>
+<para>U2 74LS00 14dip300</para>
 <para>LS family Digikey 296-1626-5-ND $0.67 on 2013-03-09 per VLM</para>
 <para>LS family Jameco 46252 (generic) $0.45 on 2013-03-09 per VLM</para>
 <para>LS family Jameco 283725 (name brand) $0.49 on 2013-03-09 per VLM</para>
@@ -155,15 +157,25 @@ This BoM is up to date WRT the rev. 1.01 wiki/workspace BoM
 </listitem>
 
 <listitem>
-<para>U4,U5,U6 qty 3 74LS38 2-input NAND, OC output, NO CMOS ALLOWED</para>
+<para>U4,U5,U6 qty 3 74LS38 14dip300 NO CMOS ALLOWED</para>
+<para>LS family Digikey 296-1664-5-ND $0.92 on 2013-03-16 per VLM</para>
+<para>LS family Mouser 595-SN74LS38N $0.94 on 2013-03-16 per VLM</para>
+<para>ALS family Digikey 296-5060-5-ND $0.96 on 2013-03-16 per VLM</para>
+<para>ALS family Mouser 595-SN74ALS38BN $0.86 on 2013-03-16 per VLM</para>
 </listitem>
 
 <listitem>
-<para>U3 74LS86 2-input XOR</para>
+<para>U3 74LS86 14dip300</para>
+<para>LS family Digikey 296-1669-5-ND $0.62 on 2013-03-16 per VLM</para>
+<para>LS family Jameco 48098 (generic) $0.45 on 2013-03-16 per VLM</para>
+<para>LS family Jameco 295751 (name brand) $0.49 on 2013-03-16 per VLM</para>
+<para>LS family Mouser 595-SN74LS86AN $0.62 on 2013-03-16 per VLM</para>
+<para>ALS family Digikey 296-5093-5-ND $0.62 on 2013-03-16 per VLM</para>
+<para>ALS family Mouser 595-SN74ALS86N $0.56 on 2013-03-16 per VLM</para>
 </listitem>
 
 <listitem>
-<para>U16 74LS138</para>
+<para>U16 74LS138 16dip300</para>
 <para>LS family Jameco 46607 (generic brand) $0.58 on 2013-02-28 per VLM</para>
 <para>LS family Jameco 301233 (name brand) $0.69 on 2013-02-28 per VLM</para>
 <para>LS family Mouser 595-SN74LS138N $0.58 on 2013-02-28 per VLM</para>
@@ -176,15 +188,25 @@ This BoM is up to date WRT the rev. 1.01 wiki/workspace BoM
 </listitem>
 
 <listitem>
-<para>U9,U12 qty 2 74LS157 quad 2-to-1 mux, U9 must be ALS or LS</para>
+<para>U9,U12 qty 2 74LS157 16dip300, U9 must be ALS or LS</para>
+<para>LS family Digikey 296-1645-5-ND $0.82 on 2013-03-16 per VLM</para>
+<para>LS family Jameco 46771 (generic) $0.59 on 2013-03-16 per VLM</para>
+<para>LS family Mouser 595-SN74LS157N $0.82 on 2013-03-16 per VLM</para>
+<para>ALS family Digikey 296-14719-5-ND $1.26 on 2013-03-16 per VLM</para>
+<para>ALS family Mouser 595-SN74ALS157AN $1.29 on 2013-03-16 per VLM</para>
 </listitem>
 
 <listitem>
-<para>U7,U11 qty 2 74LS175 quad D-FF</para>
+<para>U7,U11 qty 2 74LS175 16dip300</para>
+<para>LS family Digikey 296-1648-5-ND $0.96 on 2013-03-16 per VLM</para>
+<para>LS family Jameco 46957 (generic) $0.69 on 2013-03-16 per VLM</para>
+<para>LS family Mouser 595-SN74LS175N $0.96 on 2013-03-16 per VLM</para>
+<para>ALS family Digikey 296-5033-5-ND $1.09 on 2013-03-16 per VLM</para>
+<para>ALS family Mouser 595-SN74ALS175N $1.11 on 2013-03-16 per VLM</para>
 </listitem>
 
 <listitem>
-<para>U14 74LS240</para>
+<para>U14 74LS240 20dip300</para>
 <para>LS family Jameco 47141 (generic) $0.69 on 2013-02-28 per VLM</para>
 <para>LS family Jameco 308291 (name brand) $0.79 on 2013-02-28 per VLM</para>
 <para>LS family Mouser 595-SN74LS240N $0.68 on 2013-02-28 per VLM</para>
@@ -213,7 +235,7 @@ This BoM is up to date WRT the rev. 1.01 wiki/workspace BoM
 </listitem>
 
 <listitem>
-<para>14dip300 qty who-knows IC socket</para>
+<para>14dip300 qty 5 IC socket</para>
 <para>Socket pin type selection is a hotly contested personal choice.</para>
 <para>Gold plate is less mechanically durable than tin, more corrosion resistant than the IC pins, and more expensive</para>
 <para>Machined pins grip the pins more tightly, which is either considered a blessing or a curse, and cost more than folded sockets</para>
@@ -223,6 +245,23 @@ This BoM is up to date WRT the rev. 1.01 wiki/workspace BoM
 <para>Jameco 37162</para>
 <para>Mouser 649-DILB14P-223TLF</para>
 <para>Mouser 517-4814-3000-CP</para>
+</listitem>
+
+<listitem>
+<para>16dip300 qty 5 IC socket</para>
+<para>Machined pin / Tin Digikey ED3116-ND $0.873 on 2013-02-24 per VLM</para>
+<para>Machined pin / Tin Jameco 37402 $0.59 on 2013-01-16 per VLM</para>
+<para>Jameco 37373</para>
+<para>Mouser 649-DILB16P-223TLF</para>
+<para>Mouser 517-4816-3000-CP</para>
+</listitem>
+
+<listitem>
+<para>20dip300 qty 5 IC socket</para>
+<para>Machined pin / Tin Digikey A404AE-ND $1.50 on 2013-02-24 per VLM</para>
+<para>Machined pin / Tin Jameco 38623 $0.69 on 2013-01-16 per VLM</para>
+<para>Mouser 649-DILB20P-223TLF</para>
+<para>Mouser 517-4820-3000-CP</para>
 </listitem>
 
 </itemizedlist>
