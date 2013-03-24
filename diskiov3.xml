@@ -436,10 +436,6 @@ Notes regarding accessories.
 Some examples of accessories are homemade cables, floppy drives, chassis.
 </para>
 
-<caution><para>
-Very few (no?) boards in the project accept any power source other than pure, filtered positive 5 volts
-</para></caution>
-
 </chapter>
 
 <chapter xml:id="testing">
@@ -449,8 +445,114 @@ Very few (no?) boards in the project accept any power source other than pure, fi
 </info>
 
 <para>
-The testing chapter attempts to fully exercise a (recently) completed board to prove operation of all components.
-Troubleshooting advice will be provided.
+The testing section attempts to walk the new user thru the use of the IDE and floppy interfaces, which is a pretty good way to test the board.
+</para>
+
+<para>
+The editor of these Builders Notes used a standard IBM PC 3.5 inch floppy drive with standard IBM PC formatted disks, a PATA to CF adapter, and a 8 MHz SBCv2.
+Altered configs will probably require altered testing procedures.
+</para>
+
+<para>
+You'll have to build a new RomWBW eprom image, burn it, and insert it into the SBCv2 (ZIF?) socket.
+Three important points need to be noted in the RomWBW configuration.
+First, your config file Source/config_whatever_you_use.asm needs to look very much like Source/config_n8vem_diskio3.asm not the regular diskio.asm file (the v3 IDE interface is more or less a modified PPIDE interface not a diskio interface)
+Second, You need to copy the contents to RomDsk/cfg_n8vem_diskio3 into RomDsk/cfg_whatever_you_use, most importantly you need to make sure you have a copy of fdtst.com available to control the floppy drive.
+Worst case you could xmodem fdtst.com over to the ramdisk or something like that.
+Finally, the third important point is to carefully consider changing the value of PPIDECAPACITY from the default 64 (which will provide 8 LUs) to something larger.  My CF is 2048 not 64, but managing that many LU is an issue.  For early experimentation leave this setting alone and only use the first 64 megs of your hard drive, although this is probably the very first thing you'll experiment with if all testing is successful.
+</para>
+
+<para>
+The first thing to figure out is how to format an IDE drive (which is actually a LU, but we'll get to that later).
+Probably changing to e: and typing "dir" will result in junk output and error messages.
+From the B: drive, try "b:clrdir E:".
+The clrdir utility will demand you press "Y".  Not lowercase "y" it must be "Y".
+After a "Directory cleared." response a "dir" will show "No File" instead of crazy error messages and junk output.
+Later, once you understand LUs, its important to note you have to "clrdir" every LU not every drive letter...
+</para>
+
+<para>
+The second thing to figure out is how drive letters are mapped into numerous LUs.
+b:map.com has two semi separate outputs.
+The top half is "constant" and outputs the drive letter map.
+The first time I ran "b:map" I saw the c: is fd0, d: is fd1, e: is ppide0-lu0, f: is ppide0-lu1, g: is ppide0-lu2, and h: is ppide-lu3.
+The second half of the output of map depends on which drive you're on.  If on a: (ram) or b: (rom) there is not much to see.
+On the other hand the IDE interface has a much more interesting output.  You get the number of LUs (I have 7, your result may vary) and then a list of LU (zero indexed) vs label (by default, all blank).
+"b:map e: 3" sets the e: drive to LU 3 (which happens to be identical to the H: drive), then rerunning b:map will show "E: PPIDE0-LU3"
+Also notice that LU are zero indexed so "LU 3" is actually the fourth LU.
+A common mistake is not typing a colon after the drive name, it fails silently and confusingly.
+</para>
+
+<para>
+"b:setlabel" has to be run from the LU you want to rename, so you may have to "map" a LU into a drive letter first.
+Once the label is set, it shows up in the output of b:map.com, which is very helpful.
+To clear a label, enter a new label name of "spacebar".  Simply hitting enter will not change the existing label.
+</para>
+
+<para>
+I have not figured out in detail the meaning of all of the output of b:meta.com.
+The oneliner is "display and/or edit metadata of current drive".
+I am satisfied if there are no error messages.
+"b:view" command is pretty much in the same category.  I find I have to run "view" from the E: drive or I need to reboot.
+</para>
+
+<para>
+After files have been copied to the IDE and several LUs are full of good, labeled stuff, its safe to assume the IDE portion of the diskiov3 is tested and working.
+Next, onto the floppy interface.
+</para>
+
+<para>
+Most initial testing will consist of using the fdtst.com command.
+First, reconfigure fdtst to match my config.
+Second, (re) format the inserted floppy disk.
+Third, write a test pattern to the entire disk.
+Fourth, verify the disk.
+Fifth, exit fdtst.com and run clrdir to prep the disk.
+At that point the floppy interface is usable.
+</para>
+
+<para>
+Start fdtst.
+It will assume you have a 720K drive... I have a 1.44M drive.
+Hit "S"etup.
+Hit enter, aka unit 0.
+Hit "01(enter)", aka 3.5 inch 1.44 MB drive.
+Hit enter, aka polling mode.
+Hit enter, aka trace level 0.
+</para>
+
+<para>
+To format the floppy disk in fdtst.com, hit "F"ormat.
+Hit "D"isk.
+For lack of a better idea, I hit enter aka default interleave of 02.
+You should see "RESET DRIVE..." and incrementing "PROGRESS" report.
+In a minute or two you'll see the main menu again, hopefully with no errors reported.
+</para>
+
+<para>
+To write a test pattern in fdtst.com, hit "W"rite.
+Hit "D"isk.
+Wait and watch the "PROGRESS" report.
+Much like formatting, no news (error messages) is good news.
+</para>
+
+<para>
+To verify the test pattern in fdtst.com, hit "V"erify.
+Hit "D"isk.
+Wait and watch the "PROGRESS" report.
+Optimistically there will be no errors.  
+My IDE interface has been flawlessly reliable although occasionally the floppy outputs an error at this point.
+Hit "X" to exit fdtst.com
+</para>
+
+<para>
+Finally it is time to run clrdir to clear the floppy directory and prepare it for use.
+Run "b:clrdir c:" and hit capital "Y".
+With any luck, no error messages and a "Directory cleared" response results.
+</para>
+
+<para>
+Testing disk change detection is somewhat beyond the level of this document (or this author, anyway).
 </para>
 
 </chapter>
@@ -482,6 +584,12 @@ Troubleshooting advice will be provided.
 <para>Disk IO v3 project workspace</para>
 <para><uri>http://n8vem-sbc.pbworks.com/w/page/49182203/ECB%20DiskIO%20V3</uri></para>
 </listitem>
+
+<listitem>
+<para>RomWBW source Apps/doc/dwg-apps.man</para>
+<para>One line command summary of the various utilities</para>
+</listitem>
+
 
 </itemizedlist>
 
