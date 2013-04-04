@@ -217,6 +217,12 @@ No one in any way connected to the project or the builders notes formally endors
 
 <listitem>
 <para>U32 74LS08 14dip300</para>
+<para>LS family Digikey 296-1633-5-ND $0.67 on 2013-04-04</para>
+<para>LS family Jameco 46375 (generic) $0.45 on 2013-04-04</para>
+<para>LS family Jameco 295401 (name brand) $0.49 on 2013-04-04</para>
+<para>LS family Mouser 595-SN74LS08N $0.42 on 2013-04-04</para>
+<para>ALS family Digikey 296-1484-5-ND $0.86 on 2013-04-04</para>
+<para>ALS family Mouser 595-SN74ALS08N $0.54 on 2013-04-04</para>
 </listitem>
 
 <listitem>
@@ -272,6 +278,12 @@ No one in any way connected to the project or the builders notes formally endors
 
 <listitem>
 <para>U25,U26 qty 2 74LS374 20dip300</para>
+<para>LS family Digikey 296-1662-5-ND $0.96 on 2013-04-04</para>
+<para>LS family Jameco 47634 (generic) $0.69 on 2013-04-04</para>
+<para>LS family Jameco 308478 (name brand) $0.79 on 2013-04-04</para>
+<para>LS family Mouser 595-SN74LS374N $0.60 on 2013-04-04</para>
+<para>ALS family Digikey 296-1498-5-ND $1.18 on 2013-04-04</para>
+<para>ALS family Mouser 595-SN74ALS374AN $0.84 on 2013-04-04</para>
 </listitem>
 
 <listitem>
@@ -285,16 +297,21 @@ No one in any way connected to the project or the builders notes formally endors
 <para>U15,U16 qty 2 4416 or 4464 18dip300 Dynamic Ram</para>
 <para>Abra TMS4416-121</para>
 <para>eBay TMS4464-12NL TEXAS INST 18-Pin DIP</para>
+<para>UTSource TMS4464-12NL $4.00 plus $4.10 shipping on 2013-03-03</para>
 </listitem>
 
 <listitem>
 <para>U19 8242 40dip600 PS/2 Keyboard Mouse Controller aka VT82C42N</para>
-<para>UTSourceVT82C42N</para>
+<para>UTSource VT82C42N $4.00 plus $4.00 shipping on 2013-03-03</para>
 </listitem>
 
 <listitem>
 <para>U13 8563 48dip600 Commodore 128 80 column Vic video chip #8563R9. tested</para>
+<para>These are socketed chips in a Commodore 128</para>
 <para>eBay</para>
+<para>LittleDiode SKU 8563R9C128 Part Number 8563R9C128 4.99 pounds plus 4.03 pounds shipping on 2013-03-04</para>
+<para>www.elettrosurplus.com 8 euros on 2013-04-04</para>
+<para>Tom Lafleur reports "MCM Electroniac in PORTUGAL clams to have 88 of them in stock" as of March 3rd 2013</para>
 </listitem>
 
 <listitem>
