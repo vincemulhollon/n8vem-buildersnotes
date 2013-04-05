@@ -77,10 +77,12 @@ This BoM is up to date WRT the rev. 1.01 wiki/workspace BoM
 
 <listitem>
 <para>P6 Interrupt select 3x2 pin array</para>
+<para>Mouser 649-67996-106 $1.30 on 2013-04-05</para>
 </listitem>
 
 <listitem>
 <para>P5 IO Port select 7x2 pin array</para>
+<para>Mouser 649-68692-214HLF $0.64 on 2013-04-05</para>
 </listitem>
 
 <listitem>
@@ -120,14 +122,17 @@ This BoM is up to date WRT the rev. 1.01 wiki/workspace BoM
 
 <listitem>
 <para>RR1 1K by 6 bussed resistors in a 7 pin SIP package, up to a 10 pin SIP will fit</para>
+<para>Mouser 652-4306R-1LF-1K $0.41 on 2013-04-05</para>
 </listitem>
 
 <listitem>
 <para>RR2 10K by 3 bussed resistors in a 4 pin SIP package, up to a 10 pin SIP will fit</para>
+<para>Mouser 652-4604X-1LF-10K $0.17 on 2013-04-05</para>
 </listitem>
 
 <listitem>
 <para>RR3 22K or higher is better, by 8 bussed resistors in a 9 pin SIP package, up to a 10 pin SIP will fit</para>
+<para>Mouser 652-4609M-1LF-47K $0.48 on 2013-04-05</para>
 </listitem>
 
 <listitem>

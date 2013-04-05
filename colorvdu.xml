@@ -158,6 +158,7 @@ No one in any way connected to the project or the builders notes formally endors
 <listitem>
 <para>C16,C17,C18,C19,C20,C21,C22,C23,C24 qty 8 2.2 nF</para>
 <para>Jameco 332443 $0.15 (Minimum order 10) on 2013-04-02</para>
+<para>Mouser 72-VY1222M47Y5UQ63V0 $0.41 (note only $2.84 for 10) on 2013-04-05</para>
 </listitem>
 
 <listitem>
@@ -168,16 +169,19 @@ No one in any way connected to the project or the builders notes formally endors
 <listitem>
 <para>R1,R2,R3,R4,R5,R6,R7,R8,R9 qty 9 27 ohm resistor</para>
 <para>Jameco 690486</para>
+<para>Mouser 271-27-RC $0.09 (qty 10) on 2013-04-05</para>
 </listitem>
 
 <listitem>
 <para>R21,R22,R23 qty 3 390 ohm resistor</para>
 <para>Jameco 690769</para>
+<para>Mouser 271-390-RC $0.09 (qty 10) on 2013-04-05</para>
 </listitem>
 
 <listitem>
 <para>R31,R32,R33,R34 qty 4 820 ohm resistor</para>
 <para>Jameco 690849</para>
+<para>Mouser 271-820-RC $0.09 (qty 10) on 2013-04-05</para>
 </listitem>
 
 <listitem>
@@ -316,14 +320,14 @@ No one in any way connected to the project or the builders notes formally endors
 
 <listitem>
 <para>P24 16 MHz oscillator 5V, half can 8dip300</para>
-<para>16.0 MHZ Mouser 520-TCH1600-X</para>
-<para>16.257 MHz Mouser  520-TCH1625-X</para>
+<para>16.0 MHZ Mouser 520-TCH1600-X $2.11 on 2013-04-05</para>
+<para>16.257 MHz Mouser 520-TCH1625-X $2.11 on 2013-04-05</para>
 <para>16.257 MHz DigiKey XC248-ND</para>
 </listitem>
 
 <listitem>
 <para>P25 8 MHz oscillator, full can 14dip300</para>
-<para>Mouser  520-TCF800-X</para>
+<para>Mouser 520-TCF800-X $1.87 on 2013-04-05</para>
 </listitem>
 
 <listitem>
@@ -372,6 +376,7 @@ No one in any way connected to the project or the builders notes formally endors
 <para>Due to some clearance issues at least one of the two "full" osc needs to be a half osc</para>
 <para>Machined pin / Tin Digikey A463-ND $1.14 on 2013-02-24</para>
 <para>Machined Pin Jameco 133006</para>
+<para>Machined Pin Mouser 535-1108800 $0.58 on 2013-04-05</para>
 </listitem>
 
 <listitem>
@@ -379,6 +384,7 @@ No one in any way connected to the project or the builders notes formally endors
 <para>Due to some clearance issues at least one of the two "full" osc needs to be a half osc</para>
 <para>Machined pin / Tin Digikey A462-ND $1.14 on 2013-02-24</para>
 <para>Machined Pin Jameco 133006</para>
+<para>Machined Pin Mouser 535-1107741 $0.58 on 2013-04-05</para>
 </listitem>
 
 </itemizedlist>
