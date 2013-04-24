@@ -18,6 +18,8 @@ process cassette
 process colorvdu
 process diskiov3
 process dualsdcard
+process mini68000
+process multifunction
 process prototyper
 process propio
 process sbcv2
