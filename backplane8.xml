@@ -8,7 +8,7 @@
 <personname><firstname>Vince</firstname><surname>Mulhollon</surname></personname>
 <email>vince@mulhollon.com</email>
 </author>
-<date>March 15, 2013</date>
+<date>April 26, 2013</date>
 <legalnotice>
 <para>The contents of the builders notes are licensed as</para>
 <para>Creative Commons Attribution-ShareAlike 3.0 Unported aka CC BY-SA 3.0</para>
@@ -74,7 +74,7 @@ No one in any way connected to the project or the builders notes formally endors
 
 <listitem>
 <para>P2 POWER molex 5.25 floppy disk drive power male PCB flush mount socket</para>
-<para>Jameco 109146 $0.85 on 2013-01-16 per VLM</para>
+<para>Jameco 109146 $0.85 on 2013-01-16 per VLM This does not fit flush and requires mounting out the side of the PCB</para>
 </listitem>
 
 <listitem>
@@ -154,22 +154,6 @@ Combined with sixteen nylon #4 1/4 inch spacers this makes a fairly attractive m
 The ECB backplane PCB visually appears to be symmetric, but its actually about a sixteenth of an inch longer at the bottom (held with power connector to the left.  This may be a manufacturing tolerance issue.  Regardless of the reason, its a good idea to lay out your backplane mounting holes with the board facing the correct way rather than assuming if you need to, at final assembly you can flip it.
 </para>
 
-<para>
-Notes regarding configuration of the board.  DIP switches, jumpers.
-</para>
-
-<itemizedlist mark='opencircle'>
-
-<listitem><para>
-JP1 warp drive modulator
-</para></listitem>
-
-<listitem><para>
-JP3 dilithium crystal holder
-</para></listitem>
-
-</itemizedlist>
-
 </chapter>
 
 <chapter xml:id="accessories">
@@ -190,9 +174,14 @@ On the input of the 12 volt supply VLM uses powerpole connectors, a fuse might b
 </para>
 
 <para>
-Configuration jumper JP1 might (or might not) need a 2-pin shorting plug.
-Jameco 112432 $0.12 on 2013-01-27 per VLM.
+A backup battery, perhaps two AA batteries in series, can be connected to JP1.
 </para>
+
+<caution>
+<para>
+Please be careful about polarity when connecting the backup battery to JP1.
+</para>
+</caution>
 
 </chapter>
 
