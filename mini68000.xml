@@ -8,7 +8,7 @@
 <personname><firstname>Vince</firstname><surname>Mulhollon</surname></personname>
 <email>vince@mulhollon.com</email> 
 </author>
-<date>April 24, 2013</date>
+<date>April 26, 2013</date>
 <legalnotice>
 <para>The contents of the builders notes are licensed as</para>
 <para>Creative Commons Attribution-ShareAlike 3.0 Unported aka CC BY-SA 3.0</para>
@@ -65,10 +65,266 @@ No one in any way connected to the project or the builders notes formally endors
 <itemizedlist mark='opencircle'>
 
 <listitem>
-<para>K999 3x1 pin array</para>
-<para>Jameco 109576 $0.29 on 2013-01-16 per VLM</para>
-<para>Mouser 649-69190-103HLF $0.12 on 2013-02-26 per VLM</para>
-<para>Mouser 649-78229-103HLF $0.20 on 2013-02-26 per VLM</para>
+<para>J4,P1 qty 2 2x1 pin array</para>
+<para>Digikey 3M9447-ND $0.16 on 2013-01-18 per VLM</para>
+<para>Jameco 108338 $0.29 on 2013-01-16 per VLM</para>
+<para>Mouser 649-78229-102HLF $0.18 on 2013-02-26 per VLM</para>
+</listitem>
+
+<listitem>
+<para>J3 MemW-WS 3x1 pin array</para>
+</listitem>
+
+<listitem>
+<para>J1 FLSH/EPR 2x2 pin array</para>
+</listitem>
+
+<listitem>
+<para>J2 WAIT 3x2 pin array</para>
+</listitem>
+
+<listitem>
+<para>K1 C96ABC</para>
+<para>Jameco 859561 (A non-stocked item, will delay delivery) $4.35 on 2013-01-16 per VLM</para>
+<para>Mouser 617-09-03-396-6921</para>
+<para>Jameco 859430</para>
+</listitem>
+
+<listitem>
+<para>SW1 Reset switch SIL-2 pushbutton</para>
+<para>Digikey SW400-ND $0.35 on 2013-01-18 per VLM</para>
+<para>Jameco 1586074 $0.35 on 2013-01-16 per VLM</para>
+</listitem>
+
+<listitem>
+<para>C2,C3,C4,C5,C6,C7,C8,C9,C10,C11,C12,C13,C14,C15,C16,C17,C18,C19,C20,C21,C22,C23,C24,C25,C26,C27,C28,C29,C30,C31,C32,C33,C34,C35,C36,C37,C38 qty 37 ceramic disk capacitor 0.1uF</para>
+<para>Jameco 25523 will not fit the PCB outline exactly, but the leads can be bent to fit $0.08 on 2013-01-16 per VLM</para>
+<para>Mouser 80-C323C104K5R appears to be a perfect fit to the board outline $0.15</para>
+</listitem>
+
+<listitem>
+<para>C1 22uF electrolytic capacitor</para>
+</listitem>
+
+<listitem>
+<para>CP1 47uF electrolytic capacitor</para>
+</listitem>
+
+<listitem>
+<para>R1 10 ohm resistor 1/8th watt</para>
+</listitem>
+
+<listitem>
+<para>R2 47 ohm resistor 1/8 watt for LED bias</para>
+</listitem>
+
+<listitem>
+<para>RR1 2200 ohm x 7 resistors in a 8 to 10 pin bussed resistor network</para>
+</listitem>
+
+<listitem>
+<para>RR2 10K ohm x 9 resistors in a 10 pin bussed resistor network</para>
+</listitem>
+
+<listitem>
+<para>D1 BAT43 1N4148 okay, Schottky diode preferred</para>
+</listitem>
+
+<listitem>
+<para>D2 LED red/green bright diffused 2-pin</para>
+</listitem>
+
+<listitem>
+<para>U4,U21 qty 2 74LS00</para>
+<para>LS family Digikey 296-1626-5-ND $0.67 on 2013-03-09 per VLM</para>
+<para>LS family Jameco 46252 (generic) $0.45 on 2013-03-09 per VLM</para>
+<para>LS family Jameco 283725 (name brand) $0.49 on 2013-03-09 per VLM</para>
+<para>LS family Mouser 595-SN74LS00N $0.67 on 2013-03-09 per VLM</para>
+<para>ALS family Digikey 296-1478-5-ND $0.95 on 2013-03-09 per VLM</para>
+<para>ALS family Mouser 595-SN74ALS00AN $0.95 on 2013-03-09 per VLM</para>
+</listitem>
+
+<listitem>
+<para>U1 74LS02</para>
+</listitem>
+
+<listitem>
+<para>U13 74F04 F series or ALS series</para>
+<para>ALS family Digikey 296-1481-5-ND $0.86 on 2013-04-02</para>
+<para>ALS family Mouser 595-SN74ALS04BN $0.54 on 2013-04-02</para>
+</listitem>
+
+<listitem>
+<para>U5 74LS06</para>
+<para>LS family Digikey 296-15069-5-ND $0.92 on 2013-02-09</para>
+<para>LS family Jameco 46359 $0.89 on 2013-01-27</para>
+<para>LS family Mouser 595-SN74LS06N $0.71 on 2013-02-27</para>
+<para>LS family Unicorn Electronics $0.69 on 2013-02-27</para>
+<para>ALS family Digikey 296-1484-5-ND $0.86 on 2013-02-09</para>
+</listitem>
+
+<listitem>
+<para>U12 74LS08</para>
+<para>LS family Digikey 296-1633-5-ND $0.67 on 2013-04-04</para>
+<para>LS family Jameco 46375 (generic) $0.45 on 2013-04-04</para>
+<para>LS family Jameco 295401 (name brand) $0.49 on 2013-04-04</para>
+<para>LS family Mouser 595-SN74LS08N $0.42 on 2013-04-04</para>
+<para>ALS family Digikey 296-1484-5-ND $0.86 on 2013-04-04</para>
+<para>ALS family Mouser 595-SN74ALS08N $0.54 on 2013-04-04</para>
+</listitem>
+
+<listitem>
+<para>U6,U26 qty 2 74LS10</para>
+<para>ALS family Digikey 296-5011-5-ND $0.92 on 2013-02-09 per VLM</para>
+</listitem>
+
+<listitem>
+<para>U2 74LS14</para>
+<para>LS family Digikey 296-1643-5-ND $0.67 on 2013-02-09 per VLM</para>
+<para>LS family Jameco 46640 (generic) $0.45 on 2013-02-28 per VLM</para>
+<para>LS family Jameco 295460 (name brand) $0.49 on 2013-02-28 per VLM</para>
+<para>LS family Mouser 595-SN74LS14N $0.45 on 2013-02-28 per VLM</para>
+<para>LS family Unicorn Electronics $0.33 on 2013-02-28 per VLM</para>
+<para>HCT family Jameco 44935 $0.29 on 2013-02-28 per VLM</para>
+<para>AHCT family Mouser 595-SN74AHCT14N $0.17 on 2013-02-28 per VLM</para>
+<para>F family Digikey 568-7891-5-ND $0.57 on 2013-02-28 per VLM</para>
+<para>F family Jameco 287021 $0.29 on 2013-02-28 per VLM</para>
+</listitem>
+
+<listitem>
+<para>U17 74LS32</para>
+<para>LS family Digikey 296-1658-5-ND $0.62 on 2013-01-18 per VLM</para>
+<para>LS family Jameco 47466 $0.45 on 2013-01-27 per VLM</para>
+<para>LS family Mouser 595-SN74LS32N $0.42 on 2013-02-28 per VLM</para>
+<para>LS family Unicorn $0.32 on 2013-02-28 per VLM</para>
+<para>F family Digikey 296-3583-5-ND $0.66 on 2013-02-28 per VLM</para>
+<para>F family Jameco 287048 $0.45 on 2013-02-26 per VLM</para>
+<para>F family Mouser 595-SN74F32N $0.38 on 2013-02-28 per VLM</para>
+<para>ALS family Mouser 595-SN74ALS32N $0.64 on 2013-02-28 per VLM</para>
+<para>ALS family Digikey 296-1495-5-ND $0.95 on 2013-02-09 per VLM</para>
+<para>ALS family Unicorn $0.19 on 2013-02-28 per VLM</para>
+<para>AHCT family Mouser 595-SN74AHCT32N $0.34 on 2013-02-28 per VLM</para>
+</listitem>
+
+<listitem>
+<para>U3 74LS109</para>
+</listitem>
+
+<listitem>
+<para>U7 74LS125</para>
+<para>LS family Digikey 296-1638-5-ND $0.86 on 2013-02-28 per VLM</para>
+<para>LS family Jameco 46501 $0.65 on 2013-02-28 per VLM</para>
+<para>LS family Mouser 595-SN74LS125AN $0.58 on 2013-02-28 per VLM</para>
+<para>LS family Unicorn $0.45 on 2013-02-28 per VLM</para>
+<para>ALS family Digikey 296-1638-5-ND $0.86 on 2013-02-09 per VLM</para>
+<para>AHCT family Mouser 595-SN74AHCT125N $0.24 on 2013-02-28 per VLM</para>
+</listitem>
+
+<listitem>
+<para>U25 74LS138</para>
+<para>LS family Jameco 46607 (generic brand) $0.58 on 2013-02-28 per VLM</para>
+<para>LS family Jameco 301233 (name brand) $0.69 on 2013-02-28 per VLM</para>
+<para>LS family Mouser 595-SN74LS138N $0.58 on 2013-02-28 per VLM</para>
+<para>LS family Unicorn $0.33 on 2013-02-28 per VLM</para>
+<para>ALS family Digikey 296-1485-5-ND $1.01 on 2013-02-26 per VLM</para>
+<para>ALS family Mouser 595-SN74ALS138AN $0.78 on 2013-02-28 per VLM</para>
+<para>ALS family Unicorn $0.29 on 2013-02-28 per VLM</para>
+<para>HCT family Jameco 44927 $0.35 on 2013-02-28 per VLM</para>
+<para>AHCT family Mouser 595-SN74AHCT138N $0.24 on 2013-02-28 per VLM</para>
+</listitem>
+
+<listitem>
+<para>U24 74LS153</para>
+</listitem>
+
+<listitem>
+<para>U23,U27 qty 2 74LS164</para>
+</listitem>
+
+<listitem>
+<para>U22 74LS240</para>
+<para>LS family Jameco 47141 (generic) $0.69 on 2013-02-28 per VLM</para>
+<para>LS family Jameco 308291 (name brand) $0.79 on 2013-02-28 per VLM</para>
+<para>LS family Mouser 595-SN74LS240N $0.68 on 2013-02-28 per VLM</para>
+<para>LS family Unicorn $0.39 on 2013-02-28 per VLM</para>
+<para>ALS family Digikey 296-5041-5-ND $1.30 on 2013-02-26 per VLM</para>
+<para>ALS family Mouser 595-SN74ALS240AN $1.01 on 2013-02-28 per VLM</para>
+<para>ALS family Unicorn $0.29 on 2013-02-28 per VLM</para>
+<para>AHCT family Mouser 595-SN74AHCT240N $0.31 on 2013-02-28 per VLM</para>
+</listitem>
+
+<listitem>
+<para>U11 74LS244</para>
+<para>LS family Digikey 296-1653-5-ND $0.92 on 2013-03-01 per VLM</para>
+<para>LS family Jameco 47183 (generic) $0.65 on 2013-03-01 per VLM</para>
+<para>LS family Jameco 308312 (name brand) $0.69 on 2013-03-01 per VLM</para>
+<para>LS family Mouser 595-SN74LS244N $0.71 on 2013-03-01 per VLM</para>
+<para>ALS family Digikey 296-1490-5-ND $1.22 on 2013-02-09 per VLM</para>
+<para>ALS family Mouser 595-SN74ALS244CN $0.94 on 2013-02-09 per VLM</para>
+</listitem>
+
+<listitem>
+<para>U8,U9,U10,U14 qty 4 74LS245</para>
+<para>LS family Digikey 296-1655-5-ND $0.92 on 2013-02-02 per VLM</para>
+<para>LS family Jameco 47212 $0.65 on 2013-01-27 per VLM</para>
+<para>LS family Unicorn $0.39 on 2013-02-28 per VLM</para>
+<para>F family Jameco 287144 $0.39 on 2013-02-26 per VLM (closeout)</para>
+<para>ALS family Digikey 296-1492-5-ND $1.22 on 2013-02-09 per VLM</para>
+<para>ALS family Mouser 595-SN74ALS245A-1N $0.94 on 2013-02-28 per VLM</para>
+<para>ALS family Mouser 595-SN74ALS245AN $0.94 on 2013-02-28 per VLM</para>
+<para>ALS family Unicorn $0.29 on 2013-02-28 per VLM</para>
+<para>AHCT family Mouser 595-SN74AHCT245N $0.31 on 2013-02-28 per VLM</para>
+</listitem>
+
+<listitem>
+<para>U15 29F040 128K x 8 flash memory</para>
+</listitem>
+
+<listitem>
+<para>U16,U18,U19,U20 qty 4 SRAM_512K</para>
+<para>Jameco 1927617</para>
+</listitem>
+
+<listitem>
+<para>U28 OSC 8Mhz full can or half can</para>
+</listitem>
+
+<listitem>
+<para>U29 68008FN PLCC52 package, MC68008FN8 (Motorola), TS68008CFN10 (SGS Thompson)</para>
+<para>Ebay</para>
+<para>UTSource</para>
+</listitem>
+
+<listitem>
+<para>14dip300 qty 14 IC socket</para>
+<para>Socket pin type selection is a hotly contested personal choice.</para>
+<para>Gold plate is less mechanically durable than tin, more corrosion resistant than the IC pins, and more expensive</para>
+<para>Machined pins grip the pins more tightly, which is either considered a blessing or a curse, and cost more than folded sockets</para>
+<para>The board aesthetically looks better if you use identical type sockets on the board, unless you're intentionally trying to highlight an area of the board.</para>
+<para>In theory, you could use orange plastic sockets for the ECB interface, blue sockets for the memory decode logic...</para>
+<para>Machined pin / Tin Digikey AE10012-ND $0.79 on 2013-02-02 per VLM</para>
+<para>Machined pin / Tin Jameco 37197 $0.55 on 2013-01-16 per VLM</para>
+</listitem>
+
+<listitem>
+<para>16dip300 qty 3 IC socket</para>
+<para>Machined pin / Tin Digikey ED3116-ND $0.873 on 2013-02-24 per VLM</para>
+<para>Machined pin / Tin Jameco 37402 $0.59 on 2013-01-16 per VLM</para>
+</listitem>
+
+<listitem>
+<para>20dip300 qty 6 IC socket</para>
+<para>Machined pin / Tin Digikey A404AE-ND $1.50 on 2013-02-24 per VLM</para>
+<para>Machined pin / Tin Jameco 38623 $0.69 on 2013-01-16 per VLM</para>
+</listitem>
+
+<listitem>
+<para>32dip600 qty 5 IC socket</para>
+<para>Machined pin / Tin Jameco 105381 $1.35 on 2013-01-16 per VLM</para>
+</listitem>
+
+<listitem>
+<para>52-pin PLCC thruhole socket</para>
 </listitem>
 
 </itemizedlist>
@@ -133,9 +389,25 @@ Notes regarding accessories.
 Some examples of accessories are homemade cables, floppy drives, chassis.
 </para>
 
-<caution><para>
-Very few (no?) boards in the project accept any power source other than pure, filtered positive 5 volts
-</para></caution>
+<para>
+A serial cable.
+VLM bought a 3 foot 9pin serial cable from Jameco part number 189333 for $3.25 on 2013-01-16, chopped the end off to connect t
+o a PC.
+Also purchased a 5x2 female IDC connector from Jameco part number 742215 for $1.09 on 2013-01-27 to connect to the SBCv2.
+In between goes a length of 10 conductor ribbon cable, Jameco part number 639672 for $4.49 on 2013-01-27.
+I insulated the splices with a large amount of heat shrink tubing and some electrical tape.
+</para>
+
+<para>
+A ZIF socket for the eprom can be mounted, but it will make the Mini68000 take up two backplane slots, which may or may not matter.
+The components required are a Jameco 104012 32 pin ZIF $9.95 as of 2013-02-17 and two machined 32 pin sockets used as spacers, Jameco 105381 $1.35 each as of 2013-02-17.
+Stick one machined pin socket onto the zif, then stack another machined pin socket on making a stack of 3 sockets, then stick the whole works into the board, hopefully the board was assembled with machined sockets so that the weight of the ZIF won't pull the stack out of the PCB soldered socket.
+</para>
+
+<para>
+You'll need some 2-pin shorting plugs for configuration jumpers, at least 15 or so.
+Jameco 112432 $0.12 on 2013-01-27 per VLM.
+</para>
 
 </chapter>
 
