@@ -8,7 +8,7 @@
 <personname><firstname>Vince</firstname><surname>Mulhollon</surname></personname>
 <email>vince@mulhollon.com</email> 
 </author>
-<date>April 24, 2013</date>
+<date>April 28, 2013</date>
 <legalnotice>
 <para>The contents of the builders notes are licensed as</para>
 <para>Creative Commons Attribution-ShareAlike 3.0 Unported aka CC BY-SA 3.0</para>
@@ -66,9 +66,193 @@ No one in any way connected to the project or the builders notes formally endors
 
 <listitem>
 <para>K999 3x1 pin array</para>
-<para>Jameco 109576 $0.29 on 2013-01-16 per VLM</para>
-<para>Mouser 649-69190-103HLF $0.12 on 2013-02-26 per VLM</para>
-<para>Mouser 649-78229-103HLF $0.20 on 2013-02-26 per VLM</para>
+<para>Jameco 109576 $0.29 on 2013-01-16</para>
+<para>Mouser 649-69190-103HLF $0.12 on 2013-02-26</para>
+<para>Mouser 649-78229-103HLF $0.20 on 2013-02-26</para>
+</listitem>
+
+<listitem>
+<para>U10 74LS02</para>
+<para>LS family Digikey 296-1627-5-ND $0.67 on 2013-05-08</para>
+<para>LS family Jameco 46287 (generic) $0.39 on 2013-05-08</para>
+<para>LS family Jameco 283741 (name brand) $0.45 on 2013-05-08</para>
+<para>LS family Mouser 595-SN74LS02N $0.42 on 2013-05-08</para>
+<para>ALS family Digikey 296-1479-5-ND $0.86 on 2013-05-08</para>
+<para>ALS family Mouser 595-SN74ALS02AN $0.86 on 2013-05-08</para>
+</listitem>
+
+<listitem>
+<para>U11 74LS04</para>
+<para>LS family Digikey 296-1629-5-ND $0.74 on 2013-04-02</para>
+<para>LS family Jameco 46316 (generic) $0.49 on 2013-04-02</para>
+<para>LS family Jameco 283792 (name brand) $0.55 on 2013-04-02</para>
+<para>LS family Mouser 595-SN74LS04N $0.46 on 2013-04-02</para>
+<para>ALS family Digikey 296-1481-5-ND $0.86 on 2013-04-02</para>
+<para>ALS family Mouser 595-SN74ALS04BN $0.54 on 2013-04-02</para>
+</listitem>
+
+<listitem>
+<para>U2,U4 qty 2 74LS08</para>
+<para>LS family Digikey 296-1633-5-ND $0.67 on 2013-04-04</para>
+<para>LS family Jameco 46375 (generic) $0.45 on 2013-04-04</para>
+<para>LS family Jameco 295401 (name brand) $0.49 on 2013-04-04</para>
+<para>LS family Mouser 595-SN74LS08N $0.42 on 2013-04-04</para>
+<para>ALS family Digikey 296-1484-5-ND $0.86 on 2013-04-04</para>
+<para>ALS family Mouser 595-SN74ALS08N $0.54 on 2013-04-04</para>
+</listitem>
+
+<listitem>
+<para>U27 74LS32</para>
+<para>LS family Digikey 296-1658-5-ND $0.62 on 2013-01-18</para>
+<para>LS family Jameco 47466 $0.45 on 2013-01-27</para>
+<para>LS family Mouser 595-SN74LS32N $0.42 on 2013-02-28</para>
+<para>LS family Unicorn $0.32 on 2013-02-28</para>
+<para>F family Digikey 296-3583-5-ND $0.66 on 2013-02-28</para>
+<para>F family Jameco 287048 $0.45 on 2013-02-26</para>
+<para>F family Mouser 595-SN74F32N $0.38 on 2013-02-28</para>
+<para>ALS family Mouser 595-SN74ALS32N $0.64 on 2013-02-28</para>
+<para>ALS family Digikey 296-1495-5-ND $0.95 on 2013-02-09</para>
+<para>ALS family Unicorn $0.19 on 2013-02-28</para>
+<para>AHCT family Mouser 595-SN74AHCT32N $0.34 on 2013-02-28</para>
+</listitem>
+
+<listitem>
+<para>U12 74LS125</para>
+<para>LS family Digikey 296-1638-5-ND $0.86 on 2013-02-28</para>
+<para>LS family Jameco 46501 $0.65 on 2013-02-28</para>
+<para>LS family Mouser 595-SN74LS125AN $0.58 on 2013-02-28</para>
+<para>LS family Unicorn $0.45 on 2013-02-28</para>
+<para>ALS family Digikey 296-1638-5-ND $0.86 on 2013-02-09</para>
+<para>AHCT family Mouser 595-SN74AHCT125N $0.24 on 2013-02-28</para>
+</listitem>
+
+<listitem>
+<para>U13 74LS139</para>
+<para>LS family Digikey 296-1640-5-ND $0.86 on 2013-02-02</para>
+<para>LS family Jameco 46623 (generic) $0.59 on 2013-02-28</para>
+<para>LS family Jameco 301268 (name brand) $0.65 on 2013-02-28</para>
+<para>LS family Mouser 595-SN74LS139AN $0.58 on 2013-02-28</para>
+<para>LS family Unicorn $0.33 on 2013-02-28</para>
+<para>ALS family Digikey 296-1486-5-ND $1.09 on 2013-02-09</para>
+<para>ALS family Mouser 595-SN74ALS139N $0.96 on 2013-02-28</para>
+<para>ALS family Unicorn $0.29 on 2013-02-28</para>
+<para>ACT family Mouser 595-CD74ACT139E $0.45 on 2013-02-28</para>
+<para>AHCT family Mouser 595-SN74AHCT139NE4 $0.37 on 2013-02-28</para>
+</listitem>
+
+<listitem>
+<para>U17,U18,U19 qty 3 74LS153</para>
+<para>LS family Digikey 296-3654-5-ND $0.92 on 2013-05-08</para>
+<para>LS family Jameco 46720 $0.75 on 2013-05-08</para>
+<para>LS family Mouser 595-SN74LS153N $0.66 on 2013-05-08</para>
+<para>ALS family Digikey 296-5022-5-ND $2.48 on 2013-05-08</para>
+<para>ALS family Mouser 595-SN74ALS153N $2.50 on 2013-05-08</para>
+</listitem>
+
+<listitem>
+<para>U15 74LS157</para>
+<para>LS family Digikey 296-1645-5-ND $0.82 on 2013-03-16</para>
+<para>LS family Jameco 46771 (generic) $0.59 on 2013-03-16</para>
+<para>LS family Mouser 595-SN74LS157N $0.82 on 2013-03-16</para>
+<para>ALS family Digikey 296-14719-5-ND $1.26 on 2013-03-16</para>
+<para>ALS family Mouser 595-SN74ALS157AN $1.29 on 2013-03-16</para>
+</listitem>
+
+<listitem>
+<para>U21 74LS175</para>
+<para>LS family Digikey 296-1648-5-ND $0.96 on 2013-03-16</para>
+<para>LS family Jameco 46957 (generic) $0.69 on 2013-03-16</para>
+<para>LS family Mouser 595-SN74LS175N $0.96 on 2013-03-16</para>
+<para>ALS family Digikey 296-5033-5-ND $1.09 on 2013-03-16</para>
+<para>ALS family Mouser 595-SN74ALS175N $1.11 on 2013-03-16</para>
+</listitem>
+
+<listitem>
+<para>U1 74LS240</para>
+<para>LS family Jameco 47141 (generic) $0.69 on 2013-02-28</para>
+<para>LS family Jameco 308291 (name brand) $0.79 on 2013-02-28</para>
+<para>LS family Mouser 595-SN74LS240N $0.68 on 2013-02-28</para>
+<para>LS family Unicorn $0.39 on 2013-02-28</para>
+<para>ALS family Digikey 296-5041-5-ND $1.30 on 2013-02-26</para>
+<para>ALS family Mouser 595-SN74ALS240AN $1.01 on 2013-02-28</para>
+<para>ALS family Unicorn $0.29 on 2013-02-28</para>
+<para>AHCT family Mouser 595-SN74AHCT240N $0.31 on 2013-02-28</para>
+</listitem>
+
+<listitem>
+<para>U5,U6,U8,U20 qty 4 74LS244</para>
+<para>LS family Digikey 296-1653-5-ND $0.92 on 2013-03-01</para>
+<para>LS family Jameco 47183 (generic) $0.65 on 2013-03-01</para>
+<para>LS family Jameco 308312 (name brand) $0.69 on 2013-03-01</para>
+<para>LS family Mouser 595-SN74LS244N $0.71 on 2013-03-01</para>
+<para>ALS family Digikey 296-1490-5-ND $1.22 on 2013-02-09</para>
+<para>ALS family Mouser 595-SN74ALS244CN $0.94 on 2013-02-09</para>
+</listitem>
+
+<listitem>
+<para>U14 74LS245</para>
+<para>LS family Digikey 296-1655-5-ND $0.92 on 2013-02-02</para>
+<para>LS family Jameco 47212 $0.65 on 2013-01-27</para>
+<para>LS family Unicorn $0.39 on 2013-02-28</para>
+<para>F family Jameco 287144 $0.39 on 2013-02-26 (closeout)</para>
+<para>ALS family Digikey 296-1492-5-ND $1.22 on 2013-02-09</para>
+<para>ALS family Mouser 595-SN74ALS245A-1N $0.94 on 2013-02-28</para>
+<para>ALS family Mouser 595-SN74ALS245AN $0.94 on 2013-02-28</para>
+<para>ALS family Unicorn $0.29 on 2013-02-28</para>
+<para>AHCT family Mouser 595-SN74AHCT245N $0.31 on 2013-02-28</para>
+</listitem>
+
+<listitem>
+<para>U16 74LS273</para>
+<para>LS family Jameco 47386 (generic brand) $0.69 on 2013-02-28</para>
+<para>LS family Jameco 308398 (name brand) $0.79 on 2013-02-28</para>
+<para>LS family Mouser 595-SN74LS273N $0.68 on 2013-02-28</para>
+<para>LS family Unicorn $0.45 on 2013-02-28</para>
+<para>ALS family Digikey 296-1493-5-ND $1.39 on 2013-02-26</para>
+<para>ALS family Mouser 595-SN74ALS273N $1.07 on 2013-02-28</para>
+<para>ALS family Unicorn $0.45 on 2013-02-28</para>
+<para>HCT family Jameco 45049 $0.49 on 2013-02-28</para>
+<para>AHCT family Mouser 595-SN74AHCT273N $0.47 on 2013-02-28</para>
+</listitem>
+
+<listitem>
+<para>U9 74LS688</para>
+<para>LS family Digikey 296-1667-5-ND $2.64 on 2013-02-28</para>
+<para>LS family Jameco 47984 $1.55 on 2013-02-28</para>
+<para>LS family Mouser 595-SN74LS688N $2.30 on 2013-02-28</para>
+<para>LS family Unicorn $1.49 on 2013-02-28</para>
+<para>ALS family Digikey 296-14748-5-ND $6.58 on 2013-02-28</para>
+<para>ALS family Mouser 595-SN74ALS688N $5.88 on 2013-02-28</para>
+</listitem>
+
+<listitem>
+<para>U12 DS1302 8dip300</para>
+<para>Digikey DS1302+-ND $3.56 on 2013-01-18</para>
+</listitem>
+
+<listitem>
+<para>U22 82C55</para>
+<para>8 MHz Digikey CP82C55A-ND CP82C55A $7.68 on 2013-02-09</para>
+<para>8 MHz Mouser 968-CP82C55A CP82C55A $7.67 on 2013-02-28</para>
+<para>10 MHz TMP82C55AP-10 ebay / utsource</para>
+<para>10 MHz NEC D71055C-10</para>
+<para>Jameco 52417 is a 82C55A for $4.95 on 2013-01-16</para>
+<para>Unicorn Electronics (order 82C55)</para>
+<para>Utsource</para>
+<para>eBay</para>
+<para>Ask Sergey</para>
+</listitem>
+
+<listitem>
+<para>16C550FN 44 pin PLCC</para>
+<para>TL16C550CFN Digikey 296-10153-5-ND $6.44 on 2013-05-08</para>
+<para>TL16C550CFN Jameco 288796 $5.35 on 2013-05-08</para>
+<para>TL16C550CFN Mouser 595-TL16C550CFN $6.44 on 2013-05-08</para>
+</listitem>
+
+<listitem>
+<para>U3 NS32202</para>
+<para>Buy from Andrew Lynch, same as the PCB</para>
 </listitem>
 
 </itemizedlist>
