@@ -8,7 +8,7 @@
 <personname><firstname>Vince</firstname><surname>Mulhollon</surname></personname>
 <email>vince@mulhollon.com</email> 
 </author>
-<date>April 26, 2013</date>
+<date>May 10, 2013</date>
 <legalnotice>
 <para>The contents of the builders notes are licensed as</para>
 <para>Creative Commons Attribution-ShareAlike 3.0 Unported aka CC BY-SA 3.0</para>
@@ -99,6 +99,7 @@ No one in any way connected to the project or the builders notes formally endors
 <listitem>
 <para>C2,C3,C4,C5,C6,C7,C8,C9,C10,C11,C12,C13,C14,C15,C16,C17,C18,C19,C20,C21,C22,C23,C24,C25,C26,C27,C28,C29,C30,C31,C32,C33,C34,C35,C36,C37,C38 qty 37 ceramic disk capacitor 0.1uF</para>
 <para>Jameco 25523 will not fit the PCB outline exactly, but the leads can be bent to fit $0.08 on 2013-01-16</para>
+<para>Jameco 544921 also does not fit exactly, but is $0.12 in hundred quantities on 2013-05-10</para>
 <para>Mouser 80-C323C104K5R appears to be a perfect fit to the board outline $0.15</para>
 </listitem>
 
@@ -120,10 +121,14 @@ No one in any way connected to the project or the builders notes formally endors
 
 <listitem>
 <para>RR1 2200 ohm x 7 resistors in a 8 to 10 pin bussed resistor network</para>
+<para>Digikey 4608X-1-222LF-ND $0.20 on 2013-05-10</para>
+<para>Mouser 652-4308R-1LF-2.2K $0.54 on 2013-05-10</para>
 </listitem>
 
 <listitem>
 <para>RR2 10K ohm x 9 resistors in a 10 pin bussed resistor network</para>
+<para>Digikey CSC10KCC-ND $0.58 on 2013-05-10</para>
+<para>Mouser 652-4610X-1LF-10K $0.23 on 2013-05-10</para>
 </listitem>
 
 <listitem>
@@ -289,15 +294,18 @@ No one in any way connected to the project or the builders notes formally endors
 
 <listitem>
 <para>U15 29F040 128K x 8 flash memory</para>
+<para>90 ns Jameco 242667 $5.95 on 2013-05-10</para>
+<para>Marked as obsolete/unavailable in 32dip package at other vendors</para>
 </listitem>
 
 <listitem>
 <para>U16,U18,U19,U20 qty 4 SRAM_512K</para>
-<para>Jameco 1927617</para>
+<para>Jameco 1927617 $5.95 on 2013-05-10</para>
 </listitem>
 
 <listitem>
 <para>U28 OSC 8Mhz full can or half can</para>
+<para>Full Can Jameco 27991 $1.95 on 2013-05-10</para>
 </listitem>
 
 <listitem>
@@ -318,6 +326,11 @@ No one in any way connected to the project or the builders notes formally endors
 </listitem>
 
 <listitem>
+<para>14dip300 qty 1 oscillator socket</para>
+<para>Jameco 133006 $0.65 on 2013-05-10</para>
+</listitem>
+
+<listitem>
 <para>16dip300 qty 3 IC socket</para>
 <para>Machined pin / Tin Digikey ED3116-ND $0.873 on 2013-02-24</para>
 <para>Machined pin / Tin Jameco 37402 $0.59 on 2013-01-16</para>
@@ -335,7 +348,8 @@ No one in any way connected to the project or the builders notes formally endors
 </listitem>
 
 <listitem>
-<para>52-pin PLCC thruhole socket</para>
+<para>52-pin PLCC thruhole socket qty 1</para>
+<para>Jameco 72442 $0.85 on 2013-05-10</para>
 </listitem>
 
 </itemizedlist>

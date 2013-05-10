@@ -8,7 +8,7 @@
 <personname><firstname>Vince</firstname><surname>Mulhollon</surname></personname>
 <email>vince@mulhollon.com</email> 
 </author>
-<date>April 28, 2013</date>
+<date>May 10, 2013</date>
 <legalnotice>
 <para>The contents of the builders notes are licensed as</para>
 <para>Creative Commons Attribution-ShareAlike 3.0 Unported aka CC BY-SA 3.0</para>
@@ -69,6 +69,41 @@ No one in any way connected to the project or the builders notes formally endors
 <para>Jameco 109576 $0.29 on 2013-01-16</para>
 <para>Mouser 649-69190-103HLF $0.12 on 2013-02-26</para>
 <para>Mouser 649-78229-103HLF $0.20 on 2013-02-26</para>
+</listitem>
+
+<listitem>
+<para>Right angle "IDE Connector" aka 20x2 pin array</para>
+<para>Jameco 737782 (aka AMP/TYCO ELECTRONICS 103310-8) $1.95 on 2013-05-10</para>
+</listitem>
+
+<listitem>
+<para>SC1 Super Cap</para>
+<para>Alternately other forms of battery backup are possible.</para>
+<para>Digikey 283-4153-ND $4.38 on 2013-05-10</para>
+<para>Jameco 142949 $2.95 on 2013-05-10</para>
+<para>Mouser 504-KW-5R5C224-R $3.32 on 2013-05-10</para>
+</listitem>
+
+<listitem>
+<para>RP1 2200 ohm bussed resistor network 9 resistors by 10 pins</para>
+<para>Digikey CSC2.2KCC-ND $0.58 on 2013-05-10</para>
+<para>Mouser 652-4610X-1LF-2.2K $0.39 on 2013-05-10</para>
+</listitem>
+
+<listitem>
+<para>RP2 47K ohm bussed resistor network 9 resistors by 10 pins</para>
+<para>Digikey CSC47KCC-ND $0.58 on 2013-05-10</para>
+<para>Mouser 652-4610X-1LF-47K $0.23 on 2013-05-10</para>
+</listitem>
+
+<listitem>
+<para>32.768 KHz Crystal</para>
+<para>Jameco 325244 $0.49 on 2013-05-10</para>
+</listitem>
+
+<listitem>
+<para>1.8432 MHz oscillator</para>
+<para>Full Can Jameco 27879 $1.95</para>
 </listitem>
 
 <listitem>
@@ -226,6 +261,14 @@ No one in any way connected to the project or the builders notes formally endors
 </listitem>
 
 <listitem>
+<para>U33 MAX235 24dip600</para>
+<para>Alternately a MAX232 and external caps and resistors can be used.</para>
+<para>Digikey MAX235CPG+G36-ND $18.15 on 2013-05-10</para>
+<para>Jameco 106171 $6.95 (Closeout) on 2013-05-10</para>
+<para>Mouser 700-MAX235CPGG36 $18.15 on 2013-05-10</para>
+</listitem>
+
+<listitem>
 <para>U12 DS1302 8dip300</para>
 <para>Digikey DS1302+-ND $3.56 on 2013-01-18</para>
 </listitem>
@@ -253,6 +296,15 @@ No one in any way connected to the project or the builders notes formally endors
 <listitem>
 <para>U3 NS32202</para>
 <para>Buy from Andrew Lynch, same as the PCB</para>
+</listitem>
+
+<listitem>
+<para>14dip300 qty 1 oscillator socket</para>
+<para>Jameco 133006 $0.65 on 2013-05-10</para>
+</listitem>
+
+<listitem>
+<para>24dip600 qty 1 IC socket for the MAX235</para>
 </listitem>
 
 </itemizedlist>
@@ -317,9 +369,22 @@ Notes regarding accessories.
 Some examples of accessories are homemade cables, floppy drives, chassis.
 </para>
 
-<caution><para>
-Very few (no?) boards in the project accept any power source other than pure, filtered positive 5 volts
-</para></caution>
+<para>
+You'll need some 2-pin shorting plugs for configuration jumpers, at least 20 or so.
+Jameco 112432 $0.12 on 2013-01-27 per VLM.
+</para>
+
+<para>
+A serial cable.
+VLM bought a 3 foot 9pin serial cable from Jameco part number 189333 for $3.25 on 2013-01-16, chopped the end off to connect to a PC.
+Also purchased a 5x2 female IDC connector from Jameco part number 742215 for $1.09 on 2013-01-27 to connect to the SBCv2.
+In between goes a length of 10 conductor ribbon cable, Jameco part number 639672 for $4.49 on 2013-01-27.
+I insulated the splices with a large amount of heat shrink tubing and some electrical tape.
+</para>
+
+<para>
+PATA IDE to CF adapter and a CF card
+</para>
 
 </chapter>
 
