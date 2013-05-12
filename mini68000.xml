@@ -8,7 +8,7 @@
 <personname><firstname>Vince</firstname><surname>Mulhollon</surname></personname>
 <email>vince@mulhollon.com</email> 
 </author>
-<date>May 10, 2013</date>
+<date>May 12, 2013</date>
 <legalnotice>
 <para>The contents of the builders notes are licensed as</para>
 <para>Creative Commons Attribution-ShareAlike 3.0 Unported aka CC BY-SA 3.0</para>
@@ -219,6 +219,11 @@ No one in any way connected to the project or the builders notes formally endors
 
 <listitem>
 <para>U3 74LS109</para>
+<para>LS family Digikey 296-3633-5-ND $1.51 on 2013-05-12</para>
+<para>LS family Jameco 46421 $0.99 on 2013-05-12</para>
+<para>LS family Mouser 595-SN74LS109AN $1.07 on 2013-05-12</para>
+<para>ALS family Digikey 296-14711-5-ND $1.43 on 2013-05-12</para>
+<para>ALS family Mouser 595-SN74ALS109AN $1.46 on 2013-05-12</para>
 </listitem>
 
 <listitem>
@@ -255,6 +260,11 @@ No one in any way connected to the project or the builders notes formally endors
 
 <listitem>
 <para>U23,U27 qty 2 74LS164</para>
+<para>LS family Digikey 296-1647-5-ND $0.82 on 2013-05-12</para>
+<para>LS family Jameco 46851 $0.59 on 2013-05-12</para>
+<para>LS family Mouser 595-SN74LS164N $0.51 on 2013-05-12</para>
+<para>ALS family Digikey 296-33713-5-ND $2.48 on 2013-05-12</para>
+<para>ALS family Mouser 595-SN74ALS164ANE4 $2.50 on 2013-05-12</para>
 </listitem>
 
 <listitem>
