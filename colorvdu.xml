@@ -8,7 +8,7 @@
 <personname><firstname>Vince</firstname><surname>Mulhollon</surname></personname>
 <email>vince@mulhollon.com</email> 
 </author>
-<date>March 15, 2013</date>
+<date>May 17, 2013</date>
 <legalnotice>
 <para>The contents of the builders notes are licensed as</para>
 <para>Creative Commons Attribution-ShareAlike 3.0 Unported aka CC BY-SA 3.0</para>
@@ -158,7 +158,7 @@ No one in any way connected to the project or the builders notes formally endors
 <listitem>
 <para>C16,C17,C18,C19,C20,C21,C22,C23,C24 qty 8 2.2 nF</para>
 <para>Jameco 332443 $0.15 (Minimum order 10) on 2013-04-02</para>
-<para>Mouser 72-VY1222M47Y5UQ63V0 $0.41 (note only $2.84 for 10) on 2013-04-05</para>
+<para>Mouser 72-VY1222M47Y5UQ63V0 is too physically large to fit</para>
 </listitem>
 
 <listitem>
