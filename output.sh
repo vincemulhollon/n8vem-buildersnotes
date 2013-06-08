@@ -20,8 +20,10 @@ process diskiov3
 process dualsdcard
 process mini68000
 process multifunction
+process parportprop
 process prototyper
 process propio
 process sbcv2
+process zeta
 
 exit 0
