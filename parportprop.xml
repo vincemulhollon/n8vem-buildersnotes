@@ -8,7 +8,7 @@
 <personname><firstname>Vince</firstname><surname>Mulhollon</surname></personname>
 <email>vince@mulhollon.com</email> 
 </author>
-<date>June 08, 2013</date>
+<date>September 06, 2013</date>
 <legalnotice>
 <para>The contents of the builders notes are licensed as</para>
 <para>Creative Commons Attribution-ShareAlike 3.0 Unported aka CC BY-SA 3.0</para>
@@ -65,7 +65,193 @@ No one in any way connected to the project or the builders notes formally endors
 <itemizedlist mark='opencircle'>
 
 <listitem>
-<para>Something</para>
+<para>P1 2 pin header with friction lock</para>
+<para>Optional - required if using P1 for providing power to the ParPortProp board.</para>
+<para>Jameco 232266, 613931; Mouser 571-6404562, 571-3-641126-2, 571-3-641215-2</para>
+<para>Corresponding female connector: Jameco 234798; Mouser 571-770602-2; Contacts (2 contacts needed): Jameco 234923, 736501; Mouser 571-770666-1</para>
+<warning><para>It is recommended to use a polarized header to avoid incorrect power polarity.</para></warning>
+</listitem>
+
+<listitem>
+<para>JP1,JP3,JP4,P2 qty 4 2x1 pin array</para>
+<para>Digikey 3M9447-ND $0.16 on 2013-01-18</para>
+<para>Jameco 108338 $0.29 on 2013-01-16</para>
+<para>Mouser 649-78229-102HLF $0.18 on 2013-02-26</para>
+</listitem>
+
+<listitem>
+<para>JP2 and P3 both handled by qty 1 7x1 pin right angle header</para>
+<para>Mouser 649-68016-207HLF (right angle)</para>
+<para>Right angle header can be used for better accessibility of the PropPlug on an installed board.</para>
+</listitem>
+
+<listitem>
+<para>P4 5x2 pin header</para>
+<para>Optional - required if using PPI Port B</para>
+<para>Mouser 649-68602-110HLF</para>
+</listitem>
+
+<listitem>
+<para>P5 13x2 pin array</para>
+<para>Unshrouded Digikey 609-3240-ND $0.94 on 2013-01-18</para>
+<para>Unshrouded Jameco 2120292 $0.49 on 2013-01-27</para>
+</listitem>
+
+<listitem>
+<para>P6 PS/2_KEYBOARD mini_din-M_DIN6</para>
+<para>Digikey part number A99370-ND $4.37 on 2013-02-02</para>
+</listitem>
+
+<listitem>
+<para>P7 DE9M right angle PCB mount</para>
+<para>Jameco 104943, 614441, 614459, 614432; Mouser 806-K22X-E9P-N, 806-K22X-E9P-NJ15-99 (teal color), 571-1734351-1, 571-7478404</para>
+</listitem>
+
+<listitem>
+<para>P8 DE15F right angle PCB mount</para>
+<para>Mouser 806-K66X-E15S-NJVESA (blue color), 806-K66X-E15S-NJ30</para>
+</listitem>
+
+<listitem>
+<para>P9 SD Card Socket</para>
+<para>Mouser 649-10067847-001RLF, Digi-Key 101-00313-68-02CT-ND (Amphenol 101-00313-68-02), Atom SD01-AP-20330</para>
+</listitem>
+
+<listitem>
+<para>F1 1.1A resettable fuse</para>
+<para>Mouser 576-16R110BPR</para>
+</listitem>
+
+<listitem>
+<para>X1 5 MHz crystal</para>
+<para>Mouser 520-HCA500-20X</para>
+</listitem>
+
+<listitem>
+<para>C1,C2,C3,C4,C5,C6,C7,C8,C9,C10 qty 10 0.1 uF 5.08 mm lead spacing ceramic capacitor</para>
+<para>Jameco 25523 will not fit the PCB outline exactly, but the leads can be bent to fit $0.08 on 2013-01-16</para>
+<para>Jameco 544921 also does not fit exactly, but is $0.12 in hundred quantities on 2013-05-10</para>
+<para>Mouser 80-C323C104K5R appears to be a perfect fit to the board outline $0.15</para>
+</listitem>
+
+<listitem>
+<para>C13 10 uF, 16V electrolytic capacitor</para>
+<para>Mouser 667-ECA-1HHG100B</para>
+</listitem>
+
+<listitem>
+<para>C11 47 uF, 6.3V electrolytic capcitor</para>
+<para>Mouser 667-ECA-1HHG470</para>
+</listitem>
+
+<listitem>
+<para>C12 220 uF, 6.3V electrolytic capcitor</para>
+</listitem>
+
+<listitem>
+<para>R1,R2 qty 2 100 ohm 1/4 watt resistor</para>
+</listitem>
+
+<listitem>
+<para>R18,R19,R20 qty 3 130 ohm 1/4 watt resistor</para>
+</listitem>
+
+<listitem>
+<para>R8 240 ohm 1/4 watt resistor</para>
+</listitem>
+
+<listitem>
+<para>R3,R4,R5,R6,R7 qty 5 270 ohm 1/4 watt resistor</para>
+</listitem>
+
+<listitem>
+<para>R12 470 ohm 1/4 watt resistor</para>
+</listitem>
+
+<listitem>
+<para>R9,R10,R11 qty 3 510 ohm 1/4 watt resistor</para>
+</listitem>
+
+<listitem>
+<para>R13 1K ohm 1/4 watt resistor</para>
+</listitem>
+
+<listitem>
+<para>R14,R15,R16,R17 qty 4 10K ohm 1/4 watt resistor</para>
+</listitem>
+
+<listitem>
+<para>RR2,RR3 1K ohm 14 pin DIP isolated resistor array</para>
+<para>Mouser 652-4114R-1LF-1K</para>
+<para>Note: Can be replaced with 14 x 1 kOhm resistors</para>
+</listitem>
+
+<listitem>
+<para>RR1 10K ohm 10 pin bussed resistor array</para>
+<para>Mouser 266-10K-RC</para>
+</listitem>
+
+<listitem>
+<para>SP1 12 mm speaker</para>
+<para>Mouser 665-AT-1224TWTR</para>
+</listitem>
+
+<listitem>
+<para>D1 3mm LED indicator lamp</para>
+</listitem>
+
+<listitem>
+<para>U1 74LS06 14dip300</para>
+<para>LS family Digikey 296-15069-5-ND $0.92 on 2013-02-09 per VLM</para>
+<para>LS family Jameco 46359 $0.89 on 2013-01-27 per VLM</para>
+<para>LS family Mouser 595-SN74LS06N $0.71 on 2013-02-27 per VLM</para>
+<para>LS family Unicorn Electronics $0.69 on 2013-02-27 per VLM</para>
+<para>ALS family Digikey 296-1484-5-ND $0.86 on 2013-02-09 per VLM</para>
+</listitem>
+
+<listitem>
+<para>U5 24LC512 8dip300</para>
+<para>Jameco 276832 $1.95 on 2013-01-27 per VLM</para>
+</listitem>
+
+<listitem>
+<para>U2 MAX232A 16dip300</para>
+<para>Digikey MAX232CPE+-ND $3.67 on 2013-02-09 per VLM</para>
+<para>Mouser 700-MAX232CPE $3.65 on 2013-03-09 per VLM</para>
+</listitem>
+
+<listitem>
+<para>U3 LM3940 Low dropout 3.3 volt TO-220 voltage regulator</para>
+<para>Jameco 192524 $1.65 on 2013-01-27 per VLM</para>
+</listitem>
+
+<listitem>
+<para>U4 P8X32A-D40 Propeller microcontroller 40dip600</para>
+<para>Jameco 2007134 $12.95 on 2013-01-27 per VLM</para>
+</listitem>
+
+<listitem>
+<para>8dip300 qty 1 IC socket</para>
+<para>Machined pin / Gold Digikey ED3308-ND $0.97 on 2013-02-24</para>
+<para>Machined pin / Tin Jameco 51626 $0.49 on 2013-01-16 per VLM</para>
+</listitem>
+
+<listitem>
+<para>14dip300 qty 1 IC socket</para>
+<para>Machined pin / Tin Digikey AE10012-ND $0.79 on 2013-02-02 per VLM</para>
+<para>Machined pin / Tin Jameco 37197 $0.55 on 2013-01-16 per VLM</para>
+</listitem>
+
+<listitem>
+<para>16dip300 qty 1 IC socket</para>
+<para>Machined pin / Tin Digikey ED3116-ND $0.873 on 2013-02-24 per VLM</para>
+<para>Machined pin / Tin Jameco 37402 $0.59 on 2013-01-16 per VLM</para>
+</listitem>
+
+<listitem>
+<para>40dip600 qty 1 IC socket</para>
+<para>Machined pin / Tin Digikey ED3740-ND $2.41 on 2013-02-24 per VLM</para>
+<para>Machined pin / Tin Jameco 41136 $1.69 on 2013-01-16 per VLM</para>
 </listitem>
 
 </itemizedlist>
@@ -84,6 +270,10 @@ This chapter begins with a physical walkthru of the board.
 
 <para>
 A giant itemized list ready to print out and check off of components in a realistic installation and testing order
+</para>
+
+<para>
+Note: C12 is marked as 10 uF on the PCB. For better stability and video quality please use 220uF instead.
 </para>
 
 <orderedlist>
