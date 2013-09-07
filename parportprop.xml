@@ -8,7 +8,7 @@
 <personname><firstname>Vince</firstname><surname>Mulhollon</surname></personname>
 <email>vince@mulhollon.com</email> 
 </author>
-<date>September 06, 2013</date>
+<date>September 07, 2013</date>
 <legalnotice>
 <para>The contents of the builders notes are licensed as</para>
 <para>Creative Commons Attribution-ShareAlike 3.0 Unported aka CC BY-SA 3.0</para>
@@ -109,7 +109,9 @@ No one in any way connected to the project or the builders notes formally endors
 
 <listitem>
 <para>P8 DE15F right angle PCB mount</para>
-<para>Mouser 806-K66X-E15S-NJVESA (blue color), 806-K66X-E15S-NJ30</para>
+<para>Digikey part number A35116-ND $1.98 on 2013-09-07 per VLM</para>
+<para>Mouser 806-K66X-E15S-NJVESA (blue color) $2.31 on 2013-09-07 per VLM</para>
+<para>Mouser 806-K66X-E15S-NJ30 $5.14 on 2013-09-07 per VLM</para>
 </listitem>
 
 <listitem>
@@ -135,17 +137,18 @@ No one in any way connected to the project or the builders notes formally endors
 </listitem>
 
 <listitem>
-<para>C13 10 uF, 16V electrolytic capacitor</para>
-<para>Mouser 667-ECA-1HHG100B</para>
+<para>C13 10 uF, 16V electrolytic capacitor 5mm lead spacing </para>
+<para>Mouser 667-ECA-1HHG100B rated 50V $0.23 on 2013-09-07</para>
 </listitem>
 
 <listitem>
-<para>C11 47 uF, 6.3V electrolytic capcitor</para>
-<para>Mouser 667-ECA-1HHG470</para>
+<para>C11 47 uF, 6.3V electrolytic capacitor 2.5mm lead spacing</para>
+<para>Mouser 667-ECA-1HHG470 rated 50V $0.30 on 2013-09-07</para>
 </listitem>
 
 <listitem>
-<para>C12 220 uF, 6.3V electrolytic capcitor</para>
+<para>C12 220 uF, 6.3V electrolytic capacitor 2.5 mm lead spacing</para>
+<para>Mouser 647-UVY1E221MED $0.24 on 2013-09-07</para>
 </listitem>
 
 <listitem>
@@ -154,14 +157,17 @@ No one in any way connected to the project or the builders notes formally endors
 
 <listitem>
 <para>R18,R19,R20 qty 3 130 ohm 1/4 watt resistor</para>
+<para>Mouser 271-130-RC $0.13 on 2013-09-07</para>
 </listitem>
 
 <listitem>
 <para>R8 240 ohm 1/4 watt resistor</para>
+<para>Mouser 271-240-RC $0.13 on 2013-09-07</para>
 </listitem>
 
 <listitem>
 <para>R3,R4,R5,R6,R7 qty 5 270 ohm 1/4 watt resistor</para>
+<para>Mouser 271-270-RC $0.13 on 2013-09-07</para>
 </listitem>
 
 <listitem>
@@ -170,6 +176,7 @@ No one in any way connected to the project or the builders notes formally endors
 
 <listitem>
 <para>R9,R10,R11 qty 3 510 ohm 1/4 watt resistor</para>
+<para>Mouser 271-510-RC $0.13 on 2013-09-07</para>
 </listitem>
 
 <listitem>
@@ -182,18 +189,18 @@ No one in any way connected to the project or the builders notes formally endors
 
 <listitem>
 <para>RR2,RR3 1K ohm 14 pin DIP isolated resistor array</para>
-<para>Mouser 652-4114R-1LF-1K</para>
+<para>Mouser 652-4114R-1LF-1K $0.58 on 2013-09-07</para>
 <para>Note: Can be replaced with 14 x 1 kOhm resistors</para>
 </listitem>
 
 <listitem>
 <para>RR1 10K ohm 10 pin bussed resistor array</para>
-<para>Mouser 266-10K-RC</para>
+<para>Mouser 266-10K-RC $0.27 on 2013-09-07</para>
 </listitem>
 
 <listitem>
 <para>SP1 12 mm speaker</para>
-<para>Mouser 665-AT-1224TWTR</para>
+<para>Mouser 665-AT-1224TWTR $1.38 on 2013-09-07</para>
 </listitem>
 
 <listitem>
@@ -204,7 +211,7 @@ No one in any way connected to the project or the builders notes formally endors
 <para>U1 74LS06 14dip300</para>
 <para>LS family Digikey 296-15069-5-ND $0.92 on 2013-02-09 per VLM</para>
 <para>LS family Jameco 46359 $0.89 on 2013-01-27 per VLM</para>
-<para>LS family Mouser 595-SN74LS06N $0.71 on 2013-02-27 per VLM</para>
+<para>LS family Mouser 595-SN74LS06N $0.92 on 2013-09-07 per VLM</para>
 <para>LS family Unicorn Electronics $0.69 on 2013-02-27 per VLM</para>
 <para>ALS family Digikey 296-1484-5-ND $0.86 on 2013-02-09 per VLM</para>
 </listitem>
