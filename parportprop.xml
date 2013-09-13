@@ -8,7 +8,7 @@
 <personname><firstname>Vince</firstname><surname>Mulhollon</surname></personname>
 <email>vince@mulhollon.com</email> 
 </author>
-<date>September 07, 2013</date>
+<date>September 13, 2013</date>
 <legalnotice>
 <para>The contents of the builders notes are licensed as</para>
 <para>Creative Commons Attribution-ShareAlike 3.0 Unported aka CC BY-SA 3.0</para>
@@ -69,7 +69,7 @@ No one in any way connected to the project or the builders notes formally endors
 <para>Optional - required if using P1 for providing power to the ParPortProp board.</para>
 <para>Jameco 232266, 613931; Mouser 571-6404562, 571-3-641126-2, 571-3-641215-2</para>
 <para>Corresponding female connector: Jameco 234798; Mouser 571-770602-2; Contacts (2 contacts needed): Jameco 234923, 736501; Mouser 571-770666-1</para>
-<warning><para>It is recommended to use a polarized header to avoid incorrect power polarity.</para></warning>
+<warning><para>If using P1 for power input, it is recommended to use a polarized header to avoid incorrect power polarity.</para></warning>
 </listitem>
 
 <listitem>
@@ -137,17 +137,31 @@ No one in any way connected to the project or the builders notes formally endors
 </listitem>
 
 <listitem>
-<para>C13 10 uF, 16V electrolytic capacitor 5mm lead spacing </para>
-<para>Mouser 667-ECA-1HHG100B rated 50V $0.23 on 2013-09-07</para>
-</listitem>
-
-<listitem>
-<para>C11 47 uF, 6.3V electrolytic capacitor 2.5mm lead spacing</para>
+<para>C12 10 uF, 10V electrolytic capacitor 2.5mm lead spacing</para>
+<para>The capacitor designations have been renumbered over PCB versions.</para>
+<para>C12, on the PCB version 1.1, is a DC block / AF pass speaker cap physically near the speaker.  Aside from blocking DC, if forms a high pass filter while in series with the speaker impedance.  A low value will attenuate low frequency output, and a high value will let lower freqs pass, possibly including power line hum.  10 uF seems about right.</para>
 <para>Mouser 667-ECA-1HHG470 rated 50V $0.30 on 2013-09-07</para>
 </listitem>
 
 <listitem>
-<para>C12 220 uF, 6.3V electrolytic capacitor 2.5 mm lead spacing</para>
+<para>C11 47 uF, 6.3V electrolytic capacitor 2.5mm lead spacing</para>
+<para>The capacitor designations have been renumbered over PCB versions.</para>
+<para>C11, on the PCB version 1.1, is a bypass cap physically near the 5 volt input of the 3.3 volt regulator.</para>
+<para>Mouser 667-ECA-1HHG470 rated 50V $0.30 on 2013-09-07</para>
+</listitem>
+
+<listitem>
+<para>C13 100 uF, 16V electrolytic capacitor 5mm lead spacing </para>
+<para>The capacitor designations have been renumbered over PCB versions.</para>
+<para>C13, on the PCB version 1.1, is a bypass cap physically near the output of the 3.3 volt regulator.  If its value is too l
+ow, some builders report wavy VGA output</para>
+<para>Mouser 667-ECA-1HHG100B rated 50V $0.23 on 2013-09-07</para>
+</listitem>
+
+<listitem>
+<para>C14 220 uF, 6.3V electrolytic capacitor 2.5 mm lead spacing</para>
+<para>The capacitor designations have been renumbered over PCB versions.</para>
+<para>C14, on the PCB version 1.1, is a bypass cap physically near the SD card port.  Some builders report that some SD cards draw enough startup current to crash the board when SD cards are hot-swapped while the board is running, if a lower value capacitor is installed.  If your board persists in crashing when hot swapping SD cards, then either stop hot swapping SD cards or install an even higher value capacitor.</para>
 <para>Mouser 647-UVY1E221MED $0.24 on 2013-09-07</para>
 </listitem>
 
@@ -205,6 +219,9 @@ No one in any way connected to the project or the builders notes formally endors
 
 <listitem>
 <para>D1 3mm LED indicator lamp</para>
+<para>
+You can install a LED on the PCB for D1, or install a two pin header and use a COTS desktop PC LED with mounting and connector to remotely mount your SD card activity LED.
+</para>
 </listitem>
 
 <listitem>
@@ -271,29 +288,26 @@ No one in any way connected to the project or the builders notes formally endors
 <title>Construction</title>
 </info>
 
-<para>
-This chapter begins with a physical walkthru of the board.
-</para>
+<warning>
+<para>If using P1 for power input, it is recommended to use a polarized header to avoid incorrect power polarity.</para>
+</warning>
+
+<warning>
+<para>The capacitor designations have been renumbered over PCB versions.</para>
+<para>C12, on the PCB version 1.1, is a DC block / AF pass speaker cap physically near the speaker.  Aside from blocking DC, if forms a high pass filter while in series with the speaker impedance.  A low value will attenuate low frequency output, and a high value will let lower freqs pass, possibly including power line hum.  10 uF seems about right.</para>
+<para>C11, on the PCB version 1.1, is a bypass cap physically near the 5 volt input of the 3.3 volt regulator.</para>
+<para>C13, on the PCB version 1.1, is a bypass cap physically near the output of the 3.3 volt regulator.  If its value is too l
+ow, some builders report wavy VGA output</para>
+<para>C14, on the PCB version 1.1, is a bypass cap physically near the SD card port.  Some builders report that some SD cards draw enough startup current to crash the board when SD cards are hot-swapped while the board is running, if a lower value capacitor is installed.  If your board persists in crashing when hot swapping SD cards, then either stop hot swapping SD cards or install an even higher value capacitor.</para>
+</warning>
+
+<warning>
+<para>Most PCB mount speakers come with a little protective sticker over the sound output hole along the lines of "Remove Seal After Washing".  If you are not the type to scrub solder flux off your board, it doesn't matter much.</para>
+</warning>
 
 <para>
-A giant itemized list ready to print out and check off of components in a realistic installation and testing order
+You can install a LED on the PCB for D1, or install a two pin header and use a COTS desktop PC LED with mounting and connector to remotely mount your SD card activity LED.
 </para>
-
-<para>
-Note: C12 is marked as 10 uF on the PCB. For better stability and video quality please use 220uF instead.
-</para>
-
-<orderedlist>
-
-<listitem><para>
-Install the first thing
-</para></listitem>
-
-<listitem><para>
-Install the second thing, noting carefully its polarity
-</para></listitem>
-
-</orderedlist>
 
 </chapter>
 
@@ -322,13 +336,20 @@ Options go here
 </info>
 
 <para>
-Notes regarding accessories.
-Some examples of accessories are homemade cables, floppy drives, chassis.
+You'll need some 2-pin shorting plugs for configuration jumpers, at least 15 or so.
+Jameco 112432 $0.12 on 2013-01-27.
 </para>
 
 <para>
-You'll need some 2-pin shorting plugs for configuration jumpers, at least 15 or so.
-Jameco 112432 $0.12 on 2013-01-27.
+Its possible to stack the ParPortProp directly underneath a Zeta (or on top of?) using 26 pin headers perhaps mounted underneath one of the boards, in a manner similar to Arduino shields.  Its probably more flexible to use various short lengths of IDC crimped cables.  I have a roughly 3 inch long cable for permanent mounting, and a somewhat longer one for bench testing.
+</para>
+
+<para>
+You can install a LED on the PCB for D1, or install a two pin header and use a COTS desktop PC LED with mounting and connector to remotely mount your SD card activity LED.
+</para>
+
+<para>
+I burn my 24C512 serial eeproms for the propeller chip in a stand alone eprom burner.  I guess its possible to burn the eeprom while on the board using a prop plug connected to port P3, although I've never tried it.  One way or another you'll need a way to program your 24C512 eeprom.
 </para>
 
 </chapter>
