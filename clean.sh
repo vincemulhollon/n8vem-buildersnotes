@@ -9,7 +9,7 @@ rm -f ecb/*.pdf
 rm -f ecb/*.rtf
 rm -f ecb/*.txt
 
-rm -f s100/.fo
+rm -f s100/*.fo
 rm -f s100/*.html
 rm -f s100/*.pdf
 rm -f s100/*.rtf
