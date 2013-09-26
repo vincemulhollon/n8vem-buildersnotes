@@ -12,18 +12,21 @@ xsltproc /usr/share/xml/docbook/stylesheet/docbook-xsl-ns/html/docbook.xsl $1.xm
 lynx -dump $1.html > $1.txt 2> errors-txt.txt
 }
 
-process backplane8
-process busmonitor
-process cassette
-process colorvdu
-process diskiov3
-process dualsdcard
-process mini68000
-process multifunction
-process parportprop
-process prototyper
-process propio
-process sbcv2
-process zeta
+process ecb/backplane8
+process ecb/busmonitor
+process ecb/cassette
+process ecb/colorvdu
+process ecb/diskiov3
+process ecb/dualsdcard
+process ecb/mini68000
+process ecb/multifunction
+process ecb/prototyper
+process ecb/propio
+process ecb/sbcv2
+
+process s100/6502v02
+
+process zeta/parportprop
+process zeta/zeta
 
 exit 0

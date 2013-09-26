@@ -3,6 +3,16 @@ n8vem-buildersnotes
 
 Docbook builders notes for N8VEM boards
 
+ECB "Euro Card Bus 41612 Connector" cards are in the ecb directory.
+
+S100 cards are in the s100 directory.
+
+Zeta project builders notes are in the zeta directory.
+
+output.sh will create a wide variety of output formats given the docbook xml files as input
+
+clean.sh will clean up the generated files.
+
 These builders notes were developed on Debian Linux using the following packages:
 docbook5-xml
 docbook-xsl-ns
