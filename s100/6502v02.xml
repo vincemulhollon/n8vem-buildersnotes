@@ -8,7 +8,7 @@
 <personname><firstname>Vince</firstname><surname>Mulhollon</surname></personname>
 <email>vince@mulhollon.com</email>
 </author>
-<date>September 26, 2013</date>
+<date>October 05, 2013</date>
 <legalnotice>
 <para>The contents of the builders notes are licensed as</para>
 <para>Creative Commons Attribution-ShareAlike 3.0 Unported aka CC BY-SA 3.0</para>
@@ -65,10 +65,214 @@ No one in any way connected to the project or the builders notes formally endors
 <itemizedlist mark='opencircle'>
 
 <listitem>
-<para>BT1,JP1,JP2 qty 3 2x1 pin array</para>
-<para>Digikey 3M9447-ND $0.16 on 2013-01-18 per VLM</para>
-<para>Jameco 108338 $0.29 on 2013-01-16 per VLM</para>
-<para>Mouser 649-78229-102HLF $0.18 on 2013-02-26 per VLM</para>
+<para>TO-3 heatsink low profile</para>
+</listitem>
+
+<listitem>
+<para>TO-3 heatsink mounting hardware, it is stuck to groundplane, no need for isolation</para>
+</listitem>
+
+<listitem>
+<para>JP2,JP4,JP5,JP6,JP7,JP8,JP9,JP10,JP11,JP12,JP13,JP15,JP16,JP18,JP19,P11 qty 16 2x1 header</para>
+</listitem>
+
+<listitem>
+<para>JP14,K1,K2,K3,K4,K5,K6,K7 qty 8 3x1 header</para>
+</listitem>
+
+<listitem>
+<para>JP3,JP1,JP17 qty 1 6x1 header</para>
+<para>You could substitute qty three 2x1 headers or qty two 3x1 headers instead of a single 6x1 header</para>
+</listitem>
+
+<listitem>
+<para>P7 qty 1 2x2 header</para>
+</listitem>
+
+<listitem>
+<para>P31 qty 1 3x2 header</para>
+</listitem>
+
+<listitem>
+<para>P5 qty 1 5x2 header</para>
+</listitem>
+
+<listitem>
+<para>P2,P3,P6,P10,P30,P35,P36 qty 7 8x2 header</para>
+</listitem>
+
+<listitem>
+<para>SW1, SW2 8 position dip switches 16dip300</para>
+</listitem>
+
+<listitem>
+<para>C5 qty 1 1.2 uF electrolytic capacitor 5 mm lead spacing</para>
+</listitem>
+
+<listitem>
+<para>C39,C40 qty 2 10 uF electrolytic capacitor 5 mm lead spacing</para>
+</listitem>
+
+<listitem>
+<para>C41 qty 1 22 uF electrolytic capacitor 5 mm lead spacing</para>
+</listitem>
+
+<listitem>
+<para>C42 qty 1 47 uF electrolytic capacitor 5 mm lead spacing</para>
+</listitem>
+
+<listitem>
+<para>C4 qty 1 100 uF electrolytic capacitor 5 mm lead spacing</para>
+</listitem>
+
+<listitem>
+<para>RR1,RR2,RR4,RR5 qty 4 1200 ohm 10 pin 9 bussed resistor network</para>
+</listitem>
+
+<listitem>
+<para>RR3,RR6,RR7 qty 3 2000 ohm 10 pin 9 bussed resistor network</para>
+</listitem>
+
+<listitem>
+<para>D1 LED "IO" Typically Green</para>
+<para>To test the polarity of D1, there is a 470 ohm resistor to Vcc, R1, so ground socket pin 4 of U41</para>
+</listitem>
+
+<listitem>
+<para>D2 LED "Wait" Typically Yellow</para>
+<para>To test the polarity of D2, there is a 470 ohm resistor to Vcc, R2, so ground socket pin 12 of U41</para>
+</listitem>
+
+<listitem>
+<para>D4 LED "Board Select" Typically Blue</para>
+<para>To test the polarity of D4, there is a 470 ohm resistor to Vcc, R17, so ground socket pin 3 of U26</para>
+</listitem>
+
+<listitem>
+<para>D6 LED "Eprom" Typically Red</para>
+<para>To test the polarity of D6, there is a 470 ohm resistor to Vcc, R19, so ground socket pin 9 of U26</para>
+</listitem>
+
+<listitem>
+<para>Q1 qty 1 2n3904 transistor</para>
+</listitem>
+
+<listitem>
+<para>U14 qty 1 2 MHz clock osc 14dip300</para>
+</listitem>
+
+<listitem>
+<para>P4 qty 1 4 MHz clock osc 14dip300</para>
+</listitem>
+
+<listitem>
+<para>U22 qty 1 74LS00 14dip300</para>
+</listitem>
+
+<listitem>
+<para>U15 qty 1 74LS02 14dip300</para>
+</listitem>
+
+<listitem>
+<para>U4,U9,U16 qty 3 74LS04 14dip300</para>
+</listitem>
+
+<listitem>
+<para>U5 qty 1 74LS05 14dip300</para>
+</listitem>
+
+<listitem>
+<para>U18 qty 1 74LS07 14dip300</para>
+</listitem>
+
+<listitem>
+<para>U19,U36 qty 2 74LS08 14dip300</para>
+</listitem>
+
+<listitem>
+<para>U11 qty 1 74LS10 14dip300</para>
+</listitem>
+
+<listitem>
+<para>U23 qty 1 74LS21 14dip300</para>
+</listitem>
+
+<listitem>
+<para>U24 qty 1 74LS32 14dip300</para>
+</listitem>
+
+<listitem>
+<para>U21,U25,U27,U43 qty 4 74LS74 14dip300</para>
+<para>U27 is specified as a ALS family</para>
+</listitem>
+
+<listitem>
+<para>U17 qty 1 74LS112 16dip300</para>
+</listitem>
+
+<listitem>
+<para>U41 qty 1 74LS123 16dip300</para>
+</listitem>
+
+<listitem>
+<para>U29,U33 qty 2 74LS165 16dip300</para>
+<para>See the construction note about the silkscreen overlap</para>
+</listitem>
+
+<listitem>
+<para>U28 qty 1 74LS241 20dip300</para>
+</listitem>
+
+<listitem>
+<para>U26 qty 1 74LS367 16dip300</para>
+</listitem>
+
+<listitem>
+<para>U40 qty 1 74LS373 20dip300</para>
+</listitem>
+
+<listitem>
+<para>U3,U5,U6,U7,U12,U20,U30,U31,U32 qty 9 74LS541 20dip300</para>
+</listitem>
+
+<listitem>
+<para>U2,U8,U10,U13 qty 4 74LS682 20dip300</para>
+</listitem>
+
+<listitem>
+<para>U38 qty 1 LM323K TO-3 case 5 volt regulator</para>
+</listitem>
+
+<listitem>
+<para>U39 qty 1 27C64 pin compatible (e)eprom 28dip600</para>
+</listitem>
+
+<listitem>
+<para>U1 qty 1 W65C02SP 40dip600</para>
+</listitem>
+
+<listitem>
+<para>14dip300 qty 2 clock socket for U14, P4</para>
+</listitem>
+
+<listitem>
+<para>14dip300 qty 16 IC socket</para>
+</listitem>
+
+<listitem>
+<para>16dip300 qty 5 IC socket</para>
+</listitem>
+
+<listitem>
+<para>20dip300 qty 15 IC socket</para>
+</listitem>
+
+<listitem>
+<para>28dip600 qty 1 IC socket</para>
+</listitem>
+
+<listitem>
+<para>40dip600 qty 1 IC socket</para>
 </listitem>
 
 </itemizedlist>
@@ -81,13 +285,20 @@ No one in any way connected to the project or the builders notes formally endors
 <title>Construction</title>
 </info>
 
-<orderedlist>
+<itemizedlist mark='opencircle'>
 
 <listitem>
 <para>The silkscreen for U33 and U29 overlap their components to the right.  U33 has two adjacent resistors, and U29 has a 3 pin header.</para>
 </listitem>
 
-</orderedlist>
+<listitem>
+<para>To test the polarity of D1, there is a 470 ohm resistor to Vcc, R1, so ground socket pin 4 of U41</para>
+<para>To test the polarity of D2, there is a 470 ohm resistor to Vcc, R2, so ground socket pin 12 of U41</para>
+<para>To test the polarity of D4, there is a 470 ohm resistor to Vcc, R17, so ground socket pin 3 of U26</para>
+<para>To test the polarity of D6, there is a 470 ohm resistor to Vcc, R19, so ground socket pin 9 of U26</para>
+</listitem>
+
+</itemizedlist>
 
 </chapter>
 
