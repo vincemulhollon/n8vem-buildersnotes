@@ -25,6 +25,8 @@ process ecb/propio
 process ecb/sbcv2
 
 process s100/6502v02
+process s100/idev02
+process s100/paralleliov01
 
 process zeta/parportprop
 process zeta/zeta
